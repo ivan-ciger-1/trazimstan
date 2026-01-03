@@ -6,6 +6,8 @@ on:
     paths-ignore:
       - "web/**"
       - "web-static/**"
+      - ".github/workflows/deploy-static.yml"
+      - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
 concurrency:

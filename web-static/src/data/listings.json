@@ -11,7 +11,7 @@
     "is_agency": true,
     "is_duplicate": true,
     "price_per_sqm": 3555.56,
-    "listing_date": "2026-01-02",
+    "listing_date": "2026-01-03",
     "source_links": [
       {
         "source": "nekretnine.rs",
@@ -23,8 +23,8 @@
       }
     ],
     "dedupe_key": "abceae9089368acf7e4967cca59e908f84eb1adf",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 17,
@@ -39,7 +39,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 2998.89,
-    "listing_date": "2026-01-01",
+    "listing_date": "2026-01-02",
     "source_links": [
       {
         "source": "halooglasi",
@@ -47,8 +47,8 @@
       }
     ],
     "dedupe_key": "17ce4a0de43b791c7f840bbcc330c4000538f789",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 4,
@@ -62,7 +62,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 3764.15,
-    "listing_date": "2026-01-01",
+    "listing_date": "2026-01-02",
     "source_links": [
       {
         "source": "nekretnine.rs",
@@ -70,8 +70,8 @@
       }
     ],
     "dedupe_key": "671fa22dab98dfd27a13c486bbf60654290f6f30",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 2,
@@ -85,7 +85,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 3851.49,
-    "listing_date": "2026-01-01",
+    "listing_date": "2026-01-02",
     "source_links": [
       {
         "source": "nekretnine.rs",
@@ -93,8 +93,8 @@
       }
     ],
     "dedupe_key": "d64f6d7930d90a3629b8191916b7bfdc8be2694b",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 1,
@@ -108,7 +108,7 @@
     "is_agency": true,
     "is_duplicate": true,
     "price_per_sqm": 3270.49,
-    "listing_date": "2026-01-01",
+    "listing_date": "2026-01-02",
     "source_links": [
       {
         "source": "nekretnine.rs",
@@ -120,8 +120,8 @@
       }
     ],
     "dedupe_key": "cea609545cd9a02cb6adc140cd5256f0044138ce",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 8,
@@ -135,7 +135,7 @@
     "is_agency": true,
     "is_duplicate": true,
     "price_per_sqm": 3000,
-    "listing_date": "2025-12-31",
+    "listing_date": "2026-01-01",
     "source_links": [
       {
         "source": "nekretnine.rs",
@@ -147,8 +147,8 @@
       }
     ],
     "dedupe_key": "7a7e347a2cbd9f4bc15036b146810d3d46701ade",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 10,
@@ -163,7 +163,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 3764.15,
-    "listing_date": "2025-12-30",
+    "listing_date": "2025-12-31",
     "source_links": [
       {
         "source": "halooglasi",
@@ -171,8 +171,8 @@
       }
     ],
     "dedupe_key": "61f3dc6afbaca0fe885d067ec4cc8f5db39113f4",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 7,
@@ -186,7 +186,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 4621.95,
-    "listing_date": "2025-12-30",
+    "listing_date": "2025-12-31",
     "source_links": [
       {
         "source": "nekretnine.rs",
@@ -194,8 +194,8 @@
       }
     ],
     "dedupe_key": "fced212b9a131dcda28b023314eaec806f746cad",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 19,
@@ -210,7 +210,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 4902.91,
-    "listing_date": "2025-12-29",
+    "listing_date": "2025-12-30",
     "source_links": [
       {
         "source": "halooglasi",
@@ -218,8 +218,8 @@
       }
     ],
     "dedupe_key": "beb3739f492a5ac3c488a27c04594643274326bc",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 18,
@@ -234,7 +234,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 4141.41,
-    "listing_date": "2025-12-29",
+    "listing_date": "2025-12-30",
     "source_links": [
       {
         "source": "halooglasi",
@@ -242,8 +242,8 @@
       }
     ],
     "dedupe_key": "015bd7d2008a2a368042f6ad4e1e107e0f1b0bb1",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 14,
@@ -258,7 +258,7 @@
     "is_agency": false,
     "is_duplicate": false,
     "price_per_sqm": 4364.08,
-    "listing_date": "2025-12-28",
+    "listing_date": "2025-12-29",
     "source_links": [
       {
         "source": "halooglasi",
@@ -266,8 +266,8 @@
       }
     ],
     "dedupe_key": "d93c2d88817528a2cb09c01b9b60f7283a2c3e88",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 20,
@@ -282,7 +282,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 3728.97,
-    "listing_date": "2025-12-27",
+    "listing_date": "2025-12-28",
     "source_links": [
       {
         "source": "halooglasi",
@@ -290,8 +290,8 @@
       }
     ],
     "dedupe_key": "0e6c9c869fb1e37ebda94cc42ea9ed71ce9d5dfe",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 21,
@@ -306,7 +306,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 5691.49,
-    "listing_date": "2025-12-26",
+    "listing_date": "2025-12-27",
     "source_links": [
       {
         "source": "halooglasi",
@@ -314,8 +314,8 @@
       }
     ],
     "dedupe_key": "e6a70eb0d73b7248f0e13aff4f36c32a07e2d77b",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 15,
@@ -330,7 +330,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 2905.81,
-    "listing_date": "2025-12-26",
+    "listing_date": "2025-12-27",
     "source_links": [
       {
         "source": "halooglasi",
@@ -338,8 +338,8 @@
       }
     ],
     "dedupe_key": "9f5f1918b69b34f24454b071e303d33e35177971",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 9,
@@ -354,7 +354,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 3851.49,
-    "listing_date": "2025-12-25",
+    "listing_date": "2025-12-26",
     "source_links": [
       {
         "source": "halooglasi",
@@ -362,8 +362,8 @@
       }
     ],
     "dedupe_key": "d9f383fc69fa9328a8cb1f9ceec3a39d7b6bf6a5",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 16,
@@ -377,7 +377,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 3711.34,
-    "listing_date": "2025-12-24",
+    "listing_date": "2025-12-25",
     "source_links": [
       {
         "source": "halooglasi",
@@ -385,8 +385,8 @@
       }
     ],
     "dedupe_key": "53e4f2e5c24d6157bfe6bd8a8aa7d7c35da11ef2",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 12,
@@ -401,7 +401,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 5116.28,
-    "listing_date": "2025-12-24",
+    "listing_date": "2025-12-25",
     "source_links": [
       {
         "source": "halooglasi",
@@ -409,8 +409,8 @@
       }
     ],
     "dedupe_key": "2e7b56317995a8b136852410fe54205a38e56178",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 13,
@@ -425,7 +425,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 4621.95,
-    "listing_date": "2025-12-23",
+    "listing_date": "2025-12-24",
     "source_links": [
       {
         "source": "halooglasi",
@@ -433,8 +433,8 @@
       }
     ],
     "dedupe_key": "355aa59ed057b262b0225d76cd248c82c9016bf4",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 22,
@@ -448,7 +448,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 3989.58,
-    "listing_date": "2025-12-22",
+    "listing_date": "2025-12-23",
     "source_links": [
       {
         "source": "halooglasi",
@@ -456,8 +456,8 @@
       }
     ],
     "dedupe_key": "90d81e0a9934cf1f3069a36e2db2514eb70c984d",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 11,
@@ -471,7 +471,7 @@
     "is_agency": true,
     "is_duplicate": true,
     "price_per_sqm": 3465.35,
-    "listing_date": "2025-12-21",
+    "listing_date": "2025-12-22",
     "source_links": [
       {
         "source": "halooglasi",
@@ -483,8 +483,8 @@
       }
     ],
     "dedupe_key": "0def31ad485f99200952435fb242c0a97edcc294",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 24,
@@ -499,7 +499,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 3902.38,
-    "listing_date": "2025-12-15",
+    "listing_date": "2025-12-16",
     "source_links": [
       {
         "source": "halooglasi",
@@ -507,8 +507,8 @@
       }
     ],
     "dedupe_key": "d8717b8f09ed5b7338bfcf0c0611f563e4687e47",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 23,
@@ -523,7 +523,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 4345.24,
-    "listing_date": "2025-12-15",
+    "listing_date": "2025-12-16",
     "source_links": [
       {
         "source": "halooglasi",
@@ -531,8 +531,8 @@
       }
     ],
     "dedupe_key": "d0fda44066d90d4e9522489ba6a06edd12c87e68",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 25,
@@ -547,7 +547,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 4296.88,
-    "listing_date": "2025-12-11",
+    "listing_date": "2025-12-12",
     "source_links": [
       {
         "source": "halooglasi",
@@ -555,8 +555,8 @@
       }
     ],
     "dedupe_key": "d870370032b3a8e74b415827c037e643613c53ec",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 5,
@@ -570,7 +570,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 3789.47,
-    "listing_date": "2025-12-10",
+    "listing_date": "2025-12-11",
     "source_links": [
       {
         "source": "nekretnine.rs",
@@ -578,8 +578,8 @@
       }
     ],
     "dedupe_key": "248f06aa135f6f2533f390c8dbf9f7d421042f9f",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 26,
@@ -593,7 +593,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 3601.19,
-    "listing_date": "2025-12-07",
+    "listing_date": "2025-12-08",
     "source_links": [
       {
         "source": "halooglasi",
@@ -601,8 +601,8 @@
       }
     ],
     "dedupe_key": "4c84a7f135e9b7063b7606a468513f73c021a4e3",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 27,
@@ -617,7 +617,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 3583.33,
-    "listing_date": "2025-12-06",
+    "listing_date": "2025-12-07",
     "source_links": [
       {
         "source": "halooglasi",
@@ -625,8 +625,8 @@
       }
     ],
     "dedupe_key": "f00900e3da38c459a4aee003181a29bb2f055ec4",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 28,
@@ -641,7 +641,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 3254.65,
-    "listing_date": "2025-12-05",
+    "listing_date": "2025-12-06",
     "source_links": [
       {
         "source": "halooglasi",
@@ -649,8 +649,8 @@
       }
     ],
     "dedupe_key": "783e43c992396c93c1edfb98306c5f43b9e0423d",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   },
   {
     "id": 6,
@@ -664,7 +664,7 @@
     "is_agency": true,
     "is_duplicate": false,
     "price_per_sqm": 5116.28,
-    "listing_date": "2025-12-01",
+    "listing_date": "2025-12-02",
     "source_links": [
       {
         "source": "nekretnine.rs",
@@ -672,7 +672,7 @@
       }
     ],
     "dedupe_key": "6ab3fa7acec02ae21d22704d3673d3bf30acb0b6",
-    "last_seen_at": "2026-01-03 16:28:54.873386+01",
-    "created_at": "2026-01-03 16:28:54.873386+01"
+    "last_seen_at": "2026-01-03 18:38:37.976885+00",
+    "created_at": "2026-01-03 18:38:37.976885+00"
   }
 ]
