@@ -36,8 +36,10 @@ jobs:
           pip install -r python/requirements.txt
 
       - name: Run ingest
+        env:
+          PYTHONPATH: ${{ github.workspace }}
         run: |
-          python python/import_listings.py
+          python -m python.import_listings
 
       - name: Set up Node
         uses: actions/setup-node@v4
