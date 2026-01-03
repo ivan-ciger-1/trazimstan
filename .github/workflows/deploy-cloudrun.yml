@@ -3,6 +3,9 @@ name: Deploy Go API to Cloud Run
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "web/**"
+      - "web-static/**"
   workflow_dispatch:
 
 concurrency:
