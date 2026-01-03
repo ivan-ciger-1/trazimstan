@@ -1,0 +1,16 @@
+node_modules
+web/node_modules
+web-static/node_modules
+web/dist
+web-static/dist
+.git
+.github
+**/*.log
+tmp
+*.tmp
+.cache
+*.swp
+*.swo
+coverage
+**/.DS_Store
+

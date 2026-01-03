@@ -1,0 +1,57 @@
+# macOS
+.DS_Store
+
+# Node / JavaScript
+node_modules/
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.npm-cache/
+.parcel-cache/
+.turbo/
+.svelte-kit/
+.vercel/
+.netlify/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints
+
+# Go
+bin/
+*.test
+coverage.out
+
+# Editors / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Misc
+*.out
+

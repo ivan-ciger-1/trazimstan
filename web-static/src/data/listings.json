@@ -1,0 +1,678 @@
+[
+  {
+    "id": 3,
+    "block": "blok-67",
+    "title": "Novi Beograd - Savada 3 ID#5265",
+    "price_eur": 320000,
+    "size_m2": 90,
+    "rooms": 4,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-savada-3-id5265/Nk5K_uGmWoT/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/m_lfN59V0_fss?st=1ScRX85JtTCBdxF0c41Tc_aT3Mmu3p6H2J9-6t1U0ek&ts=1757599425&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 3555.56,
+    "listing_date": "2026-01-02",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-savada-3-id5265/Nk5K_uGmWoT/"
+      },
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd---savada-3-id5265/5425646029692?kid=1"
+      }
+    ],
+    "dedupe_key": "abceae9089368acf7e4967cca59e908f84eb1adf",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 17,
+    "block": "blok-67",
+    "title": "Blok 33, retko u ponudi - mereno 114kvm",
+    "price_eur": 269900,
+    "size_m2": 90,
+    "rooms": 2,
+    "floor": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/blok-33-retko-u-ponudi---mereno-114kvm/5425645687243?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250623/m/blok-33-retko-u-ponudi---mereno-114kvm-5425645687243-71812079781.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 2998.89,
+    "listing_date": "2026-01-01",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/blok-33-retko-u-ponudi---mereno-114kvm/5425645687243?kid=1"
+      }
+    ],
+    "dedupe_key": "17ce4a0de43b791c7f840bbcc330c4000538f789",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 4,
+    "block": "blok-67",
+    "title": "Belville Ciklama",
+    "price_eur": 399000,
+    "size_m2": 106,
+    "rooms": 3,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/belville-ciklama/Nkez3HTZF_-/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/WgQbxf1Vy_fss?st=7ZuXGNQrJgJuFz6ZvAdX8ByND3vkhPzTNMmjGy1RXAk&ts=1732557993&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3764.15,
+    "listing_date": "2026-01-01",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/belville-ciklama/Nkez3HTZF_-/"
+      }
+    ],
+    "dedupe_key": "671fa22dab98dfd27a13c486bbf60654290f6f30",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 2,
+    "block": "blok-67",
+    "title": "Novi Beograd, Belvil, trosoban sa garažom ID#1345",
+    "price_eur": 389000,
+    "size_m2": 101,
+    "rooms": 3,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-belvil-trosoban-sa-garazom-id1345/NkosG1-Vks1/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/U2OOyPkA0L_fss?st=faWB4cHslxihyO9_GV8Ffl97yAoOI_Izke0NCjVkyJc&ts=1767026162&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3851.49,
+    "listing_date": "2026-01-01",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-belvil-trosoban-sa-garazom-id1345/NkosG1-Vks1/"
+      }
+    ],
+    "dedupe_key": "d64f6d7930d90a3629b8191916b7bfdc8be2694b",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 1,
+    "block": "blok-33",
+    "title": "Prodaje se 4.stan u bloku 33,uknjižen ID#18807",
+    "price_eur": 399000,
+    "size_m2": 122,
+    "rooms": 5,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/prodaje-se-4stan-u-bloku-33-uknjizen-id18807/Nk6ptvc-tv6/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/iNJrp2kDx_fss?st=HmfxP55Um1fjF7GBsNCMViMsCAaqHVohcITlM99CFQI&ts=1761840018&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 3270.49,
+    "listing_date": "2026-01-01",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/prodaje-se-4stan-u-bloku-33-uknjizen-id18807/Nk6ptvc-tv6/"
+      },
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaje-se-4-stan-u-bloku-33-uknjizen-id18807/5425646565699?kid=1"
+      }
+    ],
+    "dedupe_key": "cea609545cd9a02cb6adc140cd5256f0044138ce",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 8,
+    "block": "blok-33",
+    "title": "Bulevar Arsenija Čarnojevića, Blok 33, Novi Beograd ID#5160",
+    "price_eur": 270000,
+    "size_m2": 90,
+    "rooms": 4,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/bulevar-arsenija-carnojevica-blok-33-novi-beograd-id5160/NknYT11SeqV/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/ONIboG0g1_fss?st=aW0GAp7SAOFJfleckdTar1DHqT9ahh-orh1TgI-risw&ts=1708625018&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 3000,
+    "listing_date": "2025-12-31",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/bulevar-arsenija-carnojevica-blok-33-novi-beograd-id5160/NknYT11SeqV/"
+      },
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bulevar-arsenija-carnojevica-blok-33-novi-beo/5425645379042?kid=1"
+      }
+    ],
+    "dedupe_key": "7a7e347a2cbd9f4bc15036b146810d3d46701ade",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 10,
+    "block": "blok-67",
+    "title": "Komforan namešten trosoban stan u Belvilu, 106m2",
+    "price_eur": 399000,
+    "size_m2": 106,
+    "rooms": 3,
+    "floor": 7,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/komforan-namesten-trosoban-stan-u-belvilu-106/5425645034365?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250906/m/komforan-namesten-trosoban-stan-u-belvilu-106-5425645034365-71812892316.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3764.15,
+    "listing_date": "2025-12-30",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/komforan-namesten-trosoban-stan-u-belvilu-106/5425645034365?kid=1"
+      }
+    ],
+    "dedupe_key": "61f3dc6afbaca0fe885d067ec4cc8f5db39113f4",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 7,
+    "block": "blok-67",
+    "title": "Jurija Gagarina, Novi Beograd, Delta city ID#7290",
+    "price_eur": 379000,
+    "size_m2": 82,
+    "rooms": 3,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/jurija-gagarina-novi-beograd-delta-city-id7290/Nk9_SYMnGcw/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/7eVkcUOyR_fss?st=amexUekLevSOVvHeimekVfdH3a-rYqJNOBnphMg1vRE&ts=1743157000&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 4621.95,
+    "listing_date": "2025-12-30",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/jurija-gagarina-novi-beograd-delta-city-id7290/Nk9_SYMnGcw/"
+      }
+    ],
+    "dedupe_key": "fced212b9a131dcda28b023314eaec806f746cad",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 19,
+    "block": "blok-67",
+    "title": "Novi Beograd, Blok 67 - Belville - Jurija Gagarina",
+    "price_eur": 505000,
+    "size_m2": 103,
+    "rooms": 5,
+    "floor": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-blok-67---belville---jurija-gaga/5425646254190?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251028/m/novi-beograd-blok-67---belville---jurija-gaga-5425646254190-71813497072.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 4902.91,
+    "listing_date": "2025-12-29",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-blok-67---belville---jurija-gaga/5425646254190?kid=1"
+      }
+    ],
+    "dedupe_key": "beb3739f492a5ac3c488a27c04594643274326bc",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 18,
+    "block": "blok-67",
+    "title": "Sakura, luks, 3,0, 99m2, namešten",
+    "price_eur": 410000,
+    "size_m2": 99,
+    "rooms": 3,
+    "floor": 3,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/sakura-luks-3-0-99m2-namesten/5425645407049?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250906/m/sakura-luks-3-0-99m2-namesten-5425645407049-71812892268.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 4141.41,
+    "listing_date": "2025-12-29",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/sakura-luks-3-0-99m2-namesten/5425645407049?kid=1"
+      }
+    ],
+    "dedupe_key": "015bd7d2008a2a368042f6ad4e1e107e0f1b0bb1",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 14,
+    "block": "blok-67",
+    "title": "Belvile - Lala- Lux, prvi vlasnik, garažno mesto",
+    "price_eur": 449500,
+    "size_m2": 103,
+    "rooms": 4,
+    "floor": 3,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/belvile---lala--lux-prvi-vlasnik-garazno-mest/5425646099834?kid=4",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250926/m/belvile---lala--lux-prvi-vlasnik-garazno-mest-5425646099834-71813116763.jpg",
+    "is_agency": false,
+    "is_duplicate": false,
+    "price_per_sqm": 4364.08,
+    "listing_date": "2025-12-28",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/belvile---lala--lux-prvi-vlasnik-garazno-mest/5425646099834?kid=4"
+      }
+    ],
+    "dedupe_key": "d93c2d88817528a2cb09c01b9b60f7283a2c3e88",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 20,
+    "block": "blok-67",
+    "title": "Novi Beograd - Belvil-107m2-Dva garažna mesta-Uknj",
+    "price_eur": 399000,
+    "size_m2": 107,
+    "rooms": 3,
+    "floor": 7,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd---belvil-107m2-dva-garazna-mesta/5425644943116?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/241105/m/novi-beograd---belvil-106m2-trosoban-dva-gara-5425644943116-71809906209.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3728.97,
+    "listing_date": "2025-12-27",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd---belvil-107m2-dva-garazna-mesta/5425644943116?kid=1"
+      }
+    ],
+    "dedupe_key": "0e6c9c869fb1e37ebda94cc42ea9ed71ce9d5dfe",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 21,
+    "block": "blok-67",
+    "title": "Novi Beograd,Belville - Bulevar Crvene Armije 94m2",
+    "price_eur": 535000,
+    "size_m2": 94,
+    "rooms": 5,
+    "floor": 13,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-belville---bulevar-crvene-armije/5425644704505?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/240812/m/novi-beograd-belville---bulevar-crvene-armije-5425644704505-71809096877.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 5691.49,
+    "listing_date": "2025-12-26",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-belville---bulevar-crvene-armije/5425644704505?kid=1"
+      }
+    ],
+    "dedupe_key": "e6a70eb0d73b7248f0e13aff4f36c32a07e2d77b",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 15,
+    "block": "blok-33",
+    "title": "Odličan stan u Genex-u, III",
+    "price_eur": 249900,
+    "size_m2": 86,
+    "rooms": 3,
+    "floor": 3,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-stan-u-genex-u-iii/5425646396481?kid=3",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251213/m/odlican-stan-u-genex-u-iii-5425646396481-71814055565.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 2905.81,
+    "listing_date": "2025-12-26",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-stan-u-genex-u-iii/5425646396481?kid=3"
+      }
+    ],
+    "dedupe_key": "9f5f1918b69b34f24454b071e303d33e35177971",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 9,
+    "block": "blok-67",
+    "title": "Belvil-Maslačak, namešten, 101(2T), mog G za 2auta",
+    "price_eur": 389000,
+    "size_m2": 101,
+    "rooms": 3,
+    "floor": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/belvil-maslacak-namesten-1012t-mog-g-za-2auta/5425646466006?kid=4",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251208/m/belvil-maslacak-3-0-1012t-moguc-g-za-2-auta-5425646466006-71813992909.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3851.49,
+    "listing_date": "2025-12-25",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/belvil-maslacak-namesten-1012t-mog-g-za-2auta/5425646466006?kid=4"
+      }
+    ],
+    "dedupe_key": "d9f383fc69fa9328a8cb1f9ceec3a39d7b6bf6a5",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 16,
+    "block": "blok-67",
+    "title": "Prodaja stana 97m2, Belville",
+    "price_eur": 360000,
+    "size_m2": 97,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stana-97m2-belville/5425645775757?kid=3",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250716/m/prodaja-dva-spojena-stana-97m246m2-belville-5425645775757-71812311014.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3711.34,
+    "listing_date": "2025-12-24",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stana-97m2-belville/5425645775757?kid=3"
+      }
+    ],
+    "dedupe_key": "53e4f2e5c24d6157bfe6bd8a8aa7d7c35da11ef2",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 12,
+    "block": "blok-67",
+    "title": "Soul 64, neuseljavan, garaža, ID 25114",
+    "price_eur": 440000,
+    "size_m2": 86,
+    "rooms": 3,
+    "floor": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-neuseljavan-garaza-id-25114/5425646546946?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251225/m/soul-64-neuseljavan-garaza-id-25114-5425646546946-71814186113.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 5116.28,
+    "listing_date": "2025-12-24",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-neuseljavan-garaza-id-25114/5425646546946?kid=1"
+      }
+    ],
+    "dedupe_key": "2e7b56317995a8b136852410fe54205a38e56178",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 13,
+    "block": "blok-67",
+    "title": "Luksuzno opremljen, 3.0, 82m2, Lastavica",
+    "price_eur": 379000,
+    "size_m2": 82,
+    "rooms": 3,
+    "floor": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzno-opremljen-3-0-82m2-lastavica/5425645492773?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250906/m/luksuzno-opremljen-3-0-82m2-lastavica-5425645492773-71812892197.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 4621.95,
+    "listing_date": "2025-12-23",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzno-opremljen-3-0-82m2-lastavica/5425645492773?kid=1"
+      }
+    ],
+    "dedupe_key": "355aa59ed057b262b0225d76cd248c82c9016bf4",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 22,
+    "block": "blok-67",
+    "title": "Retko u ponudi. A blok - stan sa baštom, ID 20950",
+    "price_eur": 383000,
+    "size_m2": 96,
+    "rooms": 3,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/retko-u-ponudi-a-blok---stan-sa-bastom-id-209/5425643597141?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/230904/m/retko-u-ponudi-a-blok---stan-sa-bastom-id-209-5425643597141-71805553919.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3989.58,
+    "listing_date": "2025-12-22",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/retko-u-ponudi-a-blok---stan-sa-bastom-id-209/5425643597141?kid=1"
+      }
+    ],
+    "dedupe_key": "90d81e0a9934cf1f3069a36e2db2514eb70c984d",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 11,
+    "block": "blok-67",
+    "title": "Novi Beograd - Belville - 3,0 s, 101 m2, renoviran",
+    "price_eur": 350000,
+    "size_m2": 101,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd---belville---3-0-s-101-m2-renovi/5425646384582?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251122/m/novi-beograd---belville---3-0-s-101-m2-renovi-5425646384582-71813817137.jpg",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 3465.35,
+    "listing_date": "2025-12-21",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd---belville---3-0-s-101-m2-renovi/5425646384582?kid=1"
+      },
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-belville-3-0-s-101-m2-renoviran-uknjizen-i-useljiv-stan/NkPgSXbDNfw/"
+      }
+    ],
+    "dedupe_key": "0def31ad485f99200952435fb242c0a97edcc294",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 24,
+    "block": "blok-33",
+    "title": "Genex, I sprat, odličan stan",
+    "price_eur": 327800,
+    "size_m2": 84,
+    "rooms": 3,
+    "floor": 1,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/genex-i-sprat-odlican-stan/5425645894137?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250811/m/genex-i-sprat-odlican-stan-5425645894137-71812583654.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3902.38,
+    "listing_date": "2025-12-15",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/genex-i-sprat-odlican-stan/5425645894137?kid=1"
+      }
+    ],
+    "dedupe_key": "d8717b8f09ed5b7338bfcf0c0611f563e4687e47",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 23,
+    "block": "blok-67",
+    "title": "A Blok - faza IV",
+    "price_eur": 365000,
+    "size_m2": 84,
+    "rooms": 5,
+    "floor": 9,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok---faza-iv/5425644008439?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250701/m/a-blok---faza-iv-5425644008439-71812159447.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 4345.24,
+    "listing_date": "2025-12-15",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok---faza-iv/5425644008439?kid=1"
+      }
+    ],
+    "dedupe_key": "d0fda44066d90d4e9522489ba6a06edd12c87e68",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 25,
+    "block": "blok-67",
+    "title": "A blok, lux penthouse, dupleks, dve garaže,ID24853",
+    "price_eur": 550000,
+    "size_m2": 128,
+    "rooms": 4,
+    "floor": 12,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok-lux-penthouse-dupleks-dve-garaze-id248/5425646109841?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250929/m/a-blok-lux-penthouse-dupleks-dve-garaze-id248-5425646109841-71813137662.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 4296.88,
+    "listing_date": "2025-12-11",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok-lux-penthouse-dupleks-dve-garaze-id248/5425646109841?kid=1"
+      }
+    ],
+    "dedupe_key": "d870370032b3a8e74b415827c037e643613c53ec",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 5,
+    "block": "blok-67",
+    "title": "Prostran porodični stan u Belville-u; Kвартира для семьи в Белвиле",
+    "price_eur": 360000,
+    "size_m2": 95,
+    "rooms": 4,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/undefined/Nkc5zAbQFej/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/zHcmFlc2t_fss?st=TCNXBqxgNIdNPZLzKprigtt2dpQcgJUBxRCiVvip6HY&ts=1765463861&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3789.47,
+    "listing_date": "2025-12-10",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/undefined/Nkc5zAbQFej/"
+      }
+    ],
+    "dedupe_key": "248f06aa135f6f2533f390c8dbf9f7d421042f9f",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 26,
+    "block": "blok-33",
+    "title": "Narodnih heroja - 04 - Novi Beograd",
+    "price_eur": 302500,
+    "size_m2": 84,
+    "rooms": 2.5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/narodnih-heroja---04---novi-beograd/5425645884652?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250809/m/narodnih-heroja---04---novi-beograd-5425645884652-71812569678.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3601.19,
+    "listing_date": "2025-12-07",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/narodnih-heroja---04---novi-beograd/5425645884652?kid=1"
+      }
+    ],
+    "dedupe_key": "4c84a7f135e9b7063b7606a468513f73c021a4e3",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 27,
+    "block": "blok-67",
+    "title": "Belville,4.0 stan sa garažnim mestom ID#12118",
+    "price_eur": 430000,
+    "size_m2": 120,
+    "rooms": 4,
+    "floor": 10,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/belville-4-0-stan-sa-garaznim-mestom-id12118/5425646019082?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250908/m/belville-4-0-stan-sa-garaznim-mestom-id12118-5425646019082-71812916520.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3583.33,
+    "listing_date": "2025-12-06",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/belville-4-0-stan-sa-garaznim-mestom-id12118/5425646019082?kid=1"
+      }
+    ],
+    "dedupe_key": "f00900e3da38c459a4aee003181a29bb2f055ec4",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 28,
+    "block": "blok-33",
+    "title": "Trosoban stan/ poslovni prostor u Bloku 33",
+    "price_eur": 279900,
+    "size_m2": 86,
+    "rooms": 3,
+    "floor": 6,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/trosoban-stan-poslovni-prostor-u-bloku-33/5425645999759?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250904/m/trosoban-stan-poslovni-prostor-u-bloku-33-5425645999759-71812869988.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3254.65,
+    "listing_date": "2025-12-05",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/trosoban-stan-poslovni-prostor-u-bloku-33/5425645999759?kid=1"
+      }
+    ],
+    "dedupe_key": "783e43c992396c93c1edfb98306c5f43b9e0423d",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  },
+  {
+    "id": 6,
+    "block": "blok-67",
+    "title": "Novi Beograd, Blok 67a, A blok, Omladinskih brigada, 3.0, 86m2, 440000 EUR",
+    "price_eur": 440000,
+    "size_m2": 86,
+    "rooms": 3,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-blok-67a-a-blok-omladinskih-brigada-30-86m2-440000-eur/NkO4pl2a2mJ/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/h2lC2NSwvK_fss?st=4IpG05tnrVQEC2T3MuAekGJhT13a6tcawiPlYPzhR_g&ts=1764679212&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 5116.28,
+    "listing_date": "2025-12-01",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-blok-67a-a-blok-omladinskih-brigada-30-86m2-440000-eur/NkO4pl2a2mJ/"
+      }
+    ],
+    "dedupe_key": "6ab3fa7acec02ae21d22704d3673d3bf30acb0b6",
+    "last_seen_at": "2026-01-03 16:28:54.873386+01",
+    "created_at": "2026-01-03 16:28:54.873386+01"
+  }
+]

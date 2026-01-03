@@ -1,0 +1,77 @@
+name: Ingest apartments data & Deploy Static Frontend (GitHub Pages)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every hour from 06:00 to 23:00 UTC (adjust if your timezone differs)
+    - cron: "0 6-23 * * *"
+
+concurrency:
+  group: ingest-deploy-static
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  ingest-and-build:
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      DATA_API_URL: ${{ secrets.DATA_API_URL }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python deps
+        run: |
+          pip install --upgrade pip
+          pip install -r python/requirements.txt
+
+      - name: Run ingest
+        run: |
+          python python/import_listings.py
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install frontend deps
+        working-directory: web-static
+        run: npm install
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build static site (pulls data from API)
+        working-directory: web-static
+        env:
+          DATA_API_URL: ${{ env.DATA_API_URL }}
+        run: npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web-static/dist
+
+  deploy:
+    needs: ingest-and-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
