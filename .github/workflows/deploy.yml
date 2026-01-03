@@ -57,6 +57,7 @@ jobs:
         working-directory: web-static
         env:
           DATA_API_URL: ${{ env.DATA_API_URL }}
+          BASE_PATH: /${{ github.event.repository.name }}/
         run: npm run build
 
       - name: Upload Pages artifact
