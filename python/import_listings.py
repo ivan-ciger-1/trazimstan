@@ -8,8 +8,10 @@ from __future__ import annotations
 import os
 import re
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Optional
+
+import requests
 
 import psycopg
 from psycopg.rows import dict_row
@@ -157,7 +159,10 @@ def prefer_newest_and_collect_links(listings: List[Listing]) -> List[Listing]:
         if len(recs) == 1:
             recs[0].source_links = [{"source": recs[0].source, "url": recs[0].url}]
             recs[0].is_duplicate = False
-            recs[0].listing_date = extract_date_iso(recs[0].raw_text)
+            if recs[0].source == "4zida" and recs[0].listing_date is None:
+                recs[0].listing_date = fetch_4zida_listing_date(recs[0].url)
+            if recs[0].listing_date is None:
+                recs[0].listing_date = extract_date_iso(recs[0].raw_text)
             if recs[0].price_per_sqm is None and recs[0].price_eur and recs[0].size_m2:
                 recs[0].price_per_sqm = round(recs[0].price_eur / recs[0].size_m2, 2)
             chosen.append(recs[0])
@@ -226,9 +231,12 @@ def prefer_newest_and_collect_links(listings: List[Listing]) -> List[Listing]:
             for r in per_source_list_sorted:
                 r.is_duplicate = False
                 r.source_links = [{"source": r.source, "url": r.url}]
+                if r.source == "4zida" and r.listing_date is None:
+                    r.listing_date = fetch_4zida_listing_date(r.url)
                 if r.price_per_sqm is None and r.price_eur and r.size_m2:
                     r.price_per_sqm = round(r.price_eur / r.size_m2, 2)
-                r.listing_date = extract_date_iso(r.raw_text)
+                if r.listing_date is None:
+                    r.listing_date = extract_date_iso(r.raw_text)
                 chosen.append(r)
             continue
 
@@ -252,12 +260,17 @@ def prefer_newest_and_collect_links(listings: List[Listing]) -> List[Listing]:
 
         if anchor.price_per_sqm is None and anchor.price_eur and anchor.size_m2:
             anchor.price_per_sqm = round(anchor.price_eur / anchor.size_m2, 2)
-        anchor.listing_date = extract_date_iso(anchor.raw_text)
+        if anchor.source == "4zida" and anchor.listing_date is None:
+            anchor.listing_date = fetch_4zida_listing_date(anchor.url)
+        if anchor.listing_date is None:
+            anchor.listing_date = extract_date_iso(anchor.raw_text)
         chosen.append(anchor)
     return chosen
 
 
 DATE_RE = re.compile(r"(\d{2}\.\d{2}\.\d{4})")
+RELATIVE_RE = re.compile(r"pre\s+(\d+)\s+dan", re.IGNORECASE)
+ABSOLUTE_DATE_RE = re.compile(r"(\d{2}\.\d{2}\.\d{4})")
 
 
 def extract_date(text: str) -> Optional[int]:
@@ -279,6 +292,28 @@ def extract_date_iso(text: str) -> Optional[str]:
     if ts is None:
         return None
     return datetime.fromtimestamp(ts, timezone.utc).date().isoformat()
+
+
+def extract_relative_date_iso(text: str) -> Optional[str]:
+    """
+    Parse relative dates like 'pre 2 dana' from 4zida detail pages.
+    """
+    m = RELATIVE_RE.search(text)
+    if not m:
+        m_abs = ABSOLUTE_DATE_RE.search(text)
+        if m_abs:
+            try:
+                dt = datetime.strptime(m_abs.group(1), "%d.%m.%Y").date()
+                return dt.isoformat()
+            except ValueError:
+                return None
+        return None
+    try:
+        days = int(m.group(1))
+    except ValueError:
+        return None
+    dt = datetime.utcnow().date() - timedelta(days=days)
+    return dt.isoformat()
 
 
 def find_duplicate_sample(listings: List[Listing]) -> Optional[Dict]:
@@ -355,6 +390,19 @@ def find_all_duplicates(listings: List[Listing]) -> List[Dict]:
             links.append({"source": r.source, "title": r.title, "url": r.url})
         results.append({"dedupe_key": k, "count": len(per_source_list), "links": links})
     return results
+
+
+def fetch_4zida_listing_date(url: str) -> Optional[str]:
+    """
+    Fetch a 4zida detail page to extract listing_date (absolute or relative).
+    """
+    try:
+        resp = requests.get(url, timeout=10)
+        resp.raise_for_status()
+    except Exception:
+        return None
+    text = resp.text
+    return extract_relative_date_iso(text)
 
 
 def find_single_source_clusters(listings: List[Listing]) -> List[Dict]:
