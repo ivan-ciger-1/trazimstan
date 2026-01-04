@@ -36,7 +36,6 @@ function ListingCard({ item }: { item: Listing }) {
         <div className="p-4 space-y-3">
           <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
             <div className="space-y-1">
-              <p className="text-xs text-slate-400">ID #{item.id}</p>
               <h3 className="text-base sm:text-lg font-semibold leading-snug text-white">
                 {item.title}
               </h3>
@@ -67,9 +66,10 @@ function ListingCard({ item }: { item: Listing }) {
             ) : null}
             {item.listing_date ? (
               <Badge tone="emerald" variant="ghost">
-                Posted {item.listing_date}
+                {new Date(item.listing_date).toLocaleDateString('en-GB', { year: 'numeric', month: 'short', day: 'numeric' })}
               </Badge>
             ) : null}
+            <Badge tone="emerald" variant="ghost">ID #{item.id}</Badge>
           </div>
 
           {item.source_links && item.source_links.length > 0 && (
