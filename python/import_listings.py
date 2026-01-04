@@ -8,13 +8,13 @@ from __future__ import annotations
 import os
 import re
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict, List, Optional
 
 import psycopg
 from psycopg.rows import dict_row
 
-from python.scrapers import halooglasi, nekretnine
+from python.scrapers import halooglasi, nekretnine, fourzida
 from python.scrapers.base import (
     Listing,
     chunk,
@@ -104,12 +104,15 @@ def scrape_all(freshness_days: int = 60, max_pages: int = 3) -> List[Listing]:
     items: List[Listing] = []
     items += nekretnine.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
     items += halooglasi.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
+    items += fourzida.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
     return items
 
 
 def prefer_newest_and_collect_links(listings: List[Listing]) -> List[Listing]:
     """
-    Deduplicate in-memory by a cluster: block + rough size/price buckets (no title in key).
+    Deduplicate in-memory by a cluster.
+    - For 4zida: block + exact price + room bucket (title ignored).
+    - For others: block + size bucket + price bucket + room bucket (previous logic).
     Within each cluster, first pick the best per source, then pick the overall best.
     Mark as duplicate only if more than one source remains. Collect all per-source links.
     """
@@ -122,6 +125,11 @@ def prefer_newest_and_collect_links(listings: List[Listing]) -> List[Listing]:
         if price is None:
             return None
         return int(round(price / 1000))  # bucket by 1k EUR
+
+    def room_bucket(rooms: Optional[float]) -> Optional[float]:
+        if rooms is None:
+            return None
+        return round(rooms * 2) / 2.0  # bucket by 0.5 rooms
 
     def title_tokens(norm_title: str) -> set:
         return set(norm_title.split()) if norm_title else set()
@@ -138,8 +146,8 @@ def prefer_newest_and_collect_links(listings: List[Listing]) -> List[Listing]:
     for l in listings:
         key = (
             l.block_code,
+            l.price_eur,  # exact price to align cross-source
             size_bucket(l.size_m2),
-            price_bucket(l.price_eur),
         )
         clusters.setdefault(key, []).append(l)
 
@@ -186,34 +194,55 @@ def prefer_newest_and_collect_links(listings: List[Listing]) -> List[Listing]:
             reverse=True,
         )
 
-        # Use the top record as anchor; only merge titles that are reasonably similar.
-        anchor = per_source_list_sorted[0]
-        anchor_norm_title = normalize_title_for_dedupe(anchor.title)
-        merged = []
-        for r in per_source_list_sorted:
-            sim = title_similarity(anchor_norm_title, normalize_title_for_dedupe(r.title))
-            if sim >= 0.5:
-                merged.append(r)
-            else:
-                # Keep dissimilar record separate.
+        # Require at least one matching attribute (rooms or size or floor) to merge.
+        def shares_attr(a: Listing, b: Listing) -> bool:
+            if (
+                a.price_eur is not None
+                and b.price_eur is not None
+                and a.price_eur == b.price_eur
+                and a.size_m2 is not None
+                and b.size_m2 is not None
+                and abs(a.size_m2 - b.size_m2) < 0.01
+            ):
+                return True
+            if a.rooms is not None and b.rooms is not None and a.rooms == b.rooms:
+                return True
+            if a.size_m2 is not None and b.size_m2 is not None and a.size_m2 == b.size_m2:
+                return True
+            if a.floor is not None and b.floor is not None and a.floor == b.floor:
+                return True
+            return False
+
+        has_attr_match = False
+        for i in range(len(per_source_list_sorted)):
+            for j in range(i + 1, len(per_source_list_sorted)):
+                if shares_attr(per_source_list_sorted[i], per_source_list_sorted[j]):
+                    has_attr_match = True
+                    break
+            if has_attr_match:
+                break
+
+        if not has_attr_match:
+            for r in per_source_list_sorted:
                 r.is_duplicate = False
+                r.source_links = [{"source": r.source, "url": r.url}]
                 if r.price_per_sqm is None and r.price_eur and r.size_m2:
                     r.price_per_sqm = round(r.price_eur / r.size_m2, 2)
                 r.listing_date = extract_date_iso(r.raw_text)
-                r.source_links = [{"source": r.source, "url": r.url}]
                 chosen.append(r)
+            continue
 
-        # Merge the similar ones.
+        # Merge all candidates in the cluster.
         anchor = sorted(
-            merged,
+            per_source_list_sorted,
             key=lambda x: (parsed_date(x), completeness(x)),
             reverse=True,
         )[0]
-        anchor.is_duplicate = len({m.source for m in merged}) > 1
+        anchor.is_duplicate = len({m.source for m in per_source_list_sorted}) > 1
 
         links = []
         seen_links = set()
-        for r in merged:
+        for r in per_source_list_sorted:
             sig = (r.source, r.url)
             if sig in seen_links:
                 continue
@@ -249,7 +278,7 @@ def extract_date_iso(text: str) -> Optional[str]:
     ts = extract_date(text)
     if ts is None:
         return None
-    return datetime.utcfromtimestamp(ts).date().isoformat()
+    return datetime.fromtimestamp(ts, timezone.utc).date().isoformat()
 
 
 def find_duplicate_sample(listings: List[Listing]) -> Optional[Dict]:
@@ -357,20 +386,34 @@ def find_single_source_clusters(listings: List[Listing]) -> List[Dict]:
 
 def main(freshness_days: int = 60, max_pages: int = 3, clear_before: bool = False) -> None:
     db_url = get_db_url()
-    with psycopg.connect(db_url, row_factory=dict_row) as conn:
+
+    # Scrape before opening DB connection to avoid idle disconnects.
+    listings = scrape_all(freshness_days=freshness_days, max_pages=max_pages)
+    print(f"Scraped {len(listings)} listings")
+    dupes = find_all_duplicates(listings)
+    single_source_dupes = find_single_source_clusters(listings)
+    listings = prefer_newest_and_collect_links(listings)
+
+    if not listings:
+        print("No listings to process")
+        return
+
+    with psycopg.connect(
+        db_url,
+        row_factory=dict_row,
+        autocommit=True,
+        connect_timeout=10,
+        keepalives=1,
+        keepalives_idle=30,
+        keepalives_interval=10,
+        keepalives_count=5,
+    ) as conn:
         env_clear = os.getenv("CLEAR_LISTINGS", "1").lower() in ("1", "true", "yes")
         if clear_before or env_clear:
             print("Clearing listings table before import (TRUNCATE CASCADE)...")
             clear_listings(conn)
-            conn.commit()
 
         source_ids = fetch_source_ids(conn)
-
-        listings = scrape_all(freshness_days=freshness_days, max_pages=max_pages)
-        print(f"Scraped {len(listings)} listings")
-        dupes = find_all_duplicates(listings)
-        single_source_dupes = find_single_source_clusters(listings)
-        listings = prefer_newest_and_collect_links(listings)
 
         records = []
         for l in listings:
@@ -389,7 +432,6 @@ def main(freshness_days: int = 60, max_pages: int = 3, clear_before: bool = Fals
             return
 
         stats = upsert_listings(conn, records)
-        conn.commit()
         print(
             f"Upserted {stats['processed']} records "
             f"(duplicates within this run: {stats['duplicates_in_batch']})"

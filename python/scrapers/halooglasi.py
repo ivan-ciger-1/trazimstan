@@ -44,6 +44,22 @@ def normalize_url(url: str) -> str:
     return DOMAIN.rstrip("/") + "/" + url.lstrip("/")
 
 
+def block_from_url(url: str) -> Optional[str]:
+    """
+    Infer block from URL slug to avoid noisy menu text.
+    """
+    low = url.lower()
+    if "blok-33" in low or "blok%2033" in low:
+        return "blok-33"
+    if "blok-38" in low or "blok%2038" in low:
+        return "blok-38"
+    if "blok-67a" in low or "blok%2067a" in low or "a-blok" in low:
+        return "blok-67"
+    if "blok-67" in low or "blok%2067" in low:
+        return "blok-67"
+    return None
+
+
 DATE_RE = re.compile(r"(\d{2}\.\d{2}\.\d{4})")
 
 
@@ -145,8 +161,8 @@ def parse_listing_card(card, freshness_days: int = 60) -> Optional[Listing]:
     raw_text = card.get_text(" ", strip=True)
     meta_text = meta_el.get_text(" ", strip=True) if meta_el else raw_text
 
-    # Block detection from title + meta + raw text.
-    block_code = detect_block(" ".join([title, meta_text, raw_text]))
+    # Block detection: first from URL, then from text to avoid menu noise.
+    block_code = block_from_url(url) or detect_block(" ".join([title, meta_text, raw_text]))
     if not block_code:
         return None
 

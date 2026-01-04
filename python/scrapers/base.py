@@ -170,7 +170,8 @@ def parse_price_eur(text: str) -> Optional[int]:
 ROOM_KEYWORDS = [
     (5.0, ["petosob", "petosoban", "petosobna", "5.0"]),
     (4.0, ["cetvorosob", "četvorosob", "4.0"]),
-    (3.0, ["trosob", "troiposob", "troiposoban", "3.0"]),
+    (3.5, ["troiposob", "troiposoban", "3.5"]),
+    (3.0, ["trosob", "trosoban", "3.0"]),
     (2.5, ["dvoiposob", "dvoiposoban", "2.5"]),
     (2.0, ["dvosob", "2.0"]),
     (1.5, ["jednoiposob", "1.5"]),
@@ -188,7 +189,10 @@ def detect_rooms(text: str) -> Optional[float]:
     m = re.search(r"(\d+(?:\.\d)?)\s*sob", low)
     if m:
         try:
-            return float(m.group(1))
+            rooms = float(m.group(1))
+            if rooms > 8:
+                return None
+            return rooms
         except ValueError:
             return None
     return None

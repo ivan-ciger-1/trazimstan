@@ -80,7 +80,7 @@ function App() {
     if (filters.floor) set.add(filters.floor);
     return Array.from(set).sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
   }, [availableFloors, filters.floor]);
-console.log(123,ALL_LISTINGS[0]);
+
   const filtered = useMemo(() => {
     const out = ALL_LISTINGS.filter((l) => {
       if (filters.block && l.block !== filters.block) return false;
@@ -158,8 +158,23 @@ console.log(123,ALL_LISTINGS[0]);
     if (!LAST_UPDATED_RAW) return null;
     const candidate = LAST_UPDATED_RAW.replace(" ", "T");
     const dt = new Date(candidate);
-    if (Number.isNaN(dt.getTime())) return LAST_UPDATED_RAW;
-    return dt.toLocaleString();
+    if (!Number.isNaN(dt.getTime())) {
+      const formatter = new Intl.DateTimeFormat("en-GB", {
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false,
+      });
+      return formatter.format(dt);
+    }
+    // Fallback: trim seconds if present (e.g., "2026-01-03 16:28:54.873386+01").
+    const trimmed = LAST_UPDATED_RAW.replace(
+      /(\d{4}-\d{2}-\d{2}\s\d{2}:\d{2}):\d{2}(\.\d+)?([+-]\d{2})?/,
+      "$1$3"
+    );
+    return trimmed;
   }, []);
 
   return (
