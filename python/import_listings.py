@@ -16,7 +16,7 @@ import requests
 import psycopg
 from psycopg.rows import dict_row
 
-from python.scrapers import halooglasi, nekretnine, fourzida
+from python.scrapers import halooglasi, nekretnine, fourzida, cityexpert
 from python.scrapers.base import (
     Listing,
     chunk,
@@ -86,6 +86,8 @@ def upsert_listings(conn, records: List[Dict]) -> None:
                 rec_copy = rec.copy()
                 if rec_copy.get("source_links") is not None:
                     rec_copy["source_links"] = json.dumps(rec_copy["source_links"])
+                if isinstance(rec_copy.get("raw_json"), (dict, list)):
+                    rec_copy["raw_json"] = json.dumps(rec_copy["raw_json"])
                 adapted.append(rec_copy)
             cur.executemany(sql, adapted)
     # report simple duplicate count within this batch set
@@ -107,6 +109,7 @@ def scrape_all(freshness_days: int = 60, max_pages: int = 3) -> List[Listing]:
     items += nekretnine.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
     items += halooglasi.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
     items += fourzida.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
+    items += cityexpert.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
     return items
 
 
@@ -146,11 +149,19 @@ def prefer_newest_and_collect_links(listings: List[Listing]) -> List[Listing]:
 
     clusters: Dict[tuple, List[Listing]] = {}
     for l in listings:
-        key = (
-            l.block_code,
-            l.price_eur,  # exact price to align cross-source
-            size_bucket(l.size_m2),
-        )
+        if l.source == "cityexpert" and l.floor is not None:
+            key = (
+                l.block_code,
+                l.price_eur,  # exact price
+                size_bucket(l.size_m2),
+                l.floor,  # distinct by floor for cityexpert
+            )
+        else:
+            key = (
+                l.block_code,
+                l.price_eur,  # exact price to align cross-source
+                size_bucket(l.size_m2),
+            )
         clusters.setdefault(key, []).append(l)
 
     chosen: List[Listing] = []
@@ -201,20 +212,34 @@ def prefer_newest_and_collect_links(listings: List[Listing]) -> List[Listing]:
 
         # Require at least one matching attribute (rooms or size or floor) to merge.
         def shares_attr(a: Listing, b: Listing) -> bool:
-            if (
+            price_match = (
                 a.price_eur is not None
                 and b.price_eur is not None
                 and a.price_eur == b.price_eur
-                and a.size_m2 is not None
+            )
+            size_match = (
+                a.size_m2 is not None
                 and b.size_m2 is not None
                 and abs(a.size_m2 - b.size_m2) < 0.01
-            ):
+            )
+            rooms_match = a.rooms is not None and b.rooms is not None and a.rooms == b.rooms
+            floor_match = a.floor is not None and b.floor is not None and a.floor == b.floor
+
+            # Stricter rule when cityexpert is involved: require price + size + rooms + floor (if present).
+            if "cityexpert" in (a.source, b.source):
+                if price_match and size_match and rooms_match:
+                    if a.floor is not None and b.floor is not None:
+                        return a.floor == b.floor
+                    return True
+                return False
+
+            if price_match and size_match:
                 return True
-            if a.rooms is not None and b.rooms is not None and a.rooms == b.rooms:
+            if rooms_match:
                 return True
-            if a.size_m2 is not None and b.size_m2 is not None and a.size_m2 == b.size_m2:
+            if size_match:
                 return True
-            if a.floor is not None and b.floor is not None and a.floor == b.floor:
+            if floor_match:
                 return True
             return False
 
@@ -257,6 +282,9 @@ def prefer_newest_and_collect_links(listings: List[Listing]) -> List[Listing]:
             seen_links.add(sig)
             links.append({"source": r.source, "url": r.url})
         anchor.source_links = links
+
+        if any(link["source"] == "cityexpert" for link in anchor.source_links):
+            anchor.is_agency = False
 
         if anchor.price_per_sqm is None and anchor.price_eur and anchor.size_m2:
             anchor.price_per_sqm = round(anchor.price_eur / anchor.size_m2, 2)
