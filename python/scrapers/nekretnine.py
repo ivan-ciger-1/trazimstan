@@ -168,13 +168,34 @@ def fetch_page(
     listing_type: str,
     task_name: str,
     freshness_days: int = 60,
+    max_retries: int = 2,
+    retry_delay: float = 3.0,
 ) -> List[Listing]:
     """
     Fetch a single page and parse all cards. Stop early if markup changes
     (Zero cards likely means we've reached the end).
     """
-    resp = session.get(page_url(base_url, page), timeout=15)
-    resp.raise_for_status()
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp = session.get(page_url(base_url, page), timeout=15)
+            resp.raise_for_status()
+            break
+        except requests.exceptions.RequestException as exc:
+            print(
+                f"[warn nekretnine] task={task_name} page {page}: attempt {attempt}/{max_retries} failed "
+                f"({exc.__class__.__name__}: {exc})"
+            )
+            if attempt == max_retries:
+                print(
+                    f"[warn nekretnine] task={task_name} page {page}: "
+                    "exhausted retries, returning 0 cards for this page"
+                )
+                return []
+            time.sleep(retry_delay)
+    else:
+        # Should not happen because loop returns on failure.
+        return []
+
     soup = BeautifulSoup(resp.text, "html.parser")
     cards = soup.select(
         "article[data-id], .advert-list article, .offer, .list-item, article.offer, "

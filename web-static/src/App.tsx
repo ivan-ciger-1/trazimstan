@@ -64,8 +64,14 @@ const ALL_LISTINGS: Listing[] = Array.isArray(listingsJson)
   ? listingsJson.map(normalizeListing)
   : [];
 
-const CURRENT_CITY =
-  window.location.pathname.replace(/\/+$/, "") === "/pancevo" ? "pancevo" : "belgrade";
+// Derive current city from pathname, tolerating base paths and .html.
+const basePath = (import.meta.env.BASE_URL || "/").replace(/\/+$/, "/");
+const path = window.location.pathname.replace(basePath.replace(/\/$/, ""), "");
+const isPancevo =
+  path.endsWith("/pancevo") ||
+  path.endsWith("/pancevo/") ||
+  path.endsWith("pancevo.html");
+const CURRENT_CITY = isPancevo ? "pancevo" : "belgrade";
 
 const CITY_LISTINGS: Listing[] = ALL_LISTINGS.filter((l) => {
   const city = l.city ?? "belgrade";
@@ -212,7 +218,7 @@ function App() {
     <PageShell>
       <div className="flex items-center gap-3 pb-3 text-sm">
         <a
-          href="/"
+          href={`${basePath}`}
           className={`rounded-full px-3 py-1 border ${
             CURRENT_CITY === "belgrade"
               ? "border-purple-400 text-purple-200 bg-purple-500/10"
@@ -222,7 +228,7 @@ function App() {
           Belgrade
         </a>
         <a
-          href="/pancevo"
+          href={`${basePath}pancevo.html`}
           className={`rounded-full px-3 py-1 border ${
             CURRENT_CITY === "pancevo"
               ? "border-purple-400 text-purple-200 bg-purple-500/10"
