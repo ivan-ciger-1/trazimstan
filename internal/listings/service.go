@@ -19,9 +19,10 @@ func (s *Service) List(ctx context.Context, f Filters) ([]Listing, error) {
 // ListBlocks currently returns a static list; later this can hit the DB.
 func (s *Service) ListBlocks(_ context.Context) []map[string]string {
 	return []map[string]string{
-		{"code": "blok-67", "name": "Blok 67 (Belville / A Blok)"},
-		{"code": "blok-38", "name": "Blok 38"},
-		{"code": "blok-33", "name": "Blok 33 (Genex)"},
+		{"code": "blok-67", "name": "Blok 67 (Belville / A Blok)", "city": "belgrade"},
+		{"code": "blok-38", "name": "Blok 38", "city": "belgrade"},
+		{"code": "blok-33", "name": "Blok 33 (Genex)", "city": "belgrade"},
+		{"code": "pancevo", "name": "Pančevo", "city": "pancevo"},
 	}
 }
 

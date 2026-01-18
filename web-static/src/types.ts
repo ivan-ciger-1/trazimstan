@@ -1,6 +1,8 @@
 export type Listing = {
   id: number;
   block: string;
+  city?: string;
+  listing_type?: string;
   title: string;
   price_eur?: number | null;
   size_m2?: number | null;
@@ -20,6 +22,7 @@ export type Block = { code: string; name: string };
 
 export type Filters = {
   block: string;
+  listingType: string;
   minPrice: string;
   maxPrice: string;
   minPricePerSqm: string;

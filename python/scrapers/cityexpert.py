@@ -136,6 +136,8 @@ def parse_listing(item: dict) -> Optional[Listing]:
     return Listing(
         source="cityexpert",
         external_id=external_id,
+        city="belgrade",
+        listing_type="apartment",
         block_code=block_code,
         title=title,
         price_eur=price,

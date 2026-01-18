@@ -57,6 +57,8 @@ class Listing:
 
     source: str
     external_id: str
+    city: str
+    listing_type: str  # apartment, house, land
     block_code: str
     title: str
     price_eur: Optional[int]
@@ -76,6 +78,8 @@ class Listing:
     @property
     def dedupe_key(self) -> str:
         return build_dedupe_key(
+            city=self.city,
+            listing_type=self.listing_type,
             block_code=self.block_code,
             title=self.title,
         )
@@ -87,6 +91,8 @@ class Listing:
         return {
             "source_id": source_id,
             "external_id": self.external_id,
+            "city": self.city,
+            "listing_type": self.listing_type,
             "block_code": self.block_code,
             "title": self.title,
             "price_eur": self.price_eur,
@@ -243,6 +249,8 @@ def normalize_title_for_dedupe(title: str) -> str:
 
 def build_dedupe_key(
     *,
+    city: str,
+    listing_type: str,
     block_code: str,
     title: str,
 ) -> str:
@@ -252,6 +260,6 @@ def build_dedupe_key(
     Title normalization strips ID-like tokens to align cross-source copies.
     """
     title_norm = _normalize_title(title)
-    raw = f"{block_code}|{title_norm}"
+    raw = f"{city}|{listing_type}|{block_code}|{title_norm}"
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()
 

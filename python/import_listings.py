@@ -43,17 +43,19 @@ def upsert_listings(conn, records: List[Dict]) -> None:
     """
     sql = """
     INSERT INTO listings (
-      source_id, external_id, block_code, title, price_eur, size_m2, rooms, floor,
+      source_id, external_id, city, listing_type, block_code, title, price_eur, size_m2, rooms, floor,
       url, thumbnail_url, is_agency, is_duplicate, price_per_sqm, listing_date,
       raw_text, raw_json, source_links, dedupe_key, last_seen_at
     )
     VALUES (
-      %(source_id)s, %(external_id)s, %(block_code)s, %(title)s, %(price_eur)s,
+      %(source_id)s, %(external_id)s, %(city)s, %(listing_type)s, %(block_code)s, %(title)s, %(price_eur)s,
       %(size_m2)s, %(rooms)s, %(floor)s, %(url)s, %(thumbnail_url)s, %(is_agency)s,
       %(is_duplicate)s, %(price_per_sqm)s, %(listing_date)s,
       %(raw_text)s, %(raw_json)s, %(source_links)s, %(dedupe_key)s, now()
     )
     ON CONFLICT (source_id, external_id) DO UPDATE SET
+      city = EXCLUDED.city,
+      listing_type = EXCLUDED.listing_type,
       block_code = EXCLUDED.block_code,
       title = EXCLUDED.title,
       price_eur = EXCLUDED.price_eur,
@@ -115,9 +117,9 @@ def scrape_all(freshness_days: int = 60, max_pages: int = 3) -> List[Listing]:
 
 def prefer_newest_and_collect_links(listings: List[Listing]) -> List[Listing]:
     """
-    Deduplicate in-memory by a cluster.
-    - For 4zida: block + exact price + room bucket (title ignored).
-    - For others: block + size bucket + price bucket + room bucket (previous logic).
+    Deduplicate in-memory by a cluster separated by city and listing_type.
+    - For cityexpert: block + price + size bucket + floor when available.
+    - For others: block + price + size bucket (with city/listing_type prefixes).
     Within each cluster, first pick the best per source, then pick the overall best.
     Mark as duplicate only if more than one source remains. Collect all per-source links.
     """
@@ -151,6 +153,8 @@ def prefer_newest_and_collect_links(listings: List[Listing]) -> List[Listing]:
     for l in listings:
         if l.source == "cityexpert" and l.floor is not None:
             key = (
+                l.city,
+                l.listing_type,
                 l.block_code,
                 l.price_eur,  # exact price
                 size_bucket(l.size_m2),
@@ -158,6 +162,8 @@ def prefer_newest_and_collect_links(listings: List[Listing]) -> List[Listing]:
             )
         else:
             key = (
+                l.city,
+                l.listing_type,
                 l.block_code,
                 l.price_eur,  # exact price to align cross-source
                 size_bucket(l.size_m2),

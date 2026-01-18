@@ -21,16 +21,36 @@ from python.scrapers.base import (
 )
 
 DOMAIN = "https://www.4zida.rs"
-BASE_URL = (
-    "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd"
-    "?sortiranje=najnoviji"
-    "&mesto=a-blok-blok-67a-novi-beograd-beograd"
-    "&mesto=blok-33-geneks-novi-beograd-beograd"
-    "&mesto=blok-38-novi-beograd-beograd"
-    "&vece_od=80m2"
-    "&manje_od=130m2"
-    "&page={page}"
-)
+
+TASKS = [
+    {
+        "name": "belgrade_apartment",
+        "base_url": (
+            "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd"
+            "?sortiranje=najnoviji"
+            "&mesto=a-blok-blok-67a-novi-beograd-beograd"
+            "&mesto=blok-33-geneks-novi-beograd-beograd"
+            "&mesto=blok-38-novi-beograd-beograd"
+            "&vece_od=80m2"
+            "&manje_od=130m2"
+            "&page={page}"
+        ),
+        "city": "belgrade",
+        "listing_type": "apartment",
+    },
+    {
+        "name": "pancevo_house",
+        "base_url": "https://www.4zida.rs/prodaja-kuca/gradske-lokacije-pancevo?sortiranje=najnoviji&page={page}",
+        "city": "pancevo",
+        "listing_type": "house",
+    },
+    {
+        "name": "pancevo_land",
+        "base_url": "https://www.4zida.rs/prodaja-placeva/gradske-lokacije-pancevo?sortiranje=najnoviji&page={page}",
+        "city": "pancevo",
+        "listing_type": "land",
+    },
+]
 
 # Regex helpers
 PRICE_RE = re.compile(r"([\d\.\s,]+)\s*€")
@@ -105,9 +125,9 @@ def block_from_url(url: str) -> Optional[str]:
     return None
 
 
-def parse_card(card) -> Optional[Listing]:
+def parse_card(card, *, city: str, listing_type: str) -> Optional[Listing]:
     # Primary link
-    header_link = card.select_one("a[href*='/prodaja-stanova/']")
+    header_link = card.select_one("a[href*='/prodaja-']")
     if not header_link or not header_link.has_attr("href"):
         return None
     href = header_link["href"]
@@ -131,6 +151,10 @@ def parse_card(card) -> Optional[Listing]:
 
     raw_text = card.get_text(" ", strip=True)
     block_code = block_from_url(url) or detect_block(" ".join([street, location, raw_text]))
+    if not block_code and city == "pancevo":
+        block_code = "pancevo"  # city-level bucket for Pancevo
+    if not block_code:
+        return None
     if not block_code:
         return None
 
@@ -158,6 +182,8 @@ def parse_card(card) -> Optional[Listing]:
     return Listing(
         source="4zida",
         external_id=external_id,
+        city=city,
+        listing_type=listing_type,
         block_code=block_code,
         title=title,
         price_eur=price,
@@ -178,21 +204,26 @@ def parse_card(card) -> Optional[Listing]:
 
 def fetch_page(
     session: requests.Session,
+    base_url: str,
     page: int,
+    *,
+    city: str,
+    listing_type: str,
+    task_name: str,
     min_delay: float = 1.0,
     freshness_days: int = 60,  # unused; kept for signature compatibility
 ) -> List[Listing]:
-    resp = session.get(BASE_URL.format(page=page), timeout=15)
+    resp = session.get(base_url.format(page=page), timeout=15)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
     cards = soup.select(
         "div[test-data='ad-search-card'], div[test-data=ad-search-card], [data-test='ad-search-card']"
     )
     if page == 1:
-        print(f"[debug 4zida] page {page}: selected {len(cards)} cards from {resp.url}")
+        print(f"[debug 4zida] task={task_name} page {page}: selected {len(cards)} cards from {resp.url}")
     results: List[Listing] = []
     for idx, card in enumerate(cards):
-        item = parse_card(card)
+        item = parse_card(card, city=city, listing_type=listing_type)
         if item:
             results.append(item)
         elif page == 1 and idx == 0:
@@ -210,12 +241,22 @@ def scrape_all(
     session = new_session()
     limiter = RateLimiter(min_delay_seconds=min_delay)
     all_items: List[Listing] = []
-    for page in range(1, max_pages + 1):
-        limiter.wait()
-        items = fetch_page(session, page, min_delay=min_delay, freshness_days=freshness_days)
-        if not items:
-            break
-        all_items.extend(items)
+    for task in TASKS:
+        for page in range(1, max_pages + 1):
+            limiter.wait()
+            items = fetch_page(
+                session,
+                task["base_url"],
+                page,
+                city=task["city"],
+                listing_type=task["listing_type"],
+                task_name=task["name"],
+                min_delay=min_delay,
+                freshness_days=freshness_days,
+            )
+            if not items:
+                break
+            all_items.extend(items)
     return all_items
 
 

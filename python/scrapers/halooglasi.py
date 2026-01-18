@@ -27,13 +27,26 @@ from python.scrapers.base import (
 
 DOMAIN = "https://www.halooglasi.com"
 
-# Base search URL: prodaja stanova, opština Novi Beograd. Pagination uses ?page={page}.
-# If you adjust filters on the site, copy the resulting URL and keep the `page` placeholder.
-# BASE_URL = (
-#     "https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-novi-beograd?"
-#     "page={page}"
-# )
-BASE_URL = "https://www.halooglasi.com/nekretnine/prodaja-stanova?grad_id_l-lokacija_id_l-mikrolokacija_id_l=52170%2C52176%2C52192%2C537331&kvadratura_d_from=80&kvadratura_d_to=150&kvadratura_d_unit=1&broj_soba_order_i_from=7&page={page}"
+TASKS = [
+    {
+        "name": "belgrade_apartment",
+        "base_url": "https://www.halooglasi.com/nekretnine/prodaja-stanova?grad_id_l-lokacija_id_l-mikrolokacija_id_l=52170%2C52176%2C52192%2C537331&kvadratura_d_from=80&kvadratura_d_to=150&kvadratura_d_unit=1&broj_soba_order_i_from=7&page={page}",
+        "city": "belgrade",
+        "listing_type": "apartment",
+    },
+    {
+        "name": "pancevo_house",
+        "base_url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/pancevo?cena_d_to=250000&cena_d_unit=4&page={page}",
+        "city": "pancevo",
+        "listing_type": "house",
+    },
+    {
+        "name": "pancevo_land",
+        "base_url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista?grad_id_l-lokacija_id_l-mikrolokacija_id_l=40487%2C58151&cena_d_to=200000&cena_d_unit=4&page={page}",
+        "city": "pancevo",
+        "listing_type": "land",
+    },
+]
 
 
 def normalize_url(url: str) -> str:
@@ -143,10 +156,10 @@ def parse_floor(text: str) -> Optional[int]:
     return None
 
 
-def parse_listing_card(card, freshness_days: int = 60) -> Optional[Listing]:
+def parse_listing_card(card, *, city: str, listing_type: str, freshness_days: int = 60) -> Optional[Listing]:
     # HaloOglasi cards often use data-product-id on article or div.
     title_el = card.select_one(".product-title, h3 a, h4 a")
-    url_el = card.select_one("a[href*='/nekretnine/prodaja-stanova/']")
+    url_el = card.select_one("a[href*='/nekretnine/prodaja-']")
     price_el = card.select_one(".central-feature .price, .price, .price-item")
     meta_el = card.select_one(".subtitle, .property-features, .central-feature")
     size_el = card.select_one(".central-feature .value, .item-info .value")
@@ -163,6 +176,8 @@ def parse_listing_card(card, freshness_days: int = 60) -> Optional[Listing]:
 
     # Block detection: first from URL, then from text to avoid menu noise.
     block_code = block_from_url(url) or detect_block(" ".join([title, meta_text, raw_text]))
+    if not block_code and city == "pancevo":
+        block_code = "pancevo"  # city-level bucket for Pancevo
     if not block_code:
         return None
 
@@ -194,6 +209,8 @@ def parse_listing_card(card, freshness_days: int = 60) -> Optional[Listing]:
     return Listing(
         source="halooglasi",
         external_id=external_id,
+        city=city,
+        listing_type=listing_type,
         block_code=block_code,
         title=title,
         price_eur=price,
@@ -208,19 +225,28 @@ def parse_listing_card(card, freshness_days: int = 60) -> Optional[Listing]:
     )
 
 
-def fetch_page(session: requests.Session, page: int, freshness_days: int = 60) -> List[Listing]:
-    resp = session.get(BASE_URL.format(page=page), timeout=15)
+def fetch_page(
+    session: requests.Session,
+    base_url: str,
+    page: int,
+    *,
+    city: str,
+    listing_type: str,
+    task_name: str,
+    freshness_days: int = 60,
+) -> List[Listing]:
+    resp = session.get(base_url.format(page=page), timeout=15)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
     cards = soup.select("article[data-product-id], .product-list article, .product-item")
     if page == 1:
-        print(f"[debug halooglasi] page {page}: selected {len(cards)} cards from {resp.url}")
+        print(f"[debug halooglasi] task={task_name} page {page}: selected {len(cards)} cards from {resp.url}")
     if not cards:
         snippet = soup.get_text(" ", strip=True)[:200]
-        print(f"[debug halooglasi] page {page}: no cards; snippet: {snippet}")
+        print(f"[debug halooglasi] task={task_name} page {page}: no cards; snippet: {snippet}")
     results: List[Listing] = []
     for idx, card in enumerate(cards):
-        item = parse_listing_card(card, freshness_days=freshness_days)
+        item = parse_listing_card(card, city=city, listing_type=listing_type, freshness_days=freshness_days)
         if item:
             results.append(item)
         elif page == 1 and idx == 0:
@@ -234,13 +260,22 @@ def scrape_all(max_pages: int = 3, min_delay: float = 1.0, freshness_days: int =
     limiter = RateLimiter(min_delay_seconds=min_delay)
 
     all_items: List[Listing] = []
-    for page in range(1, max_pages + 1):
-        limiter.wait()
-        items = fetch_page(session, page, freshness_days=freshness_days)
-        if not items:
-            break
-        all_items.extend(items)
-        time.sleep(min_delay)
+    for task in TASKS:
+        for page in range(1, max_pages + 1):
+            limiter.wait()
+            items = fetch_page(
+                session,
+                task["base_url"],
+                page,
+                city=task["city"],
+                listing_type=task["listing_type"],
+                task_name=task["name"],
+                freshness_days=freshness_days,
+            )
+            if not items:
+                break
+            all_items.extend(items)
+            time.sleep(min_delay)
     return all_items
 
 

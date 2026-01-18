@@ -14,29 +14,29 @@ function ListingCard({ item }: { item: Listing }) {
       rel="noreferrer"
       className="group relative overflow-hidden rounded-2xl border border-white/5 bg-white/5 backdrop-blur transition hover:border-purple-400/50 hover:bg-white/10"
     >
-      <div className="flex flex-col md:grid md:grid-cols-[180px,1fr] md:gap-0">
-        <div className="relative w-full aspect-[4/3] md:aspect-auto md:h-full md:min-h-[180px] bg-slate-900">
-          {item.thumbnail_url ? (
-            <img
-              src={item.thumbnail_url}
-              alt={item.title}
-              className="h-full w-full object-cover"
-              loading="lazy"
-            />
-          ) : (
-            <div className="flex h-full items-center justify-center text-slate-500 text-sm">
-              No photo
+        <div className="flex flex-col md:grid md:grid-cols-[180px,1fr] md:gap-0 md:h-[200px] md:max-h-[200px] overflow-hidden">
+            <div className="relative w-full h-[180px] md:h-[200px] md:max-h-[200px] bg-slate-900">
+              {item.thumbnail_url ? (
+                <img
+                  src={item.thumbnail_url}
+                  alt={item.title}
+                  className="h-full w-full object-cover md:h-full md:max-h-[200px]"
+                  loading="lazy"
+                />
+              ) : (
+                <div className="flex h-full items-center justify-center text-slate-500 text-sm">
+                  No photo
+                </div>
+              )}
+              <div className="absolute left-2 top-2 flex flex-wrap gap-2">
+                <Badge tone="amber">{item.block}</Badge>
+                {item.is_agency ? <Badge tone="amber">Agency</Badge> : null}
+              </div>
             </div>
-          )}
-          <div className="absolute left-2 top-2 flex gap-2">
-            <Badge tone="amber">{item.block}</Badge>
-            {item.is_agency ? <Badge tone="amber">Agency</Badge> : null}
-          </div>
-        </div>
         <div className="p-4 space-y-3">
           <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
             <div className="space-y-1">
-              <h3 className="text-base sm:text-lg font-semibold leading-snug text-white">
+              <h3 className="text-base sm:text-md font-semibold leading-snug text-white line-clamp-2">
                 {item.title}
               </h3>
             </div>

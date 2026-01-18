@@ -22,6 +22,8 @@ func NewRepo(db *pgxpool.Pool) *Repo {
 type Listing struct {
 	ID           int64        `json:"id"`
 	BlockCode    string       `json:"block"`
+	City         string       `json:"city"`
+	ListingType  string       `json:"listing_type"`
 	Title        string       `json:"title"`
 	PriceEUR     *int64       `json:"price_eur,omitempty"`
 	SizeM2       *float64     `json:"size_m2,omitempty"`
@@ -48,6 +50,8 @@ type SourceLink struct {
 
 // Filters captures query params from the handler.
 type Filters struct {
+	City           string
+	ListingType    string
 	Block          string
 	MinPrice       *int64
 	MaxPrice       *int64
@@ -76,6 +80,14 @@ func (r *Repo) List(ctx context.Context, f Filters) ([]Listing, error) {
 	if f.Block != "" {
 		args = append(args, f.Block)
 		where = append(where, "block_code = $"+itoa(len(args)))
+	}
+	if f.City != "" {
+		args = append(args, f.City)
+		where = append(where, "city = $"+itoa(len(args)))
+	}
+	if f.ListingType != "" {
+		args = append(args, f.ListingType)
+		where = append(where, "listing_type = $"+itoa(len(args)))
 	}
 	if f.MinPrice != nil {
 		args = append(args, *f.MinPrice)
@@ -116,8 +128,8 @@ func (r *Repo) List(ctx context.Context, f Filters) ([]Listing, error) {
 
 	// Default limit to keep responses predictable; cap to prevent abuse.
 	limit := f.Limit
-	if limit <= 0 || limit > 100 {
-		limit = 50
+	if limit <= 0 || limit > 500 {
+		limit = 500
 	}
 	args = append(args, limit)
 
@@ -173,6 +185,8 @@ func (r *Repo) List(ctx context.Context, f Filters) ([]Listing, error) {
 		SELECT
 			id,
 			block_code,
+			city,
+			listing_type,
 			title,
 			price_eur,
 			size_m2,
@@ -206,6 +220,8 @@ func (r *Repo) List(ctx context.Context, f Filters) ([]Listing, error) {
 		if err := rows.Scan(
 			&l.ID,
 			&l.BlockCode,
+			&l.City,
+			&l.ListingType,
 			&l.Title,
 			&l.PriceEUR,
 			&l.SizeM2,

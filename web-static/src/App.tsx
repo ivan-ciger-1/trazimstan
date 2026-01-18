@@ -12,10 +12,12 @@ const FALLBACK_BLOCKS: Block[] = [
   { code: "blok-67", name: "Blok 67 (Belville / A Blok)" },
   { code: "blok-38", name: "Blok 38" },
   { code: "blok-33", name: "Blok 33 (Genex)" },
+  { code: "pancevo", name: "Pančevo" },
 ];
 
 const DEFAULT_FILTERS: Filters = {
   block: "",
+  listingType: "",
   minPrice: "",
   maxPrice: "",
   minPricePerSqm: "",
@@ -35,10 +37,18 @@ const SORT_OPTIONS = [
   { value: "price_per_sqm_asc", label: "€/m² (low → high)" },
 ];
 
+const LISTING_TYPE_OPTIONS = [
+  { value: "", label: "Any" },
+  { value: "apartment", label: "Apartment" },
+  { value: "house", label: "House" },
+  { value: "land", label: "Land" },
+];
+
 function deriveFiltersFromURL(): Filters {
   const params = new URLSearchParams(window.location.search);
   return {
     block: params.get("block") ?? "",
+    listingType: params.get("listing_type") ?? "",
     minPrice: params.get("min_price") ?? "",
     maxPrice: params.get("max_price") ?? "",
     minPricePerSqm: params.get("min_price_per_sqm") ?? "",
@@ -53,12 +63,28 @@ function deriveFiltersFromURL(): Filters {
 const ALL_LISTINGS: Listing[] = Array.isArray(listingsJson)
   ? listingsJson.map(normalizeListing)
   : [];
-const ALL_BLOCKS: Block[] =
-  Array.isArray(blocksJson) && blocksJson.length > 0
-    ? blocksJson
-    : FALLBACK_BLOCKS;
+
+const CURRENT_CITY =
+  window.location.pathname.replace(/\/+$/, "") === "/pancevo" ? "pancevo" : "belgrade";
+
+const CITY_LISTINGS: Listing[] = ALL_LISTINGS.filter((l) => {
+  const city = l.city ?? "belgrade";
+  return city === CURRENT_CITY;
+});
+
+const blocksForCity = (city: string): Block[] => {
+  if (Array.isArray(blocksJson)) {
+    const filtered = blocksJson.filter((b: any) =>
+      b.city ? b.city === city : city === "belgrade"
+    );
+    if (filtered.length > 0) return filtered as Block[];
+  }
+  return FALLBACK_BLOCKS.filter((b) => (city === "belgrade" ? b.code.startsWith("blok-") : b.code === city));
+};
+
+const ALL_BLOCKS: Block[] = blocksForCity(CURRENT_CITY);
 const LAST_UPDATED_RAW: string | null =
-  ALL_LISTINGS.length > 0 ? ALL_LISTINGS[0].created_at ?? null : null;
+  CITY_LISTINGS.length > 0 ? CITY_LISTINGS[0].created_at ?? null : null;
 
 function App() {
   const [filters, setFilters] = useState<Filters>(() =>
@@ -66,8 +92,8 @@ function App() {
   );
   const [filtersOpen, setFiltersOpen] = useState(false);
 
-  const availableRooms = useMemo(() => extractRooms(ALL_LISTINGS), []);
-  const availableFloors = useMemo(() => extractFloors(ALL_LISTINGS), []);
+  const availableRooms = useMemo(() => extractRooms(CITY_LISTINGS), []);
+  const availableFloors = useMemo(() => extractFloors(CITY_LISTINGS), []);
 
   const roomOptions = useMemo(() => {
     const set = new Set(availableRooms);
@@ -82,8 +108,12 @@ function App() {
   }, [availableFloors, filters.floor]);
 
   const filtered = useMemo(() => {
-    const out = ALL_LISTINGS.filter((l) => {
+    const out = CITY_LISTINGS.filter((l) => {
+      if (filters.listingType && (l.listing_type ?? "") !== filters.listingType)
+        return false;
       if (filters.block && l.block !== filters.block) return false;
+      const listingCity = l.city ?? "belgrade";
+      if (listingCity !== CURRENT_CITY) return false;
       if (filters.isAgency) {
         const expected = filters.isAgency === "true";
         if ((l.is_agency ?? false) !== expected) return false;
@@ -136,6 +166,7 @@ function App() {
       params.set("min_price_per_sqm", filters.minPricePerSqm);
     if (filters.maxPricePerSqm)
       params.set("max_price_per_sqm", filters.maxPricePerSqm);
+    if (filters.listingType) params.set("listing_type", filters.listingType);
     if (filters.rooms) params.set("rooms", filters.rooms);
     if (filters.floor) params.set("floor", filters.floor);
     if (filters.isAgency) params.set("is_agency", filters.isAgency);
@@ -179,7 +210,29 @@ function App() {
 
   return (
     <PageShell>
-      <Header lastUpdated={lastUpdated} />
+      <div className="flex items-center gap-3 pb-3 text-sm">
+        <a
+          href="/"
+          className={`rounded-full px-3 py-1 border ${
+            CURRENT_CITY === "belgrade"
+              ? "border-purple-400 text-purple-200 bg-purple-500/10"
+              : "border-white/10 text-slate-300 hover:border-purple-300/60"
+          }`}
+        >
+          Belgrade
+        </a>
+        <a
+          href="/pancevo"
+          className={`rounded-full px-3 py-1 border ${
+            CURRENT_CITY === "pancevo"
+              ? "border-purple-400 text-purple-200 bg-purple-500/10"
+              : "border-white/10 text-slate-300 hover:border-purple-300/60"
+          }`}
+        >
+          Pančevo
+        </a>
+      </div>
+      <Header lastUpdated={lastUpdated} city={CURRENT_CITY} />
       <FiltersPanel
         filters={filters}
         filtersOpen={filtersOpen}
@@ -188,6 +241,7 @@ function App() {
         roomOptions={roomOptions}
         floorOptions={floorOptions}
         sortOptions={SORT_OPTIONS}
+        listingTypeOptions={LISTING_TYPE_OPTIONS}
         onToggle={() => setFiltersOpen((v) => !v)}
         onChange={handleChange}
         onApply={() => setFilters((prev) => ({ ...prev }))}
@@ -243,9 +297,15 @@ function extractFloors(data: Listing[]): string[] {
 }
 
 function normalizeListing(l: any): Listing {
+  const normalizedCity = (l.city ?? "belgrade").toString().toLowerCase();
+  const normalizedType = (l.listing_type ?? l.listingType ?? "apartment")
+    .toString()
+    .toLowerCase();
   return {
     id: Number(l.id ?? 0),
     block: l.block ?? l.block_code ?? "",
+    city: normalizedCity,
+    listing_type: normalizedType,
     title: l.title ?? "",
     price_eur:
       l.price_eur === null || l.price_eur === undefined
@@ -267,7 +327,7 @@ function normalizeListing(l: any): Listing {
         : Number(l.price_per_sqm),
     listing_date: l.listing_date ?? null,
     source_links: Array.isArray(l.source_links) ? l.source_links : [],
-      created_at: l.created_at ? new Date(l.created_at).toLocaleString() : null,
+    created_at: l.created_at ? new Date(l.created_at).toLocaleString() : null,
   };
 }
 

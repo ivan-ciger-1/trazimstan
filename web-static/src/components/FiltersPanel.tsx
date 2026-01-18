@@ -9,6 +9,7 @@ type FiltersPanelProps = {
   floorOptions: string[];
   blocks: Block[];
   sortOptions: { value: string; label: string }[];
+  listingTypeOptions: { value: string; label: string }[];
   onChange: (key: keyof Filters, value: string) => void;
   onToggle: () => void;
   onApply: () => void;
@@ -23,6 +24,7 @@ function FiltersPanel({
   floorOptions,
   blocks,
   sortOptions,
+  listingTypeOptions,
   onChange,
   onToggle,
   onApply,
@@ -62,6 +64,20 @@ function FiltersPanel({
               {blocks.map((b) => (
                 <option key={b.code} value={b.code}>
                   {b.name}
+                </option>
+              ))}
+            </select>
+          </FilterField>
+
+          <FilterField label="Listing type">
+            <select
+              className="input"
+              value={filters.listingType}
+              onChange={(e) => onChange("listingType", e.target.value)}
+            >
+              {listingTypeOptions.map((opt) => (
+                <option key={opt.value || "any"} value={opt.value}>
+                  {opt.label}
                 </option>
               ))}
             </select>

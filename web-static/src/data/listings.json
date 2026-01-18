@@ -1,7 +1,2446 @@
 [
   {
+    "id": 172,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "650.000€",
+    "price_eur": 650000,
+    "url": "https://www.4zida.rs/prodaja-placeva/misa-gradske-lokacije-pancevo/plac/691f3f5297f2fb51cc044cfc",
+    "thumbnail_url": "https://resizer2.4zida.rs/RTER8r9UZDkMXFKFzOrHRxLgeZGCjHWe4UErLr4BX_0/rs:fill:420:0:0/bG9jYWw6Ly8vNjkxZjNmNTI5N2YyZmI1MWNjMDQ0Y2ZjLzIwYmQxMDgwMWI.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/misa-gradske-lokacije-pancevo/plac/691f3f5297f2fb51cc044cfc"
+      }
+    ],
+    "dedupe_key": "164740e3ab76aed2f7f40fe110e6a529b4fea8ce",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 171,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "198.000€, 4 sobe",
+    "price_eur": 198000,
+    "rooms": 4,
+    "url": "https://www.4zida.rs/prodaja-placeva/misa-gradske-lokacije-pancevo/plac/69243f1889524bc2fb018029",
+    "thumbnail_url": "https://resizer2.4zida.rs/jyIfDH_6-VMiJJdSO-Nn2JrY31IhfGmiuxoT4z_Mhac/rs:fill:420:0:0/bG9jYWw6Ly8vNjkyNDNmMTg4OTUyNGJjMmZiMDE4MDI5LzljYjY5YjU3YTI.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/misa-gradske-lokacije-pancevo/plac/69243f1889524bc2fb018029"
+      }
+    ],
+    "dedupe_key": "8ab6cab01ba60dc146568e4b20f46eac67fc714f",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 169,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "900.000€",
+    "price_eur": 900000,
+    "url": "https://www.4zida.rs/prodaja-placeva/centar-gradske-lokacije-pancevo/plac/69383dcf318bcd89a70f7251",
+    "thumbnail_url": "https://resizer2.4zida.rs/2xn9amv_JBzEqpVhB-aXcY03VYPcmtSL70SKHkioKqQ/rs:fill:420:0:0/bG9jYWw6Ly8vNjkzODNkY2YzMThiY2Q4OWE3MGY3MjUxLzliMzcyMTM5MmM.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/centar-gradske-lokacije-pancevo/plac/69383dcf318bcd89a70f7251"
+      }
+    ],
+    "dedupe_key": "fd5c44d2cadfafba101f7fd5798f4cf76809256f",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 162,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "56.000€",
+    "price_eur": 56000,
+    "url": "https://www.4zida.rs/prodaja-kuca/topola-gradske-lokacije-pancevo/jednoetazna/69162120d372b7162700c886",
+    "thumbnail_url": "https://resizer2.4zida.rs/prvyWFfaq2bPl0uOzhvYICY_qfXYUd3QsbX8Yuhbqjk/rs:fill:420:0:0/bG9jYWw6Ly8vNjkxNjIxMjBkMzcyYjcxNjI3MDBjODg2Lzc1OGE5MDIyZDM.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/topola-gradske-lokacije-pancevo/jednoetazna/69162120d372b7162700c886"
+      }
+    ],
+    "dedupe_key": "9ad3346e16576d6cfda49cfd814a3fa88d3807aa",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 161,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "180.000€, 2 sobe",
+    "price_eur": 180000,
+    "rooms": 2,
+    "url": "https://www.4zida.rs/prodaja-kuca/misa-gradske-lokacije-pancevo/kuca/690a19a91e11735c7d0c3a60",
+    "thumbnail_url": "https://resizer2.4zida.rs/0f6uXlJieRrh1PQZFgBDewhj3XaeI_8SAybfs-hXp5s/rs:fill:420:0:0/bG9jYWw6Ly8vNjkwYTE5YTkxZTExNzM1YzdkMGMzYTYwL2Q3ODVmNTVlYTQ.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/misa-gradske-lokacije-pancevo/kuca/690a19a91e11735c7d0c3a60"
+      }
+    ],
+    "dedupe_key": "023e11bd75b29807b1a4fd4b8fb173be566ce12f",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 160,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "152.000€, 2 sobe",
+    "price_eur": 152000,
+    "rooms": 2,
+    "url": "https://www.4zida.rs/prodaja-kuca/centar-gradske-lokacije-pancevo/jednoetazna/691e310b5dc45ebc530f210c",
+    "thumbnail_url": "https://resizer2.4zida.rs/i5Y5LZgwhZjrgIDZmN75b2O_eZJP_pkO6smahxaQH2Y/rs:fill:420:0:0/bG9jYWw6Ly8vNjkxZTMxMGI1ZGM0NWViYzUzMGYyMTBjLzJiNGIzNjQyNzA.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/centar-gradske-lokacije-pancevo/jednoetazna/691e310b5dc45ebc530f210c"
+      }
+    ],
+    "dedupe_key": "7ea165a0f60b7f312af3c65d3ca8272d9c8f51cf",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 159,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "450.000€",
+    "price_eur": 450000,
+    "url": "https://www.4zida.rs/prodaja-kuca/gornji-grad-gradske-lokacije-pancevo/jednoetazna/6922112be12866ad550a92f3",
+    "thumbnail_url": "https://resizer2.4zida.rs/K6R_Nw4o6GPCBfv_JnOY9Bs9kj_KqGIJ32f22uy5BFM/rs:fill:420:0:0/bG9jYWw6Ly8vNjkyMjExMmJlMTI4NjZhZDU1MGE5MmYzL2ViOGM4ZTc2ZmU.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/gornji-grad-gradske-lokacije-pancevo/jednoetazna/6922112be12866ad550a92f3"
+      }
+    ],
+    "dedupe_key": "17f267e19a5097612ee7d859332ae271f0cb6790",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 158,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "85.000€, 5 sobe",
+    "price_eur": 85000,
+    "rooms": 5,
+    "url": "https://www.4zida.rs/prodaja-kuca/vojlovica-gradske-lokacije-pancevo/kuca/69249292c9370f60c9022266",
+    "thumbnail_url": "https://resizer2.4zida.rs/dYidDbCl2DnbMn6bQyTgUkY6qctc0wgENTsbZlYvI8U/rs:fill:420:0:0/bG9jYWw6Ly8vNjkyNDkyOTJjOTM3MGY2MGM5MDIyMjY2Lzg5NjgyMzE0MjM.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/vojlovica-gradske-lokacije-pancevo/kuca/69249292c9370f60c9022266"
+      }
+    ],
+    "dedupe_key": "a87195ca9c0498247931126a2a7b31a344b5717a",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 155,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "70.000€",
+    "price_eur": 70000,
+    "url": "https://www.4zida.rs/prodaja-kuca/centar-gradske-lokacije-pancevo/kuca/693c4e9e87d7e98b3d0e7932",
+    "thumbnail_url": "https://resizer2.4zida.rs/n-HJ1SpElVPNbjKYiBolVBW1NV71d0Zvwk8NWOJfB3I/rs:fill:420:0:0/bG9jYWw6Ly8vNjkzYzRlOWU4N2Q3ZTk4YjNkMGU3OTMyLzc3ODk4ZjA2YzQ.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/centar-gradske-lokacije-pancevo/kuca/693c4e9e87d7e98b3d0e7932"
+      }
+    ],
+    "dedupe_key": "43219a5df7c90485edabc2bc63e7e2d601c3c225",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 117,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "100.000€",
+    "price_eur": 100000,
+    "url": "https://www.4zida.rs/prodaja-placeva/misa-gradske-lokacije-pancevo/plac/692ad75138da26a0e6015cd6",
+    "thumbnail_url": "https://resizer2.4zida.rs/_aYDmwQyYnwAT5Rui0391qPAo_qE6_nrKEPo3o4D9s4/rs:fill:420:0:0/bG9jYWw6Ly8vNjkyYWQ3NTEzOGRhMjZhMGU2MDE1Y2Q2LzdhMmM2ZTgwYjU.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/misa-gradske-lokacije-pancevo/plac/692ad75138da26a0e6015cd6"
+      }
+    ],
+    "dedupe_key": "6f19daf0ed2f69198e4d9b1b8a065b1a6c60c429",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 114,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "11.900€",
+    "price_eur": 11900,
+    "url": "https://www.4zida.rs/prodaja-placeva/misa-gradske-lokacije-pancevo/gradjevinsko-zemljiste/691dced60890273496000231",
+    "thumbnail_url": "https://resizer2.4zida.rs/a_2gFC5cl2x9HP3HNx4yh26uvrYiTCunkYFCiApxUI8/rs:fill:420:0:0/bG9jYWw6Ly8vNjkxZGNlZDYwODkwMjczNDk2MDAwMjMxL2ExZjkyMTgzNWQ.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/misa-gradske-lokacije-pancevo/gradjevinsko-zemljiste/691dced60890273496000231"
+      }
+    ],
+    "dedupe_key": "3d5b53a2ec6e02ebf588acc1fafffaf8012dd858",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 66,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "",
+    "url": "https://www.halooglasi.com/baneri/nekretnine/prodaja-stambenog-prostora/-/5533547261852",
+    "thumbnail_url": "https://img.halooglasi.com/slike/baneri/bo700oktav-stambeni-5533547261852-2428-1.png",
+    "is_agency": false,
+    "is_duplicate": false,
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/baneri/nekretnine/prodaja-stambenog-prostora/-/5533547261852"
+      }
+    ],
+    "dedupe_key": "47867d1104f939a0b97fd1f82ab60649701ee09d",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 29,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Bavaništanski put, građevinski plac, povoljno",
+    "price_eur": 11900,
+    "size_m2": 48,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/bavanistanski-put-gradevinski-plac-povoljno/NkR_Jo7DaUO/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/wZrAMFypU_fss?st=J_qj7yYWWxH4BRmcRyg5Ld8NxgR9YE_wjbysMfAHbbg&ts=1763561875&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 247.92,
+    "listing_date": "2026-01-17",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/bavanistanski-put-gradevinski-plac-povoljno/NkR_Jo7DaUO/"
+      }
+    ],
+    "dedupe_key": "49aa9f3e9b788ee76c4cdcf133bd03e3dc2171d7",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 28,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Stara Misa, uknjižen građevinski plac",
+    "price_eur": 29500,
+    "size_m2": 584,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/stara-misa-uknjizen-gradevinski-plac/NkLylJjjdl-/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/GTonhtBN1_fss?st=pDtFLR9HpMGJF0wNgDWwT_wGMZygberyIISFylEn7zM&ts=1754690515&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 50.51,
+    "listing_date": "2026-01-17",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/stara-misa-uknjizen-gradevinski-plac/NkLylJjjdl-/"
+      }
+    ],
+    "dedupe_key": "1137bb8279373ae4d318325762663b480d90e574",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 27,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Odličan poslovni potencijal",
+    "price_eur": 100000,
+    "size_m2": 65,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/odlican-poslovni-potencijal/NkrcHfR58kI/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/Mb1pq2V3wT_fss?st=CsG0Gl19X5B875YdM-b4oHG_5eq_aGWksCPCxRprk9w&ts=1749188490&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1538.46,
+    "listing_date": "2026-01-17",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/odlican-poslovni-potencijal/NkrcHfR58kI/"
+      }
+    ],
+    "dedupe_key": "00dee31716eca8938bdbe1e9bd5aa1ef7dead583",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 26,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Voćnjak sa vikendicom",
+    "price_eur": 22000,
+    "size_m2": 2518,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/vocnjak-sa-vikendicom/Nkpvk27yf4H/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/qpQ0Iis3n_fss?st=gaydYoMxeiAbC5Qt-DyN7Lqufqk10q-epWQ1x9StjsY&ts=1746713734&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 8.74,
+    "listing_date": "2026-01-17",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/vocnjak-sa-vikendicom/Nkpvk27yf4H/"
+      }
+    ],
+    "dedupe_key": "71701a305634dc2ecf83a4bf2055114af6c37d10",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 25,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Plac blizu Lidla - dogovor",
+    "price_eur": 70000,
+    "size_m2": 962,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/plac-blizu-lidla-dogovor/NkLRW1Q62xH/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/4D4DR1_Mr_fss?st=1uQ-QsVA__O29s79ztDQ5C6b8cjf1a2HbD5rU1vvui4&ts=1745850169&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 72.77,
+    "listing_date": "2026-01-17",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/plac-blizu-lidla-dogovor/NkLRW1Q62xH/"
+      }
+    ],
+    "dedupe_key": "7e503774314e261090809fc513d6ea86835e4536",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 15,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Bez ulaganja, sa upotrebnom dozvolom",
+    "price_eur": 80000,
+    "size_m2": 57,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/bez-ulaganja-sa-upotrebnom-dozvolom/Nkd1V2cu01O/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/g3Mj8GzSX_fss?st=F11jQTBZcHvRJsRy1FpBXsmu3U_bvP8qGSehjslXhpQ&ts=1764348084&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 1403.51,
+    "listing_date": "2026-01-17",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/bez-ulaganja-sa-upotrebnom-dozvolom/Nkd1V2cu01O/"
+      },
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/bez-ulaganja-sa-upotrebnom-dozvolom/5425646418795?kid=1"
+      }
+    ],
+    "dedupe_key": "95380be79e137717c156e944a029b698897046c9",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 14,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Mirna lokacija, može na kredit",
+    "price_eur": 250000,
+    "size_m2": 209,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/mirna-lokacija-moze-na-kredit/Nk2pMca6oyy/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/4QpufOMhN_fss?st=UYSDv8WohCda_T51jY65KBVuSqSlSm7QEwp3mGRYPT0&ts=1768566307&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 1196.17,
+    "listing_date": "2026-01-17",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/mirna-lokacija-moze-na-kredit/Nk2pMca6oyy/"
+      },
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/mirna-lokacija-moze-na-kredit/5425646260943?kid=1"
+      }
+    ],
+    "dedupe_key": "12f0f2a352b4fb9402c6ae820a8d6ce5a584feca",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
     "id": 13,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Odlična lokacija",
+    "price_eur": 220000,
+    "size_m2": 200,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna-lokacija/NkziW0Mnhu8/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/Mv4xZiGq0_fss?st=Xh-5JScuJpeTdOqi7RtlnJcvxqzXFpWlF0ovCGVYWyo&ts=1759422847&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 1100,
+    "listing_date": "2026-01-17",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/odlicna-lokacija/NkziW0Mnhu8/"
+      },
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/odlicna-lokacija/5425646631508?kid=1"
+      }
+    ],
+    "dedupe_key": "3ea9c2a513fef07575e589414e2d03dcb41073f4",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 12,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Dva stana i lokal",
+    "price_eur": 280000,
+    "size_m2": 345,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/dva-stana-i-lokal/Nk-eTPqOhXw/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/iQz5zTcPh_fss?st=MtVJ90XwaY1913zHeYcEkFDt1c2Ps0ITB57uNMS7TQw&ts=1747476627&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 811.59,
+    "listing_date": "2026-01-17",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/dva-stana-i-lokal/Nk-eTPqOhXw/"
+      }
+    ],
+    "dedupe_key": "01579503a2513b91d81cd8314e9695ba5f1c8da7",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 11,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Velika porodična kuća",
+    "price_eur": 165000,
+    "size_m2": 359,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/velika-porodicna-kuca/NkykW-DmYLd/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/wIb-TEFwM_fss?st=OtDSQ9SxvgBmek_L0hHtv3e4DvPOUoIEXuQdvqUpwJU&ts=1738694657&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 459.61,
+    "listing_date": "2026-01-17",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/velika-porodicna-kuca/NkykW-DmYLd/"
+      },
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/velika-porodicna-kuca/5425646629863?kid=1"
+      }
+    ],
+    "dedupe_key": "9d3ad7c5daf10485dc7099b4c4190099098190b2",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 10,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Uknjižena kuća za renoviranje",
+    "price_eur": 53000,
+    "size_m2": 95,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/uknjizena-kuca-za-renoviranje/NkYh-y-el1L/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/dQqqj3X08_fss?st=ZC6MQgpqIj7BQg6kg-h1NoMtD83-hKNM40kbGl4sp-0&ts=1730732077&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 557.89,
+    "listing_date": "2026-01-17",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/uknjizena-kuca-za-renoviranje/NkYh-y-el1L/"
+      },
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/uknjizena-kuca-za-renoviranje/5425646629389?kid=1"
+      }
+    ],
+    "dedupe_key": "6eb88c6c4f1207a25011fc92967a6ba3f8dc1c17",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 9,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Placevi za investitore",
+    "price_eur": 299000,
+    "size_m2": 91,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/placevi-za-investitore/Nk6xBGPApO7/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/SBmC9zq3z4_fss?st=N0SfNDaXWdh_jxmR-NBOqNPn2owlgDsAZVki5pV5qOc&ts=1729791879&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3285.71,
+    "listing_date": "2026-01-17",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/placevi-za-investitore/Nk6xBGPApO7/"
+      }
+    ],
+    "dedupe_key": "f90cd8d60159c4992a74ecb7ddbdecb5413aa66f",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 8,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Tri stana sa pet kupatila",
+    "price_eur": 220000,
+    "size_m2": 309,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/tri-stana-sa-pet-kupatila/NkgnkIKJEM1/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/8SWFsr6rV_fss?st=7dZU04OBurfu-6EysgBjg17W3NRdR7x7djta-KY3ja4&ts=1712490875&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 711.97,
+    "listing_date": "2026-01-17",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/tri-stana-sa-pet-kupatila/NkgnkIKJEM1/"
+      },
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/tri-stana-sa-pet-kupatila/5425646629409?kid=1"
+      }
+    ],
+    "dedupe_key": "15a6952c30361c53327cc16003e598ed23c96066",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 7,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Vojlovica, dve stambene jedinice",
+    "price_eur": 180000,
+    "size_m2": 171,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/vojlovica-dve-stambene-jedinice/NkE5WKl1vL1/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/yfVxPd-A4b_fss?st=NDBQcDFEIHCVeIc86_jPE6jMYhb3Ookah9QHsxPl-SM&ts=1710168640&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 1052.63,
+    "listing_date": "2026-01-17",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/vojlovica-dve-stambene-jedinice/NkE5WKl1vL1/"
+      },
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vojlovica-dve-stambene-jedinice/5425646629411?kid=1"
+      }
+    ],
+    "dedupe_key": "2fcdae50e459bd3d2249ceef71262027ecf0406f",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 6,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Margita, blizina centra",
+    "price_eur": 140000,
+    "size_m2": 101,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/margita-blizina-centra/NkmeR7sHh4F/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/43cFuJRJs_fss?st=qoPtCizRhfrzxx2a6Py7zdBJKboSFDeOWaHAm0_w6kM&ts=1706897249&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 1386.14,
+    "listing_date": "2026-01-17",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/margita-blizina-centra/NkmeR7sHh4F/"
+      },
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/margita-blizina-centra/5425646629358?kid=1"
+      }
+    ],
+    "dedupe_key": "c44d44b8278eae12179f3f1beb6b38dfedb83fe0",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 168,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "180€",
+    "price_eur": 180,
+    "url": "https://www.4zida.rs/prodaja-placeva/margita-gradske-lokacije-pancevo/gradjevinsko-zemljiste/69392f31884be3e29c0f452a",
+    "thumbnail_url": "https://resizer2.4zida.rs/F156ErO-yTYzb3FXHrK-mcGzEmL_ByYtCH7-59qVxu0/rs:fill:420:0:0/bG9jYWw6Ly8vNjkzOTJmMzE4ODRiZTNlMjljMGY0NTJhLzBhY2NhZmI3NjU.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-16",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/margita-gradske-lokacije-pancevo/gradjevinsko-zemljiste/69392f31884be3e29c0f452a"
+      }
+    ],
+    "dedupe_key": "53dfd105213d4bf0c5ebfc3d04f232422c12c94e",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 149,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "123.300€",
+    "price_eur": 123300,
+    "url": "https://www.4zida.rs/prodaja-kuca/misa-gradske-lokacije-pancevo/jednoetazna/696917541cc376eded01a646",
+    "thumbnail_url": "https://resizer2.4zida.rs/pFOq_EMj6z_k3vCnmMbtZZtXSbqP0HT40SXraKmnpR8/rs:fill:420:0:0/bG9jYWw6Ly8vNjk2OTE3NTQxY2MzNzZlZGVkMDFhNjQ2LzlkNzU0OWY0NGI.webp#16",
+    "is_agency": false,
+    "is_duplicate": false,
+    "listing_date": "2026-01-16",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/misa-gradske-lokacije-pancevo/jednoetazna/696917541cc376eded01a646"
+      }
+    ],
+    "dedupe_key": "775c3dc96d3839e0b38c2d1caf4726fb63e9db5f",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 109,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Prodaja plac",
+    "price_eur": 20000,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/prodaja-plac/5425645456870?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250417/m/prodaja-plac-5425645456870-71811423910.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-16",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/prodaja-plac/5425645456870?kid=1"
+      }
+    ],
+    "dedupe_key": "66b5873d4d648e3cb42a457e9de2c7ac2264f976",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 108,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Broker - Vojlino prostranstvo",
+    "price_eur": 45000,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/broker---vojlino-prostranstvo/5425646362566?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251118/m/broker---vojlino-prostranstvo-5425646362566-71813769493.jpg",
+    "is_agency": true,
+    "is_duplicate": true,
+    "listing_date": "2026-01-16",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/broker---vojlino-prostranstvo/5425646362566?kid=1"
+      },
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/vojlovica-gradske-lokacije-pancevo/plac/691c9c76ba843afe9f0c65e2"
+      }
+    ],
+    "dedupe_key": "9ca8c2f9b00601031acbc0c2a94e83aaf05b85c0",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 64,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Karaula, pr+sprat, 160m2 na 3,94 ara",
+    "price_eur": 180000,
+    "size_m2": 160,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/karaula-prsprat-160m2-na-3-94-ara/5425646362516?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251118/m/karaula-prsprat-160m2-na-3-94-ara-5425646362516-71813773263.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1125,
+    "listing_date": "2026-01-16",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/karaula-prsprat-160m2-na-3-94-ara/5425646362516?kid=1"
+      }
+    ],
+    "dedupe_key": "424f3b9c4905519009478d4c3d9e32a35b7fb3af",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 44,
+    "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
+    "title": "Belvil, 106m2, VII, cg",
+    "price_eur": 399000,
+    "size_m2": 106,
+    "rooms": 3,
+    "floor": 7,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/belvil-106m2-vii-cg/5425645798789?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250721/m/belvil-106m2-vii-cg-5425645798789-71812365702.jpg",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 3764.15,
+    "listing_date": "2026-01-16",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/belvil-106m2-vii-cg/5425645798789?kid=1"
+      },
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/belvil-106m2-vii-cg/NkJaM82Z1xC/"
+      },
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd/trosoban-stan/68b5d6ffbff1f456bb08c2bf"
+      }
+    ],
+    "dedupe_key": "b67cd2952a847326a6d072631e2c175cfbbd6415",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 3,
+    "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
+    "title": "Novi Beograd - Savada 3 ID#5265",
+    "price_eur": 320000,
+    "size_m2": 90,
+    "rooms": 4,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-savada-3-id5265/NkoycLED4oR/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/m_lfN59V0_fss?st=1ScRX85JtTCBdxF0c41Tc_aT3Mmu3p6H2J9-6t1U0ek&ts=1757599425&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 3555.56,
+    "listing_date": "2026-01-16",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-savada-3-id5265/NkoycLED4oR/"
+      },
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-stanova/a-blok-blok-67a-novi-beograd-beograd/troiposoban-stan/68c2bc334099de033e0b925e"
+      }
+    ],
+    "dedupe_key": "22885d743f856a8889f1415836219b0704b4ed9d",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 111,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Plac za izgradnju u lepoj ulici u Gornjem gradu",
+    "price_eur": 180000,
+    "size_m2": 57,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/plac-za-izgradnju-u-lepoj-ulici-u-gornjem-gra/5425646629892",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/260114/m/plac-za-izgradnju-u-lepoj-ulici-u-gornjem-gra-5425646629892-71814357594.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3157.89,
+    "listing_date": "2026-01-15",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/plac-za-izgradnju-u-lepoj-ulici-u-gornjem-gra/5425646629892"
+      }
+    ],
+    "dedupe_key": "5a2553db37c932e358e44314604353f600b60b81",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 65,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Prodaje Se KuĆa U PanČevu - Dolovu",
+    "price_eur": 45000,
+    "size_m2": 141,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaje-se-kuca-u-pancevu---dolovu/5425646227457?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251023/m/prodaje-se-kuca-u-pancevu---dolovu-5425646227457-71813439110.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 319.15,
+    "listing_date": "2026-01-15",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaje-se-kuca-u-pancevu---dolovu/5425646227457?kid=1"
+      }
+    ],
+    "dedupe_key": "f1e11e3e305ca3c6e7e986aebf81077a33850277",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 48,
+    "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
+    "title": "Lastavica novogradnja Novi Beograd",
+    "price_eur": 379000,
+    "size_m2": 82,
+    "rooms": 3,
+    "floor": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/lastavica-novogradnja-novi-beograd/5425646638781?kid=4",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/260116/m/lastavica-novogradnja-novi-beograd-5425646638781-71814381003.jpg",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 4621.95,
+    "listing_date": "2026-01-15",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/lastavica-novogradnja-novi-beograd/5425646638781?kid=4"
+      },
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/jurija-gagarina-novi-beograd-delta-city-id7290/NkrDqFndHOS/"
+      },
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-stanova/a-blok-blok-67a-novi-beograd-beograd/trosoban-stan/6942915913c08b914f01132e"
+      }
+    ],
+    "dedupe_key": "973fd0291936bd650c5b55eeafdc21a7f57282f2",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 45,
     "block": "blok-33",
+    "city": "belgrade",
+    "listing_type": "apartment",
+    "title": "Petosoban, Genex, uknjižen",
+    "price_eur": 399000,
+    "size_m2": 122,
+    "rooms": 5,
+    "floor": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/petosoban-genex-uknjizen/5425645965297?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250828/m/cetvoroiposoban-generalice-uknjizen-5425645965297-71812756324.jpg",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 3270.49,
+    "listing_date": "2026-01-15",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/petosoban-genex-uknjizen/5425645965297?kid=1"
+      },
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/prodaje-se-4stan-u-bloku-33-uknjizen-id18807/NkaCIfRQ6a7/"
+      },
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-stanova/blok-33-geneks-novi-beograd-beograd/cetvoroiposoban-stan/69037f55ad309032d9061f0c"
+      }
+    ],
+    "dedupe_key": "ab502df9f4158386a9ba377a157495efa5d00891",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 2,
+    "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
+    "title": "Novi Beograd, Belvil, trosoban sa garažom ID#1345",
+    "price_eur": 369000,
+    "size_m2": 101,
+    "rooms": 3,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-belvil-trosoban-sa-garazom-id1345/Nknrgt7TgOA/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/U2OOyPkA0L_fss?st=faWB4cHslxihyO9_GV8Ffl97yAoOI_Izke0NCjVkyJc&ts=1767026162&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 3653.47,
+    "listing_date": "2026-01-15",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-belvil-trosoban-sa-garazom-id1345/Nknrgt7TgOA/"
+      },
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-belvil-trosoban-sa-garazom-id134/5425646537759?kid=4"
+      },
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd/trosoban-stan/694acac9eff75f446c0e8631"
+      }
+    ],
+    "dedupe_key": "0cf2d48b357951f3d2c3e69f14a784914b425129",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 157,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "150.000€",
+    "price_eur": 150000,
+    "url": "https://www.4zida.rs/prodaja-kuca/streliste-gradske-lokacije-pancevo/kuca/6931b483aa320efc590b1b99",
+    "thumbnail_url": "https://resizer2.4zida.rs/3w7Tvv7W-LxN4pvoNFV_7AlZI8pKpo_36WwTViktQWY/rs:fill:420:0:0/bG9jYWw6Ly8vNjkzMWI0ODNhYTMyMGVmYzU5MGIxYjk5LzI2NmM5YjU2ZmM.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-14",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/streliste-gradske-lokacije-pancevo/kuca/6931b483aa320efc590b1b99"
+      }
+    ],
+    "dedupe_key": "0d90d36a523b5f4201b79d0cb039fce7f8a4ca07",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 113,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Bavaništanski put, građevinski plac, povoljno",
+    "price_eur": 11900,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/bavanistanski-put-gradjevinski-plac-povoljno/5425646368488?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251119/m/bavanistanski-put-gradjevinski-plac-povoljno-5425646368488-71813783742.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-14",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/bavanistanski-put-gradjevinski-plac-povoljno/5425646368488?kid=1"
+      }
+    ],
+    "dedupe_key": "49aa9f3e9b788ee76c4cdcf133bd03e3dc2171d7",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 112,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Stara Misa, uknjižen građevinski plac",
+    "price_eur": 29500,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/stara-misa-uknjizen-gradjevinski-plac/5425646631524?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/260115/m/stara-misa-uknjizen-gradjevinski-plac-5425646631524-71814362482.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-14",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/stara-misa-uknjizen-gradjevinski-plac/5425646631524?kid=1"
+      }
+    ],
+    "dedupe_key": "1137bb8279373ae4d318325762663b480d90e574",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 67,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Pančevo - Misa",
+    "price_eur": 179000,
+    "size_m2": 260,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/pancevo---misa/5425645197295?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250203/m/pancevo---misa-5425645197295-71810683976.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 688.46,
+    "listing_date": "2026-01-14",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/pancevo---misa/5425645197295?kid=1"
+      }
+    ],
+    "dedupe_key": "8f0b46c441d8ec1475c3059b0a6c980412f73a47",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 5,
+    "block": "blok-33",
+    "city": "belgrade",
+    "listing_type": "apartment",
+    "title": "Bulevar Arsenija Čarnojevića, Blok 33, Novi Beograd ID#5160",
+    "price_eur": 270000,
+    "size_m2": 90,
+    "rooms": 5,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/bulevar-arsenija-carnojevica-blok-33-novi-beograd-id5160/NkBWx5tagCl/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/ONIboG0g1_fss?st=aW0GAp7SAOFJfleckdTar1DHqT9ahh-orh1TgI-risw&ts=1708625018&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 3000,
+    "listing_date": "2026-01-14",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/bulevar-arsenija-carnojevica-blok-33-novi-beograd-id5160/NkBWx5tagCl/"
+      },
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bulevar-arsenija-carnojevica-blok-33-novi-beo/5425645379042?kid=1"
+      }
+    ],
+    "dedupe_key": "abf48afd58226b766a66b0785e22056cf5a3511a",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 150,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "207.500€",
+    "price_eur": 207500,
+    "url": "https://www.4zida.rs/prodaja-kuca/misa-gradske-lokacije-pancevo/troeatazna/6963c9c85793aec3c2070179",
+    "thumbnail_url": "https://resizer2.4zida.rs/TfrUfMjlXPaHMGEkuztdfFim5i1bQsCRmuGninxKH_I/rs:fill:420:0:0/bG9jYWw6Ly8vNjk2M2M5Yzg1NzkzYWVjM2MyMDcwMTc5LzY0NjBkMmJhNWM.webp#16",
+    "is_agency": false,
+    "is_duplicate": false,
+    "listing_date": "2026-01-13",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/misa-gradske-lokacije-pancevo/troeatazna/6963c9c85793aec3c2070179"
+      }
+    ],
+    "dedupe_key": "70117eb45da36a10bafe43a3cb200f8ff8267f26",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 121,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Plac na Strelištu",
+    "price_eur": 55000,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/plac-na-strelistu/5425646188263?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251020/m/plac-na-strelistu-5425646188263-71813387267.jpg",
+    "is_agency": true,
+    "is_duplicate": true,
+    "listing_date": "2026-01-13",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/plac-na-strelistu/5425646188263?kid=1"
+      },
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/margita-gradske-lokacije-pancevo/gradjevinsko-zemljiste/693350105d48bbc43e02e453"
+      }
+    ],
+    "dedupe_key": "a1046575c806a51ebe036a17fd5a0cad0374f71e",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 120,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Misa, dva placa 6,54 ari+ 8,66ari",
+    "price_eur": 114000,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/misa-dva-placa-6-54-ari-8-66ari/5425646494772?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251215/m/misa-dva-placa-6-54-ari-8-66ari-5425646494772-71814074465.jpg",
+    "is_agency": true,
+    "is_duplicate": true,
+    "listing_date": "2026-01-13",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/misa-dva-placa-6-54-ari-8-66ari/5425646494772?kid=1"
+      },
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/misa-gradske-lokacije-pancevo/gradjevinsko-zemljiste/693ffadda9bc2efcd80cf122"
+      }
+    ],
+    "dedupe_key": "2dfbbab285d8b5972ea6905f5532669f1929ee9b",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 118,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Broker - ,,Bio si poziv koji se ne odbija!''",
+    "price_eur": 89000,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/broker---bio-si-poziv-koji-se-ne-odbija/5425646494799?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251215/m/broker---bio-si-poziv-koji-se-ne-odbija-5425646494799-71814073756.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-13",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/broker---bio-si-poziv-koji-se-ne-odbija/5425646494799?kid=1"
+      }
+    ],
+    "dedupe_key": "77cb4e8a6e4c6aa111ffc2b58830685a7b554754",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 116,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Odličan poslovni potencijal",
+    "price_eur": 100000,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/odlican-poslovni-potencijal/5425646629440?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/260114/m/odlican-poslovni-potencijal-5425646629440-71814355825.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-13",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/odlican-poslovni-potencijal/5425646629440?kid=1"
+      }
+    ],
+    "dedupe_key": "00dee31716eca8938bdbe1e9bd5aa1ef7dead583",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 115,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Plac blizu Lidla - dogovor",
+    "price_eur": 70000,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/plac-blizu-lidla---dogovor/5425646629454?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/260114/m/plac-blizu-lidla---dogovor-5425646629454-71814355920.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-13",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/plac-blizu-lidla---dogovor/5425646629454?kid=1"
+      }
+    ],
+    "dedupe_key": "7e503774314e261090809fc513d6ea86835e4536",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 54,
+    "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
+    "title": "A blok, lux penthouse, dupleks, dve garaže,ID24853",
+    "price_eur": 550000,
+    "size_m2": 128,
+    "rooms": 4,
+    "floor": 12,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok-lux-penthouse-dupleks-dve-garaze-id248/5425646109841?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250929/m/a-blok-lux-penthouse-dupleks-dve-garaze-id248-5425646109841-71813137662.jpg",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 4296.88,
+    "listing_date": "2026-01-13",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok-lux-penthouse-dupleks-dve-garaze-id248/5425646109841?kid=1"
+      },
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/68da6a40b8059a2f920f8b8f"
+      }
+    ],
+    "dedupe_key": "3c3dc121395c8159c425e09a9e4f7db85742781d",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 52,
+    "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
+    "title": "Prodaja stana 97m2, Belville",
+    "price_eur": 360000,
+    "size_m2": 97,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stana-97m2-belville/5425645775757?kid=3",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250716/m/prodaja-dva-spojena-stana-97m246m2-belville-5425645775757-71812311014.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3711.34,
+    "listing_date": "2026-01-13",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stana-97m2-belville/5425645775757?kid=3"
+      }
+    ],
+    "dedupe_key": "3619bd31648b752dbe4f56fe0c3b56fe1c2708bf",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 51,
+    "block": "blok-38",
+    "city": "belgrade",
+    "listing_type": "apartment",
+    "title": "Prodaja stana blok 38 cetvorosoban vlasnik",
+    "price_eur": 340000,
+    "size_m2": 92,
+    "rooms": 4,
+    "floor": 7,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stana-blok-38-cetvorosoban-vlasnik/5425646289801",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251104/m/prodaja-stana-blok-38-cetvorosoban-vlasnik-5425646289801-71813582292.jpg",
+    "is_agency": false,
+    "is_duplicate": false,
+    "price_per_sqm": 3695.65,
+    "listing_date": "2026-01-13",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stana-blok-38-cetvorosoban-vlasnik/5425646289801"
+      }
+    ],
+    "dedupe_key": "3f97602142a9e3a3a8b40b8e3641327aaed563aa",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 17,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Kuća Pančevo ID#2273",
+    "price_eur": 42000,
+    "size_m2": 85,
+    "rooms": 4,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-pancevo-id2273/NkePNI8kLpu/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/puxFahYrb_fss?st=X3VLzXGxmW-pI7QpAxntZnK1syzO3cbsf83-nj_HzRM&ts=1752696109&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 494.12,
+    "listing_date": "2026-01-13",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-pancevo-id2273/NkePNI8kLpu/"
+      }
+    ],
+    "dedupe_key": "f21fc65e50b505be0886b74cddf6aeb798eb9d95",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 16,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Kuca u Topoli",
+    "price_eur": 25000,
+    "size_m2": 50,
+    "rooms": 4,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-u-topoli/NkAKY7N17Pn/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/yQRI3cCFc_fss?st=iBZj9btljq1AbwNh5HgnQC5nQykg0HvF1xzMmTpYTro&ts=1768394325&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 500,
+    "listing_date": "2026-01-13",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-u-topoli/NkAKY7N17Pn/"
+      }
+    ],
+    "dedupe_key": "00a5802daf54468e6a4dc2cb191de8c9b2fd45fa",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 147,
+    "block": "blok-33",
+    "city": "belgrade",
+    "listing_type": "apartment",
+    "title": "327.800€, 84m², 3 sobe",
+    "price_eur": 327800,
+    "size_m2": 84,
+    "rooms": 3,
+    "url": "https://www.4zida.rs/prodaja-stanova/blok-33-geneks-novi-beograd-beograd/trosoban-stan/6899ceaeeca3e45d180688ff",
+    "thumbnail_url": "https://resizer2.4zida.rs/4AZ2ah9RDYED_hjiiUUebozv_TmOVVls57hnzc-6Ypw/rs:fill:420:0:0/bG9jYWw6Ly8vNjg5OWNlYWVlY2EzZTQ1ZDE4MDY4OGZmLzU5YWRjYmM1OTI.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3902.38,
+    "listing_date": "2026-01-12",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-stanova/blok-33-geneks-novi-beograd-beograd/trosoban-stan/6899ceaeeca3e45d180688ff"
+      }
+    ],
+    "dedupe_key": "1cd2f640f6c0940a6d1d90f7481be801e63c3b19",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 122,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Plac u Pelisterskoj",
+    "price_eur": 15000,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/plac-u-pelisterskoj/5425646622834?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/260113/m/plac-u-pelisterskoj-5425646622834-71814339462.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-12",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/plac-u-pelisterskoj/5425646622834?kid=1"
+      }
+    ],
+    "dedupe_key": "db28c01af8599f1403e1b158b28f57ac991cce2e",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 68,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Vikendica pored Dunava",
+    "price_eur": 16000,
+    "size_m2": 50,
+    "rooms": 3,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vikendica-pored-dunava/5425646590627",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/260105/m/vikendica-pored-dunava-5425646590627-71814273506.jpg",
+    "is_agency": false,
+    "is_duplicate": false,
+    "price_per_sqm": 320,
+    "listing_date": "2026-01-12",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/vikendica-pored-dunava/5425646590627"
+      }
+    ],
+    "dedupe_key": "7d0fde832d5057ff128839fb8c5ed411a457ecf6",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 32,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Pančevo Misa - građevinsko zemljište ID#1173",
+    "price_eur": 1095000,
+    "size_m2": 365,
+    "rooms": 3,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/pancevo-misa-gradevinsko-zemljiste-id1173/NkzsOJxapvg/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/66ngNLSfn_fss?st=NM7ol4fpzQsxndUNV9IK6Fv2izD616Qe4n9RD-I2pw8&ts=1739355035&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3000,
+    "listing_date": "2026-01-12",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/pancevo-misa-gradevinsko-zemljiste-id1173/NkzsOJxapvg/"
+      }
+    ],
+    "dedupe_key": "2c349b73cd719c7e7df263c0cf8fc8a4769218de",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 31,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Plac Pančevo, 7.3ara ID#10203",
+    "price_eur": 119000,
+    "size_m2": 73,
+    "rooms": 3,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/plac-pancevo-73ara-id10203/NkkGuWwdYrk/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/ozAPewokGi_fss?st=AdxuAs6YaHkglBkVymgDJPnh7XLGSPPDGsy-Q2akmXs&ts=1741451935&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1630.14,
+    "listing_date": "2026-01-12",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/plac-pancevo-73ara-id10203/NkkGuWwdYrk/"
+      }
+    ],
+    "dedupe_key": "7073afd1ba91ff31b38d4a2ecad6049a621141f2",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 30,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Plac Pančevo ,odlična lokacija ID#9819",
+    "price_eur": 2000000,
+    "size_m2": 278,
+    "rooms": 3,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/plac-pancevo-odlicna-lokacija-id9819/NkeDi8kxbte/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/snlOpsJrc_fss?st=DPJ4LMdwPVXhjAeeWEgwvEbuQj6tGN6t3CFO_cm2l4k&ts=1705517503&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 7194.24,
+    "listing_date": "2026-01-12",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/plac-pancevo-odlicna-lokacija-id9819/NkeDi8kxbte/"
+      }
+    ],
+    "dedupe_key": "583c4fbfa38a1c69fc3601f1aa5731ef99d1b417",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 20,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Pančevo, uknjižena kuća 40m2 ID#12730",
+    "price_eur": 95000,
+    "size_m2": 40,
+    "rooms": 3,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/pancevo-uknjizena-kuca-40m2-id12730/NklD1O0peCn/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/v697AnRJr_fss?st=1qgEO0cUdJ3-DOGXTVWzTmSYrvT8P1eLJFAujf8B6q4&ts=1761746835&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 2375,
+    "listing_date": "2026-01-12",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/pancevo-uknjizena-kuca-40m2-id12730/NklD1O0peCn/"
+      },
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/pancevo-uknjizena-kuca-40m2-id12730/5425646260263?kid=1"
+      }
+    ],
+    "dedupe_key": "d00ef2292ad7550dc53fbcfede465a3658ab1beb",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 19,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Pančevo, funkcionalna kuća, uknjižena ID#11828",
+    "price_eur": 269000,
+    "size_m2": 193,
+    "rooms": 3,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/pancevo-funkcionalna-kuca-uknjizena-id11828/Nk1UO07cDcJ/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/uQ1ztWpgR_fss?st=ig0TNyoDyY5LMVcW6Bpp-USflva75l-dS2oogWR6BsE&ts=1754692902&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1393.78,
+    "listing_date": "2026-01-12",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/pancevo-funkcionalna-kuca-uknjizena-id11828/Nk1UO07cDcJ/"
+      }
+    ],
+    "dedupe_key": "55fb32ee1056b7981012b19fe8832089ae05a95f",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 18,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Pančevo, Starčevo, 235m2 ID#10713",
+    "price_eur": 235000,
+    "size_m2": 235,
+    "rooms": 3,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/pancevo-starcevo-235m2-id10713/NkkFw6XOFnI/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/lNm2KzseN_fss?st=WyF6U1dZEsV14REATvjpZ1P9VIIE2BnRbBVAxO_oaQw&ts=1745590144&e=0",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 1000,
+    "listing_date": "2026-01-12",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/pancevo-starcevo-235m2-id10713/NkkFw6XOFnI/"
+      },
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/pancevo-starcevo-235m2-id10713/5425645484168?kid=1"
+      }
+    ],
+    "dedupe_key": "6827755e4313e4d5e57c886db08b3a71a07103f9",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 152,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "290.000€",
+    "price_eur": 290000,
+    "url": "https://www.4zida.rs/prodaja-kuca/gradske-lokacije-pancevo/dvoetazna/696270a5bdd7c185dd0d28c8",
+    "thumbnail_url": "https://resizer2.4zida.rs/aHJuUy64NF_KZ4_tcBtkal1hSLjn6EjSuB0dl7ioR7E/rs:fill:420:0:0/bG9jYWw6Ly8vNjk2MjcwYTViZGQ3YzE4NWRkMGQyOGM4LzU4YjI4MDMyMzE.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-11",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/gradske-lokacije-pancevo/dvoetazna/696270a5bdd7c185dd0d28c8"
+      }
+    ],
+    "dedupe_key": "90f084721a5fd52719bf253a283d508ebf7c0115",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 151,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "350.000€",
+    "price_eur": 350000,
+    "url": "https://www.4zida.rs/prodaja-kuca/stara-misa-gradske-lokacije-pancevo/troeatazna/6962823d6b62770473041fea",
+    "thumbnail_url": "https://resizer2.4zida.rs/o8iFLxCqq0i8KPwFx-zJX04mJEhhj3bsNtruVrazrvI/rs:fill:420:0:0/bG9jYWw6Ly8vNjk2MjgyM2Q2YjYyNzcwNDczMDQxZmVhL2Q4ZDYxM2QxZmM.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-11",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/stara-misa-gradske-lokacije-pancevo/troeatazna/6962823d6b62770473041fea"
+      }
+    ],
+    "dedupe_key": "382f913cdd83f216efa174e477da0cfc0fd047a8",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 124,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "65 ari na Bavaništanskom putu sa 16m fronta!",
+    "price_eur": 94000,
+    "size_m2": 6532,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/65-ari-na-bavanistanskom-putu-sa-16m-fronta/5425645548903?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250515/m/65-ari-na-bavanistanskom-putu-sa-16m-fronta-5425645548903-71811679525.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 14.39,
+    "listing_date": "2026-01-11",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/65-ari-na-bavanistanskom-putu-sa-16m-fronta/5425645548903?kid=1"
+      }
+    ],
+    "dedupe_key": "baddf7edb2fe4637c081826a3084fb95dc29758b",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 123,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Broker - Plac za biznis, plac za halu",
+    "price_eur": 140000,
+    "size_m2": 67,
+    "rooms": 2,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/broker---plac-za-biznis-plac-za-halu/5425646334580?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251113/m/broker---na-kraj-sela-siva-kuca-5425646334580-71813704065.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 2089.55,
+    "listing_date": "2026-01-11",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/broker---plac-za-biznis-plac-za-halu/5425646334580?kid=1"
+      }
+    ],
+    "dedupe_key": "01e4a5e60be7cab3ea2d895b0fa67c5900695229",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 69,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Prodajem kuću",
+    "price_eur": 250000,
+    "size_m2": 130,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodajem-kucu/5425646322927?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251110/m/prodajem-kucu-5425646322927-71813670347.jpg",
+    "is_agency": false,
+    "is_duplicate": false,
+    "price_per_sqm": 1923.08,
+    "listing_date": "2026-01-11",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prodajem-kucu/5425646322927?kid=1"
+      }
+    ],
+    "dedupe_key": "b4183c9e86a7845c8bdaaa5997e2facaa08143e6",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 53,
+    "block": "blok-33",
+    "city": "belgrade",
+    "listing_type": "apartment",
+    "title": "Odličan stan u Genex-u, III",
+    "price_eur": 249900,
+    "size_m2": 86,
+    "rooms": 3,
+    "floor": 3,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-stan-u-genex-u-iii/5425646396481?kid=3",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251213/m/odlican-stan-u-genex-u-iii-5425646396481-71814055565.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 2905.81,
+    "listing_date": "2026-01-11",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-stan-u-genex-u-iii/5425646396481?kid=3"
+      }
+    ],
+    "dedupe_key": "12ffaac4af1fd8a6928253a635912c15151092f8",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 127,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Drugo srpsko polje, 53,25 ari",
+    "price_eur": 65000,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/drugo-srpsko-polje-53-25-ari/5425646175422?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251013/m/drugo-srpsko-polje-53-25-ari-5425646175422-71813299510.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-10",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/drugo-srpsko-polje-53-25-ari/5425646175422?kid=1"
+      }
+    ],
+    "dedupe_key": "476b7baee8cd2e0782234e7e2ce6cde6674b9b13",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 126,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Centar, plac od 4,27 ari",
+    "price_eur": 95000,
+    "size_m2": 427,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/centar-plac-od-4-27-ari/5425645776892?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250717/m/centar-plac-od-4-27-ari-5425645776892-71812328435.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 222.48,
+    "listing_date": "2026-01-10",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/centar-plac-od-4-27-ari/5425645776892?kid=1"
+      }
+    ],
+    "dedupe_key": "ebfc1587bef01c6ef68466fd3705d4e325c56493",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 125,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Prelep plac sa vikendicom za renoviranje!",
+    "price_eur": 21000,
+    "rooms": 1,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/prelep-plac-sa-vikendicom-za-renoviranje/5425645829641?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250728/m/prep-plac-sa-vikendicom-za-renoviranje-5425645829641-71812434112.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-10",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/prelep-plac-sa-vikendicom-za-renoviranje/5425645829641?kid=1"
+      }
+    ],
+    "dedupe_key": "aaf23c0c87df512e3b398b4b924a44c853c07196",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 77,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Donji Grad 170m2 na 1,99ari",
+    "price_eur": 150000,
+    "size_m2": 170,
+    "rooms": 3,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/donji-grad-170m2-na-1-99ari/5425645951902?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250825/m/donji-grad-170m2-na-1-99ari-5425645951902-71812720484.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 882.35,
+    "listing_date": "2026-01-10",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/donji-grad-170m2-na-1-99ari/5425645951902?kid=1"
+      }
+    ],
+    "dedupe_key": "91d207d87eb0c4696b59891ae08388e730b42223",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 76,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Jabuka spratna nedovršena kuća (legalizovana)PR +",
+    "price_eur": 60000,
+    "size_m2": 276,
+    "rooms": 1,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/jabuka-spratna-nedovrsena-kuca-legalizovanapr/5425646175420?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251013/m/jabuka-spratna-nedovrsena-kuca-legalizovanapr-5425646175420-71813299496.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 217.39,
+    "listing_date": "2026-01-10",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/jabuka-spratna-nedovrsena-kuca-legalizovanapr/5425646175420?kid=1"
+      }
+    ],
+    "dedupe_key": "4e8d943a6a7383b137cf5b2536af7ba78302f032",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 75,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Tesla, 136m2 na 10,77 ari placa",
+    "price_eur": 250000,
+    "size_m2": 136,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/tesla-136m2-na-10-77-ari-placa/5425646175413?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251013/m/tesla-136m2-na-10-77-ari-placa-5425646175413-71813299120.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1838.24,
+    "listing_date": "2026-01-10",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/tesla-136m2-na-10-77-ari-placa/5425646175413?kid=1"
+      }
+    ],
+    "dedupe_key": "21905a0eec780d214b737ec0742dbb2ece702580",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 74,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Stara Misa, 156m2 na 5 ari placa",
+    "price_eur": 170000,
+    "size_m2": 156,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/stara-misa-156m2-na-5-ari-placa/5425646175411?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251013/m/stara-misa-156m2-na-5-ari-placa-5425646175411-71813299098.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1089.74,
+    "listing_date": "2026-01-10",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/stara-misa-156m2-na-5-ari-placa/5425646175411?kid=1"
+      }
+    ],
+    "dedupe_key": "55e3315f1ad9a9cb3c479fe787f219c7d43cb829",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 73,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Bavaništanski Put 112m2 na 3,55 ari placa",
+    "price_eur": 85000,
+    "size_m2": 112,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/bavanistanski-put-112m2-na-3-55-ari-placa/5425646175410?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251013/m/bavanistanski-put-112m2-na-3-55-ari-placa-5425646175410-71813299087.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 758.93,
+    "listing_date": "2026-01-10",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/bavanistanski-put-112m2-na-3-55-ari-placa/5425646175410?kid=1"
+      }
+    ],
+    "dedupe_key": "933c5e3c256ac598f334a4da7a8a42f3ee0f305c",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 72,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Centar, 120m2, spratna na 1,43 ari placa",
+    "price_eur": 85000,
+    "size_m2": 120,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/centar-120m2-spratna-na-1-43-ari-placa/5425645776893?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250717/m/centar-120m2-spratna-na-1-43-ari-placa-5425645776893-71812328446.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 708.33,
+    "listing_date": "2026-01-10",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/centar-120m2-spratna-na-1-43-ari-placa/5425645776893?kid=1"
+      }
+    ],
+    "dedupe_key": "ebe0085dcd08c82964f1034372ed323f9576c58c",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 71,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Bavaništanski Put 57m2 na 6,76 ari",
+    "price_eur": 83000,
+    "size_m2": 57,
+    "rooms": 3,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/bavanistanski-put-57m2-na-6-76-ari/5425645963523?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250828/m/bavanistanski-put-57m2-na-6-76-ari-5425645963523-71812762525.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1456.14,
+    "listing_date": "2026-01-10",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/bavanistanski-put-57m2-na-6-76-ari/5425645963523?kid=1"
+      }
+    ],
+    "dedupe_key": "2fe43bd2acde1ffe54a944f9cf6ba8d644beb1dd",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 70,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Kuća bez ulaganja!Idealno za miran porodični život",
+    "price_eur": 180000,
+    "size_m2": 150,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-bez-ulaganjaidealno-za-miran-porodicni-z/5425646305452?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251107/m/kuca-bez-ulaganjaidealno-za-miran-porodicni-z-5425646305452-71813628140.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1200,
+    "listing_date": "2026-01-10",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-bez-ulaganjaidealno-za-miran-porodicni-z/5425646305452?kid=1"
+      }
+    ],
+    "dedupe_key": "fc7f459e1078e71c7084ad03e01368efde4c5371",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 163,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "348.900€",
+    "price_eur": 348900,
+    "url": "https://www.4zida.rs/prodaja-kuca/centar-gradske-lokacije-pancevo/kuca/6911f4ee9bea7a21dd05cb54",
+    "thumbnail_url": "https://resizer2.4zida.rs/iKOzmx-p0YyCOuFbnPOddO7OqyElkf6lyOv4Tqra3BE/rs:fill:420:0:0/bG9jYWw6Ly8vNjkxMWY0ZWU5YmVhN2EyMWRkMDVjYjU0LzJhZjljOWQ3ZDI.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-09",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/centar-gradske-lokacije-pancevo/kuca/6911f4ee9bea7a21dd05cb54"
+      }
+    ],
+    "dedupe_key": "d44efafd10e7ef81566b1fcad5394528fe2bed10",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 78,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Pančevo - Ivanovo",
+    "price_eur": 105000,
+    "size_m2": 262,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/pancevo---ivanovo/5425646154356?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251008/m/pancevo---ivanovo-5425646154356-71813249595.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 400.76,
+    "listing_date": "2026-01-09",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/pancevo---ivanovo/5425646154356?kid=1"
+      }
+    ],
+    "dedupe_key": "dba81acdd8b84b4fa85ebfcf2cfd092765979a53",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 21,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Centar 4.0 kuća sa dva lokala i garažom",
+    "price_eur": 290000,
+    "size_m2": 218,
+    "rooms": 4,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/centar-40-kuca-sa-dva-lokala-i-garazom/NkXMnk3IOQo/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/_zmikp5gn_fss?st=3ENv4wJEROkAVEWNU1cTWK9_A8SJ7_rEukJNBVWkQRI&ts=1768060419&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1330.28,
+    "listing_date": "2026-01-09",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/centar-40-kuca-sa-dva-lokala-i-garazom/NkXMnk3IOQo/"
+      }
+    ],
+    "dedupe_key": "8787298fc915e0f3ebcb029a3a7039ac130214c4",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 80,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Kačarevo, komforna kuća sa prelepim dvorištem",
+    "price_eur": 195000,
+    "size_m2": 182,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kacarevo-komforna-kuca-sa-prelepim-dvoristem/5425645506748?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250502/m/kacarevo-komforna-kuca-sa-prelepim-dvoristem-5425645506748-71811551675.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1071.43,
+    "listing_date": "2026-01-08",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kacarevo-komforna-kuca-sa-prelepim-dvoristem/5425645506748?kid=1"
+      }
+    ],
+    "dedupe_key": "177068933de44f591ce9b4555fe99e90a0e65b40",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 79,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Starčevo, dvojna kuća od 183m2",
+    "price_eur": 60000,
+    "size_m2": 183,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/starcevo-dvojna-kuca-od-183m2/5425646476814?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251210/m/starcevo-dvojna-kuca-od-183m2-5425646476814-71814027075.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 327.87,
+    "listing_date": "2026-01-08",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/starcevo-dvojna-kuca-od-183m2/5425646476814?kid=1"
+      }
+    ],
+    "dedupe_key": "b952d6e46548b365af4001023427f2771fdccc91",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 55,
+    "block": "blok-38",
+    "city": "belgrade",
+    "listing_type": "apartment",
+    "title": "Renoviran troiposoban",
+    "price_eur": 300000,
+    "size_m2": 88,
+    "rooms": 3.5,
+    "floor": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/renoviran-troiposoban/5425646440326?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251202/m/renoviran-troiposoban-5425646440326-71813930960.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3409.09,
+    "listing_date": "2026-01-08",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/renoviran-troiposoban/5425646440326?kid=1"
+      }
+    ],
+    "dedupe_key": "398599107452a46cd79a34e8064242a7d7691bd5",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 83,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Kuća sa radionicom",
+    "price_eur": 200000,
+    "size_m2": 95,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-sa-radionicom/5425645521666?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250624/m/kuca-sa-radionicom-5425645521666-71812091703.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 2105.26,
+    "listing_date": "2026-01-07",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-sa-radionicom/5425645521666?kid=1"
+      }
+    ],
+    "dedupe_key": "9c0ea3a598eae1ba2f25d1827d9f296be25b0770",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 82,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Prostrana kuća u Jabuci, 381m², na placu od 6.25 a",
+    "price_eur": 80000,
+    "size_m2": 381,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prostrana-kuca-u-jabuci-381m-na-placu-od-6-25/5425646300002?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251106/m/prostrana-kuca-u-jabuci-381m-na-placu-od-6-25-5425646300002-71813607877.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 209.97,
+    "listing_date": "2026-01-07",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/prostrana-kuca-u-jabuci-381m-na-placu-od-6-25/5425646300002?kid=1"
+      }
+    ],
+    "dedupe_key": "00d9885418c3e0b896cd061840ce63ae3fe70920",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 81,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Kompletno opremljeno domaćinstvo na 30 ari placa",
+    "price_eur": 90000,
+    "size_m2": 120,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kompletno-opremljeno-domacinstvo-na-30-ari-pl/5425646018518?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250908/m/kompletno-opremljeno-domacinstvo-na-30-ari-pl-5425646018518-71812913249.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 750,
+    "listing_date": "2026-01-07",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kompletno-opremljeno-domacinstvo-na-30-ari-pl/5425646018518?kid=1"
+      }
+    ],
+    "dedupe_key": "eda2bc694785389f13ce0b57849bf4c16b77569c",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 165,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "300.000€",
+    "price_eur": 300000,
+    "url": "https://www.4zida.rs/prodaja-placeva/margita-gradske-lokacije-pancevo/plac/695bd67ef3f0381cf40facc9",
+    "thumbnail_url": "https://resizer2.4zida.rs/xH3QDA-f9BVIH6pWNqU5T2aKr9v0eX7EM5kyWI3dJZc/rs:fill:420:0:0/bG9jYWw6Ly8vNjk1YmQ2N2VmM2YwMzgxY2Y0MGZhY2M5LzE0NmNmZWUxZDM.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-06",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/margita-gradske-lokacije-pancevo/plac/695bd67ef3f0381cf40facc9"
+      }
+    ],
+    "dedupe_key": "b46cafcd02c30d986d221661a36b7be98a9cf82b",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 84,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Strelište, 4 etaže, 404m2 na 2,25 ari",
+    "price_eur": 225000,
+    "size_m2": 404,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/streliste-4-etaze-404m2-na-2-25-ari/5425646158298?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251009/m/streliste-4-etaze-404m2-na-2-25-ari-5425646158298-71813262624.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 556.93,
+    "listing_date": "2026-01-06",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/streliste-4-etaze-404m2-na-2-25-ari/5425646158298?kid=1"
+      }
+    ],
+    "dedupe_key": "f2c5731239f9f751d8c20e992bf19f3e489a219e",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 56,
+    "block": "blok-33",
+    "city": "belgrade",
+    "listing_type": "apartment",
+    "title": "Narodnih heroja - 04 - Novi Beograd",
+    "price_eur": 302500,
+    "size_m2": 84,
+    "rooms": 2.5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/narodnih-heroja---04---novi-beograd/5425645884652?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250809/m/narodnih-heroja---04---novi-beograd-5425645884652-71812569678.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3601.19,
+    "listing_date": "2026-01-06",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/narodnih-heroja---04---novi-beograd/5425645884652?kid=1"
+      }
+    ],
+    "dedupe_key": "f98ce3a28d482fa76e56f7f7831504560ad05c08",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 166,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "320.000€, 2 sobe",
+    "price_eur": 320000,
+    "rooms": 2,
+    "url": "https://www.4zida.rs/prodaja-placeva/gradske-lokacije-pancevo/gradjevinsko-zemljiste/694e528d0a417e7a66035acf",
+    "thumbnail_url": "https://resizer2.4zida.rs/X6oI7D4scgY96_y101m_ZB0ZLP-J_tDFSnQvnP8RCGU/rs:fill:420:0:0/bG9jYWw6Ly8vNjk0ZTUyOGQwYTQxN2U3YTY2MDM1YWNmLzMzNGMyM2E3Y2Y.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-05",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/gradske-lokacije-pancevo/gradjevinsko-zemljiste/694e528d0a417e7a66035acf"
+      }
+    ],
+    "dedupe_key": "35739f71697e95f3334f3f7269ddceb9265cb3c8",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 85,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Starčevo, spratna kuća, 4 etaže na 4,8 ari placa",
+    "price_eur": 165000,
+    "size_m2": 225,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/starcevo-spratna-kuca-4-etaze-na-4-8-ari-plac/5425645868812?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250807/m/starcevo-spratna-kuca-4-etaze-na-4-8-ari-plac-5425645868812-71812543871.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 733.33,
+    "listing_date": "2026-01-05",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/starcevo-spratna-kuca-4-etaze-na-4-8-ari-plac/5425645868812?kid=1"
+      }
+    ],
+    "dedupe_key": "a39199c3136fcb6fc9cca9d72a9b3da0bc39917a",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 170,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "450.000€",
+    "price_eur": 450000,
+    "url": "https://www.4zida.rs/prodaja-placeva/gornji-grad-gradske-lokacije-pancevo/gradjevinsko-zemljiste/6924592144f06ba0a80b09b3",
+    "thumbnail_url": "https://resizer2.4zida.rs/hWLv_DciOp21CctrBurPT3GKP9KiLHmDpcLsD_qeH_I/rs:fill:420:0:0/bG9jYWw6Ly8vNjkyNDU5MjE0NGYwNmJhMGE4MGIwOWIzL2ExNzc2NGJkYzI.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-04",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/gornji-grad-gradske-lokacije-pancevo/gradjevinsko-zemljiste/6924592144f06ba0a80b09b3"
+      }
+    ],
+    "dedupe_key": "4c3948aaf5d97dc5290f97bb271171fd994116a4",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 87,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Na prodaju kuća na Misi, u osnovi 125m2,44 ari!",
+    "price_eur": 230000,
+    "size_m2": 125,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/na-prodaju-kuca-na-misi-u-osnovi-125m2-44-ari/5425646591385?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/260105/m/na-prodaju-kuca-na-misi-u-osnovi-125m2-44-ari-5425646591385-71814270599.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1840,
+    "listing_date": "2026-01-04",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/na-prodaju-kuca-na-misi-u-osnovi-125m2-44-ari/5425646591385?kid=1"
+      }
+    ],
+    "dedupe_key": "5316b0199434ab49d83118602a4319dd690fa209",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 86,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Kuća Lux 25+45 m2",
+    "price_eur": 152000,
+    "size_m2": 45,
+    "rooms": 2,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-lux-2545-m2/5425646372228?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251120/m/kuca-lux-2045-m2-5425646372228-71813791429.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 3377.78,
+    "listing_date": "2026-01-04",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-lux-2545-m2/5425646372228?kid=1"
+      }
+    ],
+    "dedupe_key": "25dbb3e667c3d85d2d27e18b64db129e1abfad32",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 57,
+    "block": "blok-33",
+    "city": "belgrade",
+    "listing_type": "apartment",
     "title": "Trosoban stan/ poslovni prostor u Bloku 33",
     "price_eur": 279900,
     "size_m2": 86,
@@ -23,13 +2462,40 @@
         "url": "https://www.4zida.rs/prodaja-stanova/blok-33-geneks-novi-beograd-beograd/trosoban-stan/68b9bcfcc93275943f01a5e3"
       }
     ],
-    "dedupe_key": "783e43c992396c93c1edfb98306c5f43b9e0423d",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "136ea41ee84a18b10a6028f91247c317e6071110",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 26,
+    "id": 33,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Top investicija – Ugaoni plac – Dimitrija Tucovića, Pančevo, Dragutina Ilkića Burte",
+    "price_eur": 300000,
+    "size_m2": 343,
+    "rooms": 5,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/top-investicija---ugaoni-plac---dimitrija-tucovica-pancevo-dragutina-ilkica-burte/NkvPABkEU4u/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/rh6ddEUNO_fss?st=abc85-Ko-0MwcQozNqTrOffWfcNmUScIGEStCQyL5_A&ts=1767630995&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 874.64,
+    "listing_date": "2026-01-04",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/top-investicija---ugaoni-plac---dimitrija-tucovica-pancevo-dragutina-ilkica-burte/NkvPABkEU4u/"
+      }
+    ],
+    "dedupe_key": "6e23adde0090d337e848ce720023444b60e1cb72",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 148,
     "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
     "title": "377.999€, 96m², 3 sobe",
     "price_eur": 377999,
     "size_m2": 96,
@@ -47,44 +2513,115 @@
         "url": "https://www.4zida.rs/prodaja-stanova/a-blok-blok-67a-novi-beograd-beograd/trosoban-stan/68349178bd3489ae6b046f70"
       }
     ],
-    "dedupe_key": "2442be223be747d21443b6bfc94a4eaeac12f15a",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "c96ded3ae87f0b1199aa605e2385c8e638493b86",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 3,
-    "block": "blok-67",
-    "title": "Novi Beograd - Savada 3 ID#5265",
-    "price_eur": 320000,
-    "size_m2": 90,
-    "rooms": 4,
-    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-savada-3-id5265/Nk5K_uGmWoT/",
-    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/m_lfN59V0_fss?st=1ScRX85JtTCBdxF0c41Tc_aT3Mmu3p6H2J9-6t1U0ek&ts=1757599425&e=0",
+    "id": 88,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Bavaništanski Put, po+pr+pk od 184m2 na 28,5 ari p",
+    "price_eur": 190000,
+    "size_m2": 184,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/bavanistanski-put-poprpk-od-184m2-na-28-5-ari/5425646454108?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251209/m/bavanistanski-put-poprpk-od-184m2-na-28-5-ari-5425646454108-71814011654.jpg",
     "is_agency": true,
-    "is_duplicate": true,
-    "price_per_sqm": 3555.56,
+    "is_duplicate": false,
+    "price_per_sqm": 1032.61,
+    "listing_date": "2026-01-03",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/bavanistanski-put-poprpk-od-184m2-na-28-5-ari/5425646454108?kid=1"
+      }
+    ],
+    "dedupe_key": "592df011935bae24aaf152d25b290eb8a6729484",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 128,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Broker - Kupuješ svoj mir",
+    "price_eur": 25000,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/broker---kupujes-svoj-mir/5425646290505?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251119/m/broker---kupujes-svoj-mir-5425646290505-71813789245.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
     "listing_date": "2026-01-02",
     "source_links": [
       {
-        "source": "nekretnine.rs",
-        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-savada-3-id5265/Nk5K_uGmWoT/"
-      },
-      {
         "source": "halooglasi",
-        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd---savada-3-id5265/5425646029692?kid=1"
-      },
-      {
-        "source": "4zida",
-        "url": "https://www.4zida.rs/prodaja-stanova/a-blok-blok-67a-novi-beograd-beograd/troiposoban-stan/68c2bc334099de033e0b925e"
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/broker---kupujes-svoj-mir/5425646290505?kid=1"
       }
     ],
-    "dedupe_key": "abceae9089368acf7e4967cca59e908f84eb1adf",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "a9d83f070b08516925376cfe28404d5568adefb4",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 14,
+    "id": 49,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Porodična kuća sa dve stambene jedinice",
+    "price_eur": 150000,
+    "size_m2": 155,
+    "rooms": 3,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/porodicna-kuca-sa-dve-stambene-jedinice/5425646449916?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251204/m/porodicna-kuca-sa-dve-stambene-jedinice-5425646449916-71813955735.jpg",
+    "is_agency": true,
+    "is_duplicate": true,
+    "price_per_sqm": 967.74,
+    "listing_date": "2026-01-02",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/porodicna-kuca-sa-dve-stambene-jedinice/5425646449916?kid=1"
+      },
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/porodicna-kuca-sa-dve-stambene-jedinice-cvijiceva/NkWyijabGpj/"
+      }
+    ],
+    "dedupe_key": "493952d07ff329d64d0dcad1cda5b3c668af0e0b",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 129,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Plac Pančevo, 7.3ara ID#10203",
+    "price_eur": 119000,
+    "rooms": 2,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/plac-pancevo-7-3ara-id10203/5425645307029?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250308/m/plac-pancevo-7-3ara-id10203-5425645307029-71811013851.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2026-01-01",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/plac-pancevo-7-3ara-id10203/5425645307029?kid=1"
+      }
+    ],
+    "dedupe_key": "7073afd1ba91ff31b38d4a2ecad6049a621141f2",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 58,
     "block": "blok-33",
+    "city": "belgrade",
+    "listing_type": "apartment",
     "title": "Blok 33, retko u ponudi - mereno 114kvm",
     "price_eur": 269900,
     "size_m2": 90,
@@ -106,106 +2643,15 @@
         "url": "https://www.4zida.rs/prodaja-stanova/blok-33-geneks-novi-beograd-beograd/troiposoban-stan/68b844c092b50c84000a1b9d"
       }
     ],
-    "dedupe_key": "c8fbf3de26b26cb363627cbad4c6e51168b1f029",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "af16fe2e8c138267a050e11375d8a823b23547e8",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 4,
+    "id": 146,
     "block": "blok-67",
-    "title": "Belville Ciklama",
-    "price_eur": 399000,
-    "size_m2": 106,
-    "rooms": 3,
-    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/belville-ciklama/Nkez3HTZF_-/",
-    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/WgQbxf1Vy_fss?st=7ZuXGNQrJgJuFz6ZvAdX8ByND3vkhPzTNMmjGy1RXAk&ts=1732557993&e=0",
-    "is_agency": true,
-    "is_duplicate": true,
-    "price_per_sqm": 3764.15,
-    "listing_date": "2026-01-01",
-    "source_links": [
-      {
-        "source": "nekretnine.rs",
-        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/belville-ciklama/Nkez3HTZF_-/"
-      },
-      {
-        "source": "halooglasi",
-        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/komforan-namesten-trosoban-stan-u-belvilu-106/5425645034365?kid=1"
-      },
-      {
-        "source": "4zida",
-        "url": "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd/trosoban-stan/68b5d6ffbff1f456bb08c2bf"
-      }
-    ],
-    "dedupe_key": "671fa22dab98dfd27a13c486bbf60654290f6f30",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
-  },
-  {
-    "id": 2,
-    "block": "blok-67",
-    "title": "Novi Beograd, Belvil, trosoban sa garažom ID#1345",
-    "price_eur": 389000,
-    "size_m2": 101,
-    "rooms": 3,
-    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-belvil-trosoban-sa-garazom-id1345/NkosG1-Vks1/",
-    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/U2OOyPkA0L_fss?st=faWB4cHslxihyO9_GV8Ffl97yAoOI_Izke0NCjVkyJc&ts=1767026162&e=0",
-    "is_agency": true,
-    "is_duplicate": true,
-    "price_per_sqm": 3851.49,
-    "listing_date": "2026-01-01",
-    "source_links": [
-      {
-        "source": "nekretnine.rs",
-        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-belvil-trosoban-sa-garazom-id1345/NkosG1-Vks1/"
-      },
-      {
-        "source": "halooglasi",
-        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/belvil-maslacak-namesten-1012t-mog-g-za-2auta/5425646466006?kid=4"
-      },
-      {
-        "source": "4zida",
-        "url": "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd/trosoban-stan/694acac9eff75f446c0e8631"
-      }
-    ],
-    "dedupe_key": "d64f6d7930d90a3629b8191916b7bfdc8be2694b",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
-  },
-  {
-    "id": 1,
-    "block": "blok-33",
-    "title": "Prodaje se 4.stan u bloku 33,uknjižen ID#18807",
-    "price_eur": 399000,
-    "size_m2": 122,
-    "rooms": 5,
-    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/prodaje-se-4stan-u-bloku-33-uknjizen-id18807/Nk6ptvc-tv6/",
-    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/iNJrp2kDx_fss?st=HmfxP55Um1fjF7GBsNCMViMsCAaqHVohcITlM99CFQI&ts=1761840018&e=0",
-    "is_agency": true,
-    "is_duplicate": true,
-    "price_per_sqm": 3270.49,
-    "listing_date": "2026-01-01",
-    "source_links": [
-      {
-        "source": "nekretnine.rs",
-        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/prodaje-se-4stan-u-bloku-33-uknjizen-id18807/Nk6ptvc-tv6/"
-      },
-      {
-        "source": "halooglasi",
-        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaje-se-4-stan-u-bloku-33-uknjizen-id18807/5425646565699?kid=1"
-      },
-      {
-        "source": "4zida",
-        "url": "https://www.4zida.rs/prodaja-stanova/blok-33-geneks-novi-beograd-beograd/cetvoroiposoban-stan/69037f55ad309032d9061f0c"
-      }
-    ],
-    "dedupe_key": "cea609545cd9a02cb6adc140cd5256f0044138ce",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
-  },
-  {
-    "id": 25,
-    "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
     "title": "366.900€, 106m², 3 sobe",
     "price_eur": 366900,
     "size_m2": 106,
@@ -223,71 +2669,111 @@
         "url": "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd/trosoban-stan/69336876014c5092e20650d5"
       }
     ],
-    "dedupe_key": "e609e0b42eb30f0f957a44bfd908654c961dbfa0",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "d1455975d87bdf2ab69ba7ae28106a243a53b3d1",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 7,
-    "block": "blok-33",
-    "title": "Bulevar Arsenija Čarnojevića, Blok 33, Novi Beograd ID#5160",
-    "price_eur": 270000,
-    "size_m2": 90,
-    "rooms": 4,
-    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/bulevar-arsenija-carnojevica-blok-33-novi-beograd-id5160/NknYT11SeqV/",
-    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/ONIboG0g1_fss?st=aW0GAp7SAOFJfleckdTar1DHqT9ahh-orh1TgI-risw&ts=1708625018&e=0",
+    "id": 130,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Odličan platz za biznis",
+    "price_eur": 90000,
+    "rooms": 1,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/odlican-platz-za-biznis/5425646132967?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251219/m/odlican-platz-za-biznis-5425646132967-71814128383.jpg",
     "is_agency": true,
-    "is_duplicate": true,
-    "price_per_sqm": 3000,
+    "is_duplicate": false,
     "listing_date": "2025-12-31",
     "source_links": [
       {
-        "source": "nekretnine.rs",
-        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/bulevar-arsenija-carnojevica-blok-33-novi-beograd-id5160/NknYT11SeqV/"
-      },
-      {
         "source": "halooglasi",
-        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bulevar-arsenija-carnojevica-blok-33-novi-beo/5425645379042?kid=1"
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/odlican-platz-za-biznis/5425646132967?kid=1"
       }
     ],
-    "dedupe_key": "7a7e347a2cbd9f4bc15036b146810d3d46701ade",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "ef68856d641b9e1a48e1d953431a06528691053d",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 6,
-    "block": "blok-67",
-    "title": "Jurija Gagarina, Novi Beograd, Delta city ID#7290",
-    "price_eur": 379000,
-    "size_m2": 82,
+    "id": 89,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Top kuća na 10 min. od centra!",
+    "price_eur": 220000,
+    "size_m2": 124,
     "rooms": 3,
-    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/jurija-gagarina-novi-beograd-delta-city-id7290/Nk9_SYMnGcw/",
-    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/7eVkcUOyR_fss?st=amexUekLevSOVvHeimekVfdH3a-rYqJNOBnphMg1vRE&ts=1743157000&e=0",
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/top-kuca-na-10-min-od-centra/5425645837679?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250730/m/platz-nekretnine--kuca-na-10-min-od-centra-5425645837679-71812457011.jpg",
     "is_agency": true,
-    "is_duplicate": true,
-    "price_per_sqm": 4621.95,
-    "listing_date": "2025-12-30",
+    "is_duplicate": false,
+    "price_per_sqm": 1774.19,
+    "listing_date": "2025-12-31",
     "source_links": [
       {
-        "source": "nekretnine.rs",
-        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/jurija-gagarina-novi-beograd-delta-city-id7290/Nk9_SYMnGcw/"
-      },
-      {
         "source": "halooglasi",
-        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzno-opremljen-3-0-82m2-lastavica/5425645492773?kid=1"
-      },
-      {
-        "source": "4zida",
-        "url": "https://www.4zida.rs/prodaja-stanova/a-blok-blok-67a-novi-beograd-beograd/trosoban-stan/6942915913c08b914f01132e"
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/top-kuca-na-10-min-od-centra/5425645837679?kid=1"
       }
     ],
-    "dedupe_key": "fced212b9a131dcda28b023314eaec806f746cad",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "1de7ef4ccf0f6fd2588d5e303d627725ddac595e",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 16,
+    "id": 164,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "250.000€",
+    "price_eur": 250000,
+    "url": "https://www.4zida.rs/prodaja-kuca/gradske-lokacije-pancevo/dvoetazna/690cef667aa3873a5e0710e3",
+    "thumbnail_url": "https://resizer2.4zida.rs/4gevaS0BGH2fnRm_XAUzCiM8BUkMFVr42KZQzQu5_dY/rs:fill:420:0:0/bG9jYWw6Ly8vNjkwY2VmNjY3YWEzODczYTVlMDcxMGUzLzQ5N2QyNTEyYmE.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2025-12-29",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/gradske-lokacije-pancevo/dvoetazna/690cef667aa3873a5e0710e3"
+      }
+    ],
+    "dedupe_key": "ab9b0c2811e798bea22a1b8c727dc987df719edf",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 131,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Prodajem stan u cetru Panceva",
+    "price_eur": 95000,
+    "size_m2": 80,
+    "rooms": 5,
+    "floor": 1,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/prodajem-stan-u-cetru-panceva/5425646564552",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251229/m/prodajem-stan-u-cetru-panceva-5425646564552-71814224416.jpg",
+    "is_agency": false,
+    "is_duplicate": false,
+    "price_per_sqm": 1187.5,
+    "listing_date": "2025-12-29",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/prodajem-stan-u-cetru-panceva/5425646564552"
+      }
+    ],
+    "dedupe_key": "39db36ce28e2251853e19ff3c8b9cb3d29634b51",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 60,
     "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
     "title": "Novi Beograd, Blok 67 - Belville - Jurija Gagarina",
     "price_eur": 505000,
     "size_m2": 103,
@@ -309,13 +2795,15 @@
         "url": "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd/cetvorosoban-stan/6900a379a26355aadd00e22d"
       }
     ],
-    "dedupe_key": "beb3739f492a5ac3c488a27c04594643274326bc",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "0ebd5b44dbe6f5483ae1f9d5a9b7ffe19e311fb6",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 15,
+    "id": 59,
     "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
     "title": "Sakura, luks, 3,0, 99m2, namešten",
     "price_eur": 410000,
     "size_m2": 99,
@@ -337,37 +2825,203 @@
         "url": "https://www.4zida.rs/prodaja-stanova/a-blok-blok-67a-novi-beograd-beograd/trosoban-stan/67efdbeccffd1e823107bf3e"
       }
     ],
-    "dedupe_key": "015bd7d2008a2a368042f6ad4e1e107e0f1b0bb1",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "2c2e97ab7331215bce9d1e1d465e10bb3f6ae6bd",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 10,
-    "block": "blok-67",
-    "title": "Belvile - Lala- Lux, prvi vlasnik, garažno mesto",
-    "price_eur": 449500,
-    "size_m2": 103,
-    "rooms": 4,
-    "floor": 3,
-    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/belvile---lala--lux-prvi-vlasnik-garazno-mest/5425646099834?kid=4",
-    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250926/m/belvile---lala--lux-prvi-vlasnik-garazno-mest-5425646099834-71813116763.jpg",
+    "id": 153,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "60.000€",
+    "price_eur": 60000,
+    "url": "https://www.4zida.rs/prodaja-kuca/centar-gradske-lokacije-pancevo/jednoetazna/6950f8681874bdee8900b2f3",
+    "thumbnail_url": "https://resizer2.4zida.rs/H40wB5_SJGe4OmxpGUrOLvAh7kMcfBXpf93cBV1RY3M/rs:fill:420:0:0/bG9jYWw6Ly8vNjk1MGY4NjgxODc0YmRlZTg5MDBiMmYzL2MwNDcwNWM5MDA.webp#16",
     "is_agency": false,
     "is_duplicate": false,
-    "price_per_sqm": 4364.08,
+    "listing_date": "2025-12-28",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/centar-gradske-lokacije-pancevo/jednoetazna/6950f8681874bdee8900b2f3"
+      }
+    ],
+    "dedupe_key": "992c82a5759f15ef34585df19042027791deac5c",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 134,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "34.650€",
+    "price_eur": 34650,
+    "url": "https://www.4zida.rs/prodaja-placeva/misa-gradske-lokacije-pancevo/gradjevinsko-zemljiste/694fe900a3fe9e476d011b23",
+    "thumbnail_url": "https://resizer2.4zida.rs/Gd_sARKwqLDfxmRspR6nr9nnieyS3nUhw5Vs8btLNTg/rs:fill:420:0:0/bG9jYWw6Ly8vNjk0ZmU5MDBhM2ZlOWU0NzZkMDExYjIzL2I2MjI0MjlkNTI.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2025-12-28",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/misa-gradske-lokacije-pancevo/gradjevinsko-zemljiste/694fe900a3fe9e476d011b23"
+      }
+    ],
+    "dedupe_key": "5b4f756c2e32ac5aad42e652b442de6aae307d5c",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 132,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Plac kod Pancevacke mlekare 40,38 ari",
+    "price_eur": 129000,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/plac-kod-pancevacke-mlekare-40-38-ari/5425646563926?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251229/m/plac-kod-pancevacke-mlekare-40-38-ari-5425646563926-71814221364.jpg",
+    "is_agency": false,
+    "is_duplicate": false,
     "listing_date": "2025-12-28",
     "source_links": [
       {
         "source": "halooglasi",
-        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/belvile---lala--lux-prvi-vlasnik-garazno-mest/5425646099834?kid=4"
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/plac-kod-pancevacke-mlekare-40-38-ari/5425646563926?kid=1"
       }
     ],
-    "dedupe_key": "d93c2d88817528a2cb09c01b9b60f7283a2c3e88",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "cabac78a0dd04e85c00749256646dbd0c24671d6",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 17,
+    "id": 91,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Kuća, Pančevo, 4.oktobar",
+    "price_eur": 95000,
+    "size_m2": 154,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-pancevo-4-oktobar/5425645551900?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250516/m/kuca-pancevo-4-oktobar-5425645551900-71811687171.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 616.88,
+    "listing_date": "2025-12-28",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-pancevo-4-oktobar/5425645551900?kid=1"
+      }
+    ],
+    "dedupe_key": "156f83fe16bde3dece416f92eecdf352652200b0",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 90,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Omoljica",
+    "price_eur": 77000,
+    "size_m2": 95,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/omoljica/5425645596566?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250530/m/omoljica-5425645596566-71811829873.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 810.53,
+    "listing_date": "2025-12-28",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/omoljica/5425645596566?kid=1"
+      }
+    ],
+    "dedupe_key": "2dabd06ea25aab34cf4b39a7c26c59240e15b529",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 167,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "100€",
+    "price_eur": 100,
+    "url": "https://www.4zida.rs/prodaja-placeva/gradske-lokacije-pancevo/gradjevinsko-zemljiste/694d463d026ba9f91b032cbd",
+    "thumbnail_url": "https://resizer2.4zida.rs/SnhvnUVtT_5860Labci87ga2uhTcicSPzvE1uYZHjzI/rs:fill:420:0:0/bG9jYWw6Ly8vNjk0ZDQ2M2QwMjZiYTlmOTFiMDMyY2JkL2JlNWM2MzA1OWM.webp#16",
+    "is_agency": false,
+    "is_duplicate": false,
+    "listing_date": "2025-12-27",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/gradske-lokacije-pancevo/gradjevinsko-zemljiste/694d463d026ba9f91b032cbd"
+      }
+    ],
+    "dedupe_key": "c1c4cad9a1e6e6609c86d42c2415b11e1bc1981e",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 93,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Stara Misa, prizemna dve stambene jedinice 44m2+ 5",
+    "price_eur": 68000,
+    "size_m2": 44,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/stara-misa-prizemna-dve-stambene-jedinice-44m/5425646260949?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251031/m/stara-misa-prizemna-dve-stambene-jedinice-44m-5425646260949-71813531459.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1545.45,
+    "listing_date": "2025-12-27",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/stara-misa-prizemna-dve-stambene-jedinice-44m/5425646260949?kid=1"
+      }
+    ],
+    "dedupe_key": "f9ea83c20fa304d30ae77e38bb7df19cf5c42650",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 92,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Starčevo, prizemna 102m2, 4,0-sobna renovirana na",
+    "price_eur": 115000,
+    "size_m2": 102,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/starcevo-prizemna-102m2-4-0-sobna-renovirana/5425646260948?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251031/m/starcevo-prizemna-102m2-4-0-sobna-renovirana-5425646260948-71813531441.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1127.45,
+    "listing_date": "2025-12-27",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/starcevo-prizemna-102m2-4-0-sobna-renovirana/5425646260948?kid=1"
+      }
+    ],
+    "dedupe_key": "1f88ac90009e81b1b71d65eac435fd1e1109b2b6",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 61,
     "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
     "title": "Novi Beograd - Belvil-107m2-Dva garažna mesta-Uknj",
     "price_eur": 399000,
     "size_m2": 107,
@@ -385,13 +3039,83 @@
         "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd---belvil-107m2-dva-garazna-mesta/5425644943116?kid=1"
       }
     ],
-    "dedupe_key": "0e6c9c869fb1e37ebda94cc42ea9ed71ce9d5dfe",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "a67c9b3c216a465370cd6b2405e0066228172341",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 18,
+    "id": 154,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "300.000€",
+    "price_eur": 300000,
+    "url": "https://www.4zida.rs/prodaja-kuca/centar-gradske-lokacije-pancevo/dvoetazna/694d7c1859720ca6660dbe49",
+    "thumbnail_url": "https://resizer2.4zida.rs/Qxte2eAdjtQ4cVPtJHQp7xhjmkFw5EYiXhr5OBy7dhI/rs:fill:420:0:0/bG9jYWw6Ly8vNjk0ZDdjMTg1OTcyMGNhNjY2MGRiZTQ5LzY3ZDcyMDlmYTg.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2025-12-26",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/centar-gradske-lokacije-pancevo/dvoetazna/694d7c1859720ca6660dbe49"
+      }
+    ],
+    "dedupe_key": "cc66b3932bb118e572f258b76dd4b58b8394997c",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 133,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Misa,plac 5,5 ari",
+    "price_eur": 34650,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/misa-plac-5-5-ari/5425646552841?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251227/m/misa-plac-5-5-ari-5425646552841-71814205321.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2025-12-26",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/misa-plac-5-5-ari/5425646552841?kid=1"
+      }
+    ],
+    "dedupe_key": "6355c2a96f1f762c04845f192d9fa11d5dbfbe3e",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 94,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Starčevo, spratna kuća 117m2 na 6,84 ari placa",
+    "price_eur": 100000,
+    "size_m2": 117,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/starcevo-spratna-kuca-117m2-na-6-84-ari-placa/5425646410224?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251127/m/starcevo-spratna-kuca-117m2-na-6-84-ari-placa-5425646410224-71813874814.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 854.7,
+    "listing_date": "2025-12-26",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/starcevo-spratna-kuca-117m2-na-6-84-ari-placa/5425646410224?kid=1"
+      }
+    ],
+    "dedupe_key": "c5a26eceffdae34af0c816369aa15492afd41487",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 62,
     "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
     "title": "Novi Beograd,Belville - Bulevar Crvene Armije 94m2",
     "price_eur": 535000,
     "size_m2": 94,
@@ -409,60 +3133,110 @@
         "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-belville---bulevar-crvene-armije/5425644704505?kid=1"
       }
     ],
-    "dedupe_key": "e6a70eb0d73b7248f0e13aff4f36c32a07e2d77b",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "2d85ae419862f2602445518d044d288fec729f37",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 11,
-    "block": "blok-33",
-    "title": "Odličan stan u Genex-u, III",
-    "price_eur": 249900,
-    "size_m2": 86,
-    "rooms": 3,
-    "floor": 3,
-    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-stan-u-genex-u-iii/5425646396481?kid=3",
-    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251213/m/odlican-stan-u-genex-u-iii-5425646396481-71814055565.jpg",
+    "id": 135,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Pančevo, Misa - Pelisterska",
+    "price_eur": 180000,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/pancevo-misa---pelisterska/5425642508814?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/221115/m/pancevo-misa---pelisterska-5425642508814-71802189881.jpg",
     "is_agency": true,
     "is_duplicate": false,
-    "price_per_sqm": 2905.81,
-    "listing_date": "2025-12-26",
+    "listing_date": "2025-12-25",
     "source_links": [
       {
         "source": "halooglasi",
-        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-stan-u-genex-u-iii/5425646396481?kid=3"
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/pancevo-misa---pelisterska/5425642508814?kid=1"
       }
     ],
-    "dedupe_key": "9f5f1918b69b34f24454b071e303d33e35177971",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "eb2c28e8486250bedb0e60d689eaa1a8ed50f51c",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 12,
-    "block": "blok-67",
-    "title": "Prodaja stana 97m2, Belville",
-    "price_eur": 360000,
-    "size_m2": 97,
-    "rooms": 4,
-    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stana-97m2-belville/5425645775757?kid=3",
-    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250716/m/prodaja-dva-spojena-stana-97m246m2-belville-5425645775757-71812311014.jpg",
+    "id": 96,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Starčevo, Useljiva kuća od 109m2.",
+    "price_eur": 117000,
+    "size_m2": 109,
+    "rooms": 3,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/starcevo-useljiva-kuca-od-109m2/5425646398745?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251126/m/starcevo-useljiva-kuca-od-109m2-5425646398745-71813868335.jpg",
     "is_agency": true,
     "is_duplicate": false,
-    "price_per_sqm": 3711.34,
+    "price_per_sqm": 1073.39,
+    "listing_date": "2025-12-25",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/starcevo-useljiva-kuca-od-109m2/5425646398745?kid=1"
+      }
+    ],
+    "dedupe_key": "6e5698fd1cd024c603c7fdceba72b6f495582243",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 95,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Dvorišni stan od 25m2 sa koriscenjem dvorišta.",
+    "price_eur": 30000,
+    "size_m2": 25,
+    "rooms": 1,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/dvorisni-stan-od-25m2-sa-koriscenjem-dvorista/5425646407667?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251126/m/dvorisni-stan-od-25m2-sa-koriscenjem-dvorista-5425646407667-71813869524.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1200,
+    "listing_date": "2025-12-25",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/dvorisni-stan-od-25m2-sa-koriscenjem-dvorista/5425646407667?kid=1"
+      }
+    ],
+    "dedupe_key": "49e51ddfeb3d0a73889cec222fc3dc5c67de4b9d",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 156,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "190.000€, 1 sobe",
+    "price_eur": 190000,
+    "rooms": 1,
+    "url": "https://www.4zida.rs/prodaja-kuca/misa-gradske-lokacije-pancevo/kuca/693304ef87b9c982890415f0",
+    "thumbnail_url": "https://resizer2.4zida.rs/KA7dMxVw3bo0ziszS2VXOn-Smy4Vo5Np5O1DHDNi91A/rs:fill:420:0:0/bG9jYWw6Ly8vNjkzMzA0ZWY4N2I5Yzk4Mjg5MDQxNWYwL2RhMWYxOTk3NGY.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
     "listing_date": "2025-12-24",
     "source_links": [
       {
-        "source": "halooglasi",
-        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stana-97m2-belville/5425645775757?kid=3"
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-kuca/misa-gradske-lokacije-pancevo/kuca/693304ef87b9c982890415f0"
       }
     ],
-    "dedupe_key": "53e4f2e5c24d6157bfe6bd8a8aa7d7c35da11ef2",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "fc3c9cc22456964be470b86ec607e9e53b987ded",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 9,
+    "id": 47,
     "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
     "title": "Soul 64, neuseljavan, garaža, ID 25114",
     "price_eur": 440000,
     "size_m2": 86,
@@ -488,13 +3262,163 @@
         "url": "https://www.4zida.rs/prodaja-stanova/a-blok-blok-67a-novi-beograd-beograd/trosoban-stan/692ed6454982970ada04ec31"
       }
     ],
-    "dedupe_key": "2e7b56317995a8b136852410fe54205a38e56178",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "09c7344ded7bd39420d3752cb60fc610c6bb217e",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 27,
+    "id": 139,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Broker - 125 stabala - 300 litara!",
+    "price_eur": 105000,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/broker---125-stabala---300-litara/5425646394734?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251124/m/broker---125-stabala---300-litara-5425646394734-71813838439.jpg",
+    "is_agency": true,
+    "is_duplicate": true,
+    "listing_date": "2025-12-23",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/broker---125-stabala---300-litara/5425646394734?kid=1"
+      },
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/misa-gradske-lokacije-pancevo/plac/6924693c76e673e89d0478e7"
+      }
+    ],
+    "dedupe_key": "76cbaef5f2b61cac5a9dc0b23fff2d542c4cf4c4",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 138,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Mali Nadel- 50ari",
+    "price_eur": 32000,
+    "rooms": 2,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/mali-nadel--50ari/5425646095194?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250925/m/mali-nadel--50ari-5425646095194-71813103932.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2025-12-23",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/mali-nadel--50ari/5425646095194?kid=1"
+      }
+    ],
+    "dedupe_key": "4cf9cf318ac367de71b9388ee44d5d5adc3c50e8",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 137,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Lep plac na Misi",
+    "price_eur": 155000,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/lep-plac-na-misi/5425645868730?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250805/m/pancevo-kuca-94m2-i-9-6-ari-5425645868730-71812521726.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2025-12-23",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/lep-plac-na-misi/5425645868730?kid=1"
+      }
+    ],
+    "dedupe_key": "7eb1080b08f970ab7cb68c5ed60e94e04bcfa6f8",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 99,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Kuća u Starčevu",
+    "price_eur": 85000,
+    "size_m2": 90,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-starcevu/5425646160077?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251010/m/kuca-u-starcevu-5425646160077-71813269817.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 944.44,
+    "listing_date": "2025-12-23",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-u-starcevu/5425646160077?kid=1"
+      }
+    ],
+    "dedupe_key": "db3563471621e7b56ba77ef0dbdddd87b9dbfbc6",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 98,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Kuća na Bavaništanskom putu kod Vojske",
+    "price_eur": 38000,
+    "size_m2": 81,
+    "rooms": 3,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-na-bavanistanskom-putu-kod-vojske/5425646542099?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251224/m/kuca-na-bavanistanskom-putu-kod-vojske-5425646542099-71814173991.jpg",
+    "is_agency": false,
+    "is_duplicate": false,
+    "price_per_sqm": 469.14,
+    "listing_date": "2025-12-23",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-na-bavanistanskom-putu-kod-vojske/5425646542099?kid=1"
+      }
+    ],
+    "dedupe_key": "2c4cc755d8779598e1f4d8df2db5dca0c55bf41c",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 97,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Pančevo, Vojlovica - Dobrovoljačaka, kuća, 154m2",
+    "price_eur": 85000,
+    "size_m2": 154,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/pancevo-vojlovica---dobrovoljacaka-kuca-154m2/5425646396199?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251124/m/pancevo-vojlovica---dobrovoljacaka-kuca-154m2-5425646396199-71813840678.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 551.95,
+    "listing_date": "2025-12-23",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/pancevo-vojlovica---dobrovoljacaka-kuca-154m2/5425646396199?kid=1"
+      }
+    ],
+    "dedupe_key": "e273ab04d4d874aaa34160554d5bb0ecb4d6b04e",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 173,
     "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
     "title": "Bulevar Crvene armije",
     "price_eur": 505000,
     "size_m2": 103,
@@ -512,13 +3436,62 @@
         "url": "https://cityexpert.rs/prodaja-nekretnina/beograd/42133/cetvorosoban-stan-bulevar-crvene-armije-beograd"
       }
     ],
-    "dedupe_key": "7f5faaa2879e56bca58a1d9f1800e25da80f9882",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "d18e589099a104e31c4bd68a835c1f76ae546aa4",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 19,
+    "id": 140,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Prodaja građevinskog zemljišta – Pančevo-naselje V",
+    "price_eur": 60000,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/prodaja-gradjevinskog-zemljista-pancevo-nasel/5425646088501?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250924/m/prodaja-gradjevinskog-zemljista-pancevo-nasel-5425646088501-71813088969.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2025-12-22",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/prodaja-gradjevinskog-zemljista-pancevo-nasel/5425646088501?kid=1"
+      }
+    ],
+    "dedupe_key": "f804b99f9935264f6089bdff99b9f45b7a388df9",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 100,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Karadjordjeva ulica kuća sa placem 30m x 14,4m",
+    "price_eur": 180000,
+    "size_m2": 93,
+    "rooms": 3,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/karadjordjeva-ulica-kuca-sa-placem-30m-x-14-4/5425645619668?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250606/m/karadjordjeva-ulica-kuca-sa-placem-30m-x-14-4-5425645619668-71811899368.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1935.48,
+    "listing_date": "2025-12-22",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/karadjordjeva-ulica-kuca-sa-placem-30m-x-14-4/5425645619668?kid=1"
+      }
+    ],
+    "dedupe_key": "ca3520d802c9d214e61cd17e39b05c78b947ad37",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 63,
     "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
     "title": "Retko u ponudi. A blok - stan sa baštom, ID 20950",
     "price_eur": 383000,
     "size_m2": 96,
@@ -535,13 +3508,160 @@
         "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/retko-u-ponudi-a-blok---stan-sa-bastom-id-209/5425643597141?kid=1"
       }
     ],
-    "dedupe_key": "90d81e0a9934cf1f3069a36e2db2514eb70c984d",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "109a1a820ecaff377190d1efa82c92bf3e87f501",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 8,
+    "id": 141,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Platz u Ohridskoj!",
+    "price_eur": 80000,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/platz-u-ohridskoj/5425646306971?kid=1",
+    "thumbnail_url": "https://www.halooglasi.com/Content/Quiddita/Widgets/Product/Stylesheets/img/no-image.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2025-12-21",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/platz-u-ohridskoj/5425646306971?kid=1"
+      }
+    ],
+    "dedupe_key": "18eace472dea3bce44ffd08312e5d1e9e6a0bf73",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 105,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Kuća od 96m2 preko puta stomatološkog fakulteta",
+    "price_eur": 80000,
+    "size_m2": 96,
+    "rooms": 3,
+    "floor": 1,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-od-96m2-preko-puta-stomatoloskog-fakulte/5425644512297?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/240603/m/kuca-od-96m2-preko-puta-stomatoloskog-fakulte-5425644512297-71808421079.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 833.33,
+    "listing_date": "2025-12-21",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-od-96m2-preko-puta-stomatoloskog-fakulte/5425644512297?kid=1"
+      }
+    ],
+    "dedupe_key": "1fc1e1556058583715633549df2f73628b2def10",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 104,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Kuća za veliku porodicu!",
+    "price_eur": 140000,
+    "size_m2": 185,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-za-veliku-porodicu/5425646203495?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251018/m/kuca-za-veliku-porodicu-5425646203495-71813371457.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 756.76,
+    "listing_date": "2025-12-21",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-za-veliku-porodicu/5425646203495?kid=1"
+      }
+    ],
+    "dedupe_key": "5a68f586e564c3051f5ebd611466f695f0f4ecb3",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 103,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Super ponuda!",
+    "price_eur": 160000,
+    "size_m2": 190,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/super-ponuda/5425646203021?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251018/m/super-ponuda-5425646203021-71813371265.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 842.11,
+    "listing_date": "2025-12-21",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/super-ponuda/5425646203021?kid=1"
+      }
+    ],
+    "dedupe_key": "549d1641cdba465c67385a033730c0b59dafd2e9",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 102,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Pancevo-Stari Tamis kuca u izgradnji, prva ploca",
+    "price_eur": 39000,
+    "size_m2": 276.34,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/pancevo-stari-tamis-kuca-u-izgradnji-prva-plo/5425645876678?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250807/m/pancevo-stari-tamis-kuca-5425645876678-71812544635.jpg",
+    "is_agency": false,
+    "is_duplicate": false,
+    "price_per_sqm": 141.13,
+    "listing_date": "2025-12-21",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/pancevo-stari-tamis-kuca-u-izgradnji-prva-plo/5425645876678?kid=1"
+      }
+    ],
+    "dedupe_key": "607a284a2ec5f303aa2090fbe59e67fb8d1cdb1d",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 101,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Pančevo, Vladimira Žestića",
+    "price_eur": 98000,
+    "size_m2": 115,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/pancevo-vladimira-zestica/5425646212777?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251021/m/pancevo-vladimira-zestica-5425646212777-71813400166.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 852.17,
+    "listing_date": "2025-12-21",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/pancevo-vladimira-zestica/5425646212777?kid=1"
+      }
+    ],
+    "dedupe_key": "d0512d33bbf1880e653275519284a0ebf5313318",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 46,
     "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
     "title": "Novi Beograd - Belville - 3,0 s, 101 m2, renoviran",
     "price_eur": 350000,
     "size_m2": 101,
@@ -562,93 +3682,318 @@
         "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-belville-3-0-s-101-m2-renoviran-uknjizen-i-useljiv-stan/NkPgSXbDNfw/"
       }
     ],
-    "dedupe_key": "0def31ad485f99200952435fb242c0a97edcc294",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "20bf75ba0ec388b7445ea21a6103f20856cd7398",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 21,
-    "block": "blok-33",
-    "title": "Genex, I sprat, odličan stan",
-    "price_eur": 327800,
-    "size_m2": 84,
-    "rooms": 3,
-    "floor": 1,
-    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/genex-i-sprat-odlican-stan/5425645894137?kid=1",
-    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250811/m/genex-i-sprat-odlican-stan-5425645894137-71812583654.jpg",
-    "is_agency": true,
-    "is_duplicate": true,
-    "price_per_sqm": 3902.38,
-    "listing_date": "2025-12-15",
-    "source_links": [
-      {
-        "source": "halooglasi",
-        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/genex-i-sprat-odlican-stan/5425645894137?kid=1"
-      },
-      {
-        "source": "4zida",
-        "url": "https://www.4zida.rs/prodaja-stanova/blok-33-geneks-novi-beograd-beograd/trosoban-stan/6899ceaeeca3e45d180688ff"
-      }
-    ],
-    "dedupe_key": "d8717b8f09ed5b7338bfcf0c0611f563e4687e47",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
-  },
-  {
-    "id": 20,
-    "block": "blok-67",
-    "title": "A Blok - faza IV",
-    "price_eur": 365000,
-    "size_m2": 84,
-    "rooms": 5,
-    "floor": 9,
-    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok---faza-iv/5425644008439?kid=1",
-    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250701/m/a-blok---faza-iv-5425644008439-71812159447.jpg",
+    "id": 144,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Broker - Burek kod Grge",
+    "price_eur": 44000,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/broker---burek-kod-grge/5425646220860?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251022/m/broker---burek-kod-grge-5425646220860-71813413571.jpg",
     "is_agency": true,
     "is_duplicate": false,
-    "price_per_sqm": 4345.24,
-    "listing_date": "2025-12-15",
+    "listing_date": "2025-12-20",
     "source_links": [
       {
         "source": "halooglasi",
-        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok---faza-iv/5425644008439?kid=1"
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/broker---burek-kod-grge/5425646220860?kid=1"
       }
     ],
-    "dedupe_key": "d0fda44066d90d4e9522489ba6a06edd12c87e68",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "d320bd0273b1f2a33edd7e591484e50ddf3a31b2",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 143,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Karaula, plac od 10,12ari.",
+    "price_eur": 30360,
+    "rooms": 3,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/karaula-plac-od-10-12ari/5425646223743?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251022/m/karaula-plac-od-10-12ari-5425646223743-71813418042.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2025-12-20",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/karaula-plac-od-10-12ari/5425646223743?kid=1"
+      }
+    ],
+    "dedupe_key": "8dc38cb031ce73d403b2aa9f3ef0616286f906eb",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 142,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Karaula, plac od 16,57 ari.",
+    "price_eur": 44739,
+    "floor": 15,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/karaula-plac-od-16-57-ari/5425646226271?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251022/m/karaula-plac-od-16-57-ari-5425646226271-71813430530.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2025-12-20",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/karaula-plac-od-16-57-ari/5425646226271?kid=1"
+      }
+    ],
+    "dedupe_key": "2de8d99cc5d08c5c5e1457ca7b49aef480dba3e7",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 106,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Starcevo,prizemna kuca 140m2",
+    "price_eur": 110000,
+    "size_m2": 140,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/starcevo-prizemna-kuca-140m2/5425646380818?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251121/m/starcevo-prizemna-kuca-140m2-5425646380818-71813806396.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 785.71,
+    "listing_date": "2025-12-20",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/starcevo-prizemna-kuca-140m2/5425646380818?kid=1"
+      }
+    ],
+    "dedupe_key": "3865ad4d5293ba49bae92bd5bedf8ebed4045f53",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 34,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Plac na prodaju sa projektom od 20 stanova i 20 garaznih mesta",
+    "price_eur": 320000,
+    "size_m2": 10,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/plac-na-prodaju-sa-projektom-od-20-stanova-i-20-garaznih-mesta/NkGSxlCroLG/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/w_FhFvugQ_fss?st=R4MZWRztHWdn6GLguyW7KJIwe9TWiOEpuXPVrCGrSbg&ts=1766355034&e=0",
+    "is_agency": false,
+    "is_duplicate": false,
+    "price_per_sqm": 32000,
+    "listing_date": "2025-12-20",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/plac-na-prodaju-sa-projektom-od-20-stanova-i-20-garaznih-mesta/NkGSxlCroLG/"
+      }
+    ],
+    "dedupe_key": "a410200e174c12f526bda1ad2405ec67b43f19f1",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 107,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Kuća sa lokalom u Gornjem gradu!",
+    "price_eur": 150000,
+    "size_m2": 121,
+    "rooms": 4,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-sa-lokalom-u-gornjem-gradu/5425646216923?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251021/m/kuca-sa-lokalom-u-gornjem-gradu-5425646216923-71813399790.jpg",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1239.67,
+    "listing_date": "2025-12-19",
+    "source_links": [
+      {
+        "source": "halooglasi",
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-sa-lokalom-u-gornjem-gradu/5425646216923?kid=1"
+      }
+    ],
+    "dedupe_key": "5b94c3dfafd9de9c5d130c4503e26bd45d72bcfa",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 136,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "180.000€",
+    "price_eur": 180000,
+    "url": "https://www.4zida.rs/prodaja-placeva/centar-gradske-lokacije-pancevo/gradjevinsko-zemljiste/69429b5f3d195f5ce50664d9",
+    "thumbnail_url": "https://resizer2.4zida.rs/XWPAs1-1keEskEm0PHvsIMt4lulYXS3WSOHpaalaUtU/rs:fill:420:0:0/bG9jYWw6Ly8vNjk0MjliNWYzZDE5NWY1Y2U1MDY2NGQ5LzhmMzI5NDNhMTA.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2025-12-17",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/centar-gradske-lokacije-pancevo/gradjevinsko-zemljiste/69429b5f3d195f5ce50664d9"
+      }
+    ],
+    "dedupe_key": "1590f58779ef23df9a27c565d5219a0f82d00bc8",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 119,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "89.000€",
+    "price_eur": 89000,
+    "url": "https://www.4zida.rs/prodaja-placeva/margita-gradske-lokacije-pancevo/plac/69400a41e24997c794023e56",
+    "thumbnail_url": "https://resizer2.4zida.rs/zImi6-E749wElY125CArBAujq1ianeRvotCS00uSzQg/rs:fill:420:0:0/bG9jYWw6Ly8vNjk0MDBhNDFlMjQ5OTdjNzk0MDIzZTU2L2RlN2I4ZTMzMzE.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2025-12-17",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/margita-gradske-lokacije-pancevo/plac/69400a41e24997c794023e56"
+      }
+    ],
+    "dedupe_key": "d6581f9b44b7ea1ed91018900d160ed9ac77f5aa",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 50,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "757.500€",
+    "price_eur": 757500,
+    "url": "https://www.4zida.rs/prodaja-placeva/gradske-lokacije-pancevo/gradjevinsko-zemljiste/6940684d41f225cae80bec73",
+    "thumbnail_url": "https://resizer2.4zida.rs/RfYQkoAVJ1jtRfEz8f2IZX12JNvT0rkr-M6HYnAqbWE/rs:fill:420:0:0/bG9jYWw6Ly8vNjk0MDY4NGQ0MWYyMjVjYWU4MGJlYzczLzAwMmIzNDBlY2I.webp#16",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2025-12-16",
+    "source_links": [
+      {
+        "source": "4zida",
+        "url": "https://www.4zida.rs/prodaja-placeva/gradske-lokacije-pancevo/gradjevinsko-zemljiste/6940684d41f225cae80bec73"
+      }
+    ],
+    "dedupe_key": "05bea8f3e8b0411b72dadae38c06596cb9e886e6",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 35,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Plac za izgradnju u lepoj ulici u Gornjem gradu",
+    "price_eur": 180000,
+    "size_m2": 34,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/plac-za-izgradnju-u-lepoj-ulici-u-gornjem-gradu/NkgvdBIqk6B/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/Kc8tTCqLi_fss?st=K-holqKNuBsTm8jP0_cJByUtN4ypMtvRyFFM0-ActWE&ts=1737982129&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 5294.12,
+    "listing_date": "2025-12-16",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/plac-za-izgradnju-u-lepoj-ulici-u-gornjem-gradu/NkgvdBIqk6B/"
+      }
+    ],
+    "dedupe_key": "5a2553db37c932e358e44314604353f600b60b81",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 37,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Broker - ,,Bio si poziv koji se ne odbija!''",
+    "price_eur": 89000,
+    "size_m2": 418,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/broker-bio-si-poziv-koji-se-ne-odbija/NkQzKN9UaId/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/2dXULIh2S_fss?st=1q9EU-pm_6yIMrJFXiRlDlkUbvoSuhPFN2CDRlkoqhc&ts=1765808484&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 212.92,
+    "listing_date": "2025-12-14",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/broker-bio-si-poziv-koji-se-ne-odbija/NkQzKN9UaId/"
+      }
+    ],
+    "dedupe_key": "77cb4e8a6e4c6aa111ffc2b58830685a7b554754",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 36,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Gradjevinsko zemljište u Pančevu 11 ari",
+    "price_eur": 757500,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/gradjevinsko-zemljiste-u-pancevu-11-ari/NkJ_LEoFf1d/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/prPEqrjez_fss?st=vvK4UlrEkyXw_RNv4sKVEdeoszr-hM9LN5FVC46gc6I&ts=1765827387&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "listing_date": "2025-12-14",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/gradjevinsko-zemljiste-u-pancevu-11-ari/NkJ_LEoFf1d/"
+      }
+    ],
+    "dedupe_key": "c14101d98ec0a1a9654fe7a0542f5c2360726be4",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
     "id": 22,
-    "block": "blok-67",
-    "title": "A blok, lux penthouse, dupleks, dve garaže,ID24853",
-    "price_eur": 550000,
-    "size_m2": 128,
-    "rooms": 4,
-    "floor": 12,
-    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok-lux-penthouse-dupleks-dve-garaze-id248/5425646109841?kid=1",
-    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250929/m/a-blok-lux-penthouse-dupleks-dve-garaze-id248-5425646109841-71813137662.jpg",
-    "is_agency": true,
-    "is_duplicate": true,
-    "price_per_sqm": 4296.88,
-    "listing_date": "2025-12-11",
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Kuca na prodaju u Jabuci kod Panceva",
+    "price_eur": 200000,
+    "size_m2": 196,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-na-prodaju-u-jabuci-kod-panceva/NkvOE1nKRct/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/RU3xvglKn_fss?st=diaxnJBvnDsGflOpzuKwCAMTVT8Yz_KGCrvFv4Hpg7c&ts=1765457884&e=0",
+    "is_agency": false,
+    "is_duplicate": false,
+    "price_per_sqm": 1020.41,
+    "listing_date": "2025-12-10",
     "source_links": [
       {
-        "source": "halooglasi",
-        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok-lux-penthouse-dupleks-dve-garaze-id248/5425646109841?kid=1"
-      },
-      {
-        "source": "4zida",
-        "url": "https://www.4zida.rs/prodaja-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/68da6a40b8059a2f920f8b8f"
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-na-prodaju-u-jabuci-kod-panceva/NkvOE1nKRct/"
       }
     ],
-    "dedupe_key": "d870370032b3a8e74b415827c037e643613c53ec",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "d8f0c4a2989574c64fbbe77fe88efc376e7a30c3",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 5,
+    "id": 4,
     "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
     "title": "Prostran porodični stan u Belville-u; Kвартира для семьи в Белвиле",
     "price_eur": 360000,
     "size_m2": 95,
@@ -665,59 +4010,252 @@
         "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/undefined/Nkc5zAbQFej/"
       }
     ],
-    "dedupe_key": "248f06aa135f6f2533f390c8dbf9f7d421042f9f",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "bfa45ea34b17fdab0343803e20e08e0e4137ad38",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   },
   {
-    "id": 23,
-    "block": "blok-33",
-    "title": "Narodnih heroja - 04 - Novi Beograd",
-    "price_eur": 302500,
-    "size_m2": 84,
-    "rooms": 2.5,
-    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/narodnih-heroja---04---novi-beograd/5425645884652?kid=1",
-    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250809/m/narodnih-heroja---04---novi-beograd-5425645884652-71812569678.jpg",
-    "is_agency": true,
-    "is_duplicate": false,
-    "price_per_sqm": 3601.19,
-    "listing_date": "2025-12-07",
-    "source_links": [
-      {
-        "source": "halooglasi",
-        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/narodnih-heroja---04---novi-beograd/5425645884652?kid=1"
-      }
-    ],
-    "dedupe_key": "4c84a7f135e9b7063b7606a468513f73c021a4e3",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
-  },
-  {
-    "id": 24,
-    "block": "blok-67",
-    "title": "Belville,4.0 stan sa garažnim mestom ID#12118",
-    "price_eur": 430000,
-    "size_m2": 120,
-    "rooms": 4,
-    "floor": 10,
-    "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/belville-4-0-stan-sa-garaznim-mestom-id12118/5425646019082?kid=1",
-    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/250908/m/belville-4-0-stan-sa-garaznim-mestom-id12118-5425646019082-71812916520.jpg",
+    "id": 145,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Broker - Plac u Vojli, profit se broji",
+    "price_eur": 135000,
+    "rooms": 5,
+    "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/broker---plac-u-vojli-profit-se-broji/5425646471857?kid=1",
+    "thumbnail_url": "https://img.halooglasi.com//slike/oglasi/Thumbs/251209/m/broker---plac-u-vojli-profit-se-broji-5425646471857-71814009567.jpg",
     "is_agency": true,
     "is_duplicate": true,
-    "price_per_sqm": 3583.33,
-    "listing_date": "2025-12-06",
+    "listing_date": "2025-12-08",
     "source_links": [
       {
         "source": "halooglasi",
-        "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/belville-4-0-stan-sa-garaznim-mestom-id12118/5425646019082?kid=1"
+        "url": "https://www.halooglasi.com/nekretnine/prodaja-zemljista/broker---plac-u-vojli-profit-se-broji/5425646471857?kid=1"
       },
       {
         "source": "4zida",
-        "url": "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd/cetvorosoban-stan/68bf1ba4b1cdff741d0ee684"
+        "url": "https://www.4zida.rs/prodaja-placeva/vojlovica-gradske-lokacije-pancevo/plac/69382fb0bbf2cb30110e59e5"
       }
     ],
-    "dedupe_key": "f00900e3da38c459a4aee003181a29bb2f055ec4",
-    "last_seen_at": "2026-01-06 15:09:54.7927+00",
-    "created_at": "2026-01-06 15:09:54.7927+00"
+    "dedupe_key": "81cb88b6f56783468c319ce8b741935765f0da4e",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 39,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Broker - Glavni investitor",
+    "price_eur": 900000,
+    "size_m2": 999,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/broker-glavni-investitor/NkwnP_wLcVK/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/sLJqOJ8Uz5_fss?st=rR4PD3Uz4RLwcwQWlBf9f_SqkRZ8zRdPqwE9U85bP2c&ts=1765291148&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 900.9,
+    "listing_date": "2025-12-08",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/broker-glavni-investitor/NkwnP_wLcVK/"
+      }
+    ],
+    "dedupe_key": "ea96713b5bafd8a926b16e75407d2458068baecf",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 38,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Broker - Plac u Vojli, profit se broji",
+    "price_eur": 135000,
+    "size_m2": 1437,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/broker-plac-u-vojli-profit-se-broji/Nkyhqqr2Kf4/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/9xJR-eJRB_fss?st=5SjkGbG9-mxZ_Lqv4yMfrDFy--sbhKN_yue0GOXPyDM&ts=1765291147&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 93.95,
+    "listing_date": "2025-12-08",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/broker-plac-u-vojli-profit-se-broji/Nkyhqqr2Kf4/"
+      }
+    ],
+    "dedupe_key": "81cb88b6f56783468c319ce8b741935765f0da4e",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 23,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Kuća 10.0, 264m2, Bačka (Pančevo), 350000e",
+    "price_eur": 350000,
+    "size_m2": 264,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-100-264m2-backa-pancevo-350000e/NkDqIk5tNie/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/MIixzbIcO_fss?st=EYoXCBW4FOpjyax7ND-77ysfWx-_SlaTsswS_edkA94&ts=1765289660&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1325.76,
+    "listing_date": "2025-12-08",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/kuca-100-264m2-backa-pancevo-350000e/NkDqIk5tNie/"
+      }
+    ],
+    "dedupe_key": "16776d553d3e8031619a473a4ea4e13cec99e46c",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 24,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "house",
+    "title": "Novo u ponudi!Odlicna lokacija,prelepa kuca na Tesli",
+    "price_eur": 350000,
+    "size_m2": 233,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/novo-u-ponudiodlicna-lokacija-prelepa-kuca-na-tesli/Nk2DHW0rlrP/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/TmhQti2MW_fss?st=jDcujdFN2z02EdI5suwYYXl79p6bN23MphmXz1PPm1s&ts=1765134974&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 1502.15,
+    "listing_date": "2025-12-06",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/kuce/novo-u-ponudiodlicna-lokacija-prelepa-kuca-na-tesli/Nk2DHW0rlrP/"
+      }
+    ],
+    "dedupe_key": "a1de1b85fff2a3a2bd82abb14b7f9b98d7a100a1",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 40,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Plac na Misi, Novoseljanski put",
+    "price_eur": 100000,
+    "size_m2": 467,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/plac-na-misi-novoseljanski-put/Nk0D_2WtSXm/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/M6K5gqiw3_fss?st=G3cuQGy11aaYJEewccyon7Qw_s0QNsdUrX_rl7E9U2A&ts=1764412779&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 214.13,
+    "listing_date": "2025-11-28",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/plac-na-misi-novoseljanski-put/Nk0D_2WtSXm/"
+      }
+    ],
+    "dedupe_key": "a362325b0de61e5ba0a15b263be6a8cd1f5db78a",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 1,
+    "block": "blok-67",
+    "city": "belgrade",
+    "listing_type": "apartment",
+    "title": "Novi Beograd, Blok 67a, A blok, Omladinskih brigada, 3.0, 172m2, 465000 EUR",
+    "price_eur": 465000,
+    "size_m2": 172,
+    "rooms": 3,
+    "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-blok-67a-a-blok-omladinskih-brigada-30-172m2-465000-eur/NkaR7wJVeju/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/YTT9L8bOM_fss?st=iLPMernd_6X8ApYlwSHYyTl3P8HwSRvwBkzCPymmVq8&ts=1764008312&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 2703.49,
+    "listing_date": "2025-11-27",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/novi-beograd-blok-67a-a-blok-omladinskih-brigada-30-172m2-465000-eur/NkaR7wJVeju/"
+      }
+    ],
+    "dedupe_key": "d10eb0af6364edf26818af9954fef6bff00b717b",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 42,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Broker - Super plac!, Bavaništanski put",
+    "price_eur": 198000,
+    "size_m2": 4863,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/broker-super-plac-bavanistanski-put/NkSb0nvz-YU/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/34bXpqQ-g_fss?st=ejXouiHp-NgWyvVZP90iNn9sBW0-qur5k8AtLzqCwvk&ts=1763986333&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 40.72,
+    "listing_date": "2025-11-23",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/broker-super-plac-bavanistanski-put/NkSb0nvz-YU/"
+      }
+    ],
+    "dedupe_key": "4debc20ffc388786af864023a3c8d5f475d40b6d",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 41,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Broker - 125 stabala - 300 litara!",
+    "price_eur": 105000,
+    "size_m2": 2246,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/broker-125-stabala-300-litara/NkXX8g1nPCR/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/G6GX-LfGD_fss?st=m6KWRc-lKs9I0WMOBqGzq7ZNQUoC9XIQjy8Wf4vZtyg&ts=1764001705&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 46.75,
+    "listing_date": "2025-11-23",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/broker-125-stabala-300-litara/NkXX8g1nPCR/"
+      }
+    ],
+    "dedupe_key": "76cbaef5f2b61cac5a9dc0b23fff2d542c4cf4c4",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
+  },
+  {
+    "id": 43,
+    "block": "pancevo",
+    "city": "pancevo",
+    "listing_type": "land",
+    "title": "Broker - Putem Bavaništa, sve ili ništa!, Bavaništanski put",
+    "price_eur": 650000,
+    "size_m2": 17893,
+    "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/broker-putem-bavanista-sve-ili-nista-bavanistanski-put/Nkv5Gb9G6QB/",
+    "thumbnail_url": "https://img.nekretnine.rs/foto/MTgxeDE4MS9jZW50ZXIvbWlkZGxlL2ZpbHRlcnM6cXVhbGl0eSg4MCkvbmVr/-9kxhbPUj_fss?st=tmJB609-xCGOBAMsi3wKpA8AQEsE1v9cHq9mAsbqlmk&ts=1763656934&e=0",
+    "is_agency": true,
+    "is_duplicate": false,
+    "price_per_sqm": 36.33,
+    "listing_date": "2025-11-19",
+    "source_links": [
+      {
+        "source": "nekretnine.rs",
+        "url": "https://www.nekretnine.rs/zemljista/gradjevinska-zemljista/broker-putem-bavanista-sve-ili-nista-bavanistanski-put/Nkv5Gb9G6QB/"
+      }
+    ],
+    "dedupe_key": "f444f1ffcc736fa237e21475bc85e9f2ca114f59",
+    "last_seen_at": "2026-01-18 12:10:34.266207+00",
+    "created_at": "2026-01-18 12:10:34.266207+00"
   }
 ]

@@ -30,6 +30,8 @@ func (h *Handler) ListListings(w http.ResponseWriter, r *http.Request) {
 	q := r.URL.Query()
 
 	f := listings.Filters{
+		City:          q.Get("city"),
+		ListingType:   q.Get("listing_type"),
 		Block:          q.Get("block"),
 		Limit:          parseInt(q.Get("limit")),
 		Offset:         parseInt(q.Get("offset")),
