@@ -30,7 +30,7 @@ DOMAIN = "https://www.halooglasi.com"
 TASKS = [
     {
         "name": "belgrade_apartment",
-        "base_url": "https://www.halooglasi.com/nekretnine/prodaja-stanova?grad_id_l-lokacija_id_l-mikrolokacija_id_l=52170%2C52176%2C52192%2C537331&kvadratura_d_from=80&kvadratura_d_to=150&kvadratura_d_unit=1&broj_soba_order_i_from=7&page={page}",
+        "base_url": "https://www.halooglasi.com/nekretnine/prodaja-stanova?grad_id_l-lokacija_id_l-mikrolokacija_id_l=52170%2C52176%2C52190%2C52192%2C537331%2C52191&kvadratura_d_from=80&kvadratura_d_to=150&kvadratura_d_unit=1&broj_soba_order_i_from=7&page={page}",
         "city": "belgrade",
         "listing_type": "apartment",
     },
@@ -66,6 +66,10 @@ def block_from_url(url: str) -> Optional[str]:
         return "blok-33"
     if "blok-38" in low or "blok%2038" in low:
         return "blok-38"
+    if "blok-64" in low or "blok%2064" in low:
+        return "blok-64"
+    if "blok-65" in low or "blok%2065" in low:
+        return "blok-65"
     if "blok-67a" in low or "blok%2067a" in low or "a-blok" in low:
         return "blok-67"
     if "blok-67" in low or "blok%2067" in low:

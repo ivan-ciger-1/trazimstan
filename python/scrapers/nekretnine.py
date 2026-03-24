@@ -29,7 +29,7 @@ DOMAIN = "https://www.nekretnine.rs"
 TASKS = [
     {
         "name": "belgrade_apartment",
-        "base_url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/izdavanje-prodaja/prodaja/tip-stanovi/trosoban-stan_cetvorosoban-stan_petosoban-stan/deo-grada/novi-beograd-blok-33-genex-kula_novi-beograd-blok-38-os-ratko-mitrovic_novi-beograd-blok-67-belvil_novi-beograd-blok-67a/grad/beograd/kvadratura/80_500/ukupan-broj-soba/3_6/lista/po-stranici/10/",
+        "base_url": "https://www.nekretnine.rs/stambeni-objekti/stanovi/izdavanje-prodaja/prodaja/tip-stanovi/trosoban-stan_cetvorosoban-stan_petosoban-stan/deo-grada/novi-beograd-blok-33-genex-kula_novi-beograd-blok-38-os-ratko-mitrovic_novi-beograd-blok-64_novi-beograd-blok-65_novi-beograd-blok-67-belvil_novi-beograd-blok-67a/grad/beograd/kvadratura/80_500/ukupan-broj-soba/3_6/lista/po-stranici/10/",
         "city": "belgrade",
         "listing_type": "apartment",
     },
