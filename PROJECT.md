@@ -1,7 +1,7 @@
 # Apartment Aggregator – New Belgrade
 
 ## Scope
-- Blocks: 67, 38, 33 (extendable later)
+- Blocks: 67, 38, 33, 65 (extendable later)
 - City: Belgrade (Novi Beograd)
 
 ## Stack
