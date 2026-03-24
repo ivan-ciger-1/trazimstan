@@ -26,7 +26,7 @@ TASKS = [
     {
         "name": "belgrade_apartment",
         "base_url": (
-            "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd"
+            "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd/do-500000-evra"
             "?sortiranje=najnoviji"
             "&mesto=a-blok-blok-67a-novi-beograd-beograd"
             "&mesto=blok-33-geneks-novi-beograd-beograd"
