@@ -33,6 +33,7 @@ TASKS = [
             "&mesto=blok-38-novi-beograd-beograd"
             "&mesto=blok-64-novi-beograd-beograd"
             "&mesto=blok-65-novi-beograd-beograd"
+            "&mesto=blok-70-novi-beograd-beograd"
             "&vece_od=80m2"
             "&manje_od=130m2"
             "&page={page}"
@@ -124,6 +125,8 @@ def block_from_url(url: str) -> Optional[str]:
         return "blok-64"
     if "blok-65" in low or "blok%2065" in low:
         return "blok-65"
+    if "blok-70" in low or "blok%2070" in low:
+        return "blok-70"
     if "blok-67a" in low or "blok%2067a" in low or "a-blok" in low:
         return "blok-67"
     if "blok-67" in low or "blok%2067" in low:

@@ -36,6 +36,7 @@ const FALLBACK_BLOCKS: Block[] = [
   { code: "blok-67", name: "Blok 67 (Belville / A Blok)" },
   { code: "blok-65", name: "Blok 65" },
   { code: "blok-64", name: "Blok 64" },
+  { code: "blok-70", name: "Blok 70" },
   { code: "blok-38", name: "Blok 38" },
   { code: "blok-33", name: "Blok 33 (Genex)" },
 ];

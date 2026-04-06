@@ -37,6 +37,7 @@ REQ_PAYLOAD = {
         "Blok 38",
         "Blok 64",
         "Blok 65",
+        "Blok 70",
     ],
 }
 
@@ -55,6 +56,8 @@ def block_from_polygons(polys: List[str], street: str) -> Optional[str]:
         return "blok-64"
     if any("blok 65" in p for p in low_polys):
         return "blok-65"
+    if any("blok 70" in p for p in low_polys):
+        return "blok-70"
     return detect_block(street)
 
 
