@@ -109,7 +109,10 @@ def clear_listings(conn) -> None:
 def scrape_all(freshness_days: int = 60, max_pages: int = 3) -> List[Listing]:
     items: List[Listing] = []
     items += nekretnine.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
-    items += halooglasi.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
+    try:
+        items += halooglasi.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
+    except Exception as exc:
+        print(f"[warn import] halooglasi scrape aborted: {exc}", flush=True)
     items += fourzida.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
     items += cityexpert.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
     return items

@@ -21,6 +21,7 @@ from python.scrapers.base import (
     detect_rooms,
     new_session,
     parse_price_eur,
+    tasks_for_import,
     to_number,
 )
 
@@ -241,8 +242,17 @@ def fetch_page(
     task_name: str,
     freshness_days: int = 60,
 ) -> List[Listing]:
-    resp = session.get(base_url.format(page=page), timeout=15)
-    resp.raise_for_status()
+    try:
+        resp = session.get(base_url.format(page=page), timeout=15)
+        resp.raise_for_status()
+    except requests.HTTPError as exc:
+        code = exc.response.status_code if exc.response is not None else "?"
+        url = exc.response.url if exc.response is not None else base_url.format(page=page)
+        print(f"[warn halooglasi] HTTP {code} task={task_name} page={page} url={url}")
+        return []
+    except requests.RequestException as exc:
+        print(f"[warn halooglasi] request failed task={task_name} page={page}: {exc}")
+        return []
     soup = BeautifulSoup(resp.text, "html.parser")
     cards = soup.select("article[data-product-id], .product-list article, .product-item")
     if page == 1:
@@ -266,7 +276,7 @@ def scrape_all(max_pages: int = 3, min_delay: float = 1.0, freshness_days: int =
     limiter = RateLimiter(min_delay_seconds=min_delay)
 
     all_items: List[Listing] = []
-    for task in TASKS:
+    for task in tasks_for_import(TASKS):
         for page in range(1, max_pages + 1):
             limiter.wait()
             items = fetch_page(

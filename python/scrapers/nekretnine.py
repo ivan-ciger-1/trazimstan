@@ -21,6 +21,7 @@ from python.scrapers.base import (
     detect_rooms,
     new_session,
     parse_price_eur,
+    tasks_for_import,
     to_number,
 )
 
@@ -236,7 +237,7 @@ def scrape_all(max_pages: int = 3, min_delay: float = 1.0, freshness_days: int =
     limiter = RateLimiter(min_delay_seconds=min_delay)
 
     all_items: List[Listing] = []
-    for task in TASKS:
+    for task in tasks_for_import(TASKS):
         for page in range(1, max_pages + 1):
             limiter.wait()  # be polite between page fetches
             items = fetch_page(

@@ -4,14 +4,30 @@ Shared helpers for scrapers: block detection, polite HTTP session, and timing.
 from __future__ import annotations
 
 import hashlib
+import os
 import re
 import time
 from dataclasses import dataclass
-from typing import Dict, Iterable, Optional, List
+from typing import Any, Dict, Iterable, List, Optional
 
 import requests
 
 from python.block_aliases import BLOCK_ALIASES
+
+
+def pancevo_import_enabled() -> bool:
+    """
+    Pančevo house/land scrapes are optional. Disabled by default; set IMPORT_PANCEVO=1
+    to re-enable.
+    """
+    return os.getenv("IMPORT_PANCEVO", "").strip().lower() in ("1", "true", "yes")
+
+
+def tasks_for_import(tasks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Drop Pančevo tasks when IMPORT_PANCEVO is not set."""
+    if pancevo_import_enabled():
+        return list(tasks)
+    return [t for t in tasks if t.get("city") != "pancevo"]
 
 
 def new_session() -> requests.Session:
@@ -22,11 +38,14 @@ def new_session() -> requests.Session:
     sess = requests.Session()
     sess.headers.update(
         {
+            # Browser-like defaults; some portals return 403 for obvious bot UAs (e.g. CI runners).
             "User-Agent": (
-                "Mozilla/5.0 (personal-edu-scraper; contact: you@example.com)"
+                "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
             ),
-            # Hint we prefer Serbian; some sites return region-specific markup.
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             "Accept-Language": "sr-RS,sr;q=0.9,en;q=0.8",
+            "Cache-Control": "no-cache",
         }
     )
     return sess

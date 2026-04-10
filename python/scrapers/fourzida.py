@@ -18,6 +18,7 @@ from python.scrapers.base import (
     detect_block,
     detect_rooms,
     new_session,
+    tasks_for_import,
 )
 
 DOMAIN = "https://www.4zida.rs"
@@ -250,7 +251,7 @@ def scrape_all(
     session = new_session()
     limiter = RateLimiter(min_delay_seconds=min_delay)
     all_items: List[Listing] = []
-    for task in TASKS:
+    for task in tasks_for_import(TASKS):
         for page in range(1, max_pages + 1):
             limiter.wait()
             items = fetch_page(
