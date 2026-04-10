@@ -28,15 +28,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Auth to GCP
-        uses: google-github-actions/auth@v2
+        uses: google-github-actions/auth@v6
         with:
           credentials_json: ${{ secrets.GCP_SA_KEY }}
 
       - name: Set up gcloud
-        uses: google-github-actions/setup-gcloud@v2
+        uses: google-github-actions/setup-gcloud@v6
         with:
           project_id: ${{ env.PROJECT_ID }}
 

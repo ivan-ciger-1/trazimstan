@@ -5,10 +5,11 @@ block detection via aliases, freshness filter (default 60 days).
 """
 from __future__ import annotations
 
+import os
 import re
 import time
 from datetime import datetime, timedelta
-from typing import List, Optional
+from typing import Any, List, Optional, Tuple
 
 import requests
 from bs4 import BeautifulSoup
@@ -27,6 +28,31 @@ from python.scrapers.base import (
 
 
 DOMAIN = "https://www.halooglasi.com"
+
+
+def _halooglasi_transport() -> Tuple[Any, bool]:
+    """
+    HaloOglasi sits behind Cloudflare; plain requests often get 403 from datacenter IPs.
+    Prefer curl_cffi browser impersonation when available. Force legacy requests with
+    HALOOGLASI_USE_REQUESTS=1.
+    """
+    if os.getenv("HALOOGLASI_USE_REQUESTS", "").strip().lower() in ("1", "true", "yes"):
+        return new_session(), False
+    try:
+        from curl_cffi import requests as cf_requests  # type: ignore[import-untyped]
+
+        return cf_requests.Session(), True
+    except ImportError:
+        return new_session(), False
+
+
+def _halooglasi_get(session: Any, url: str, *, use_curl_cffi: bool):
+    timeout = 15
+    if use_curl_cffi:
+        imp = (os.getenv("HALOOGLASI_CF_IMPERSONATE", "chrome120") or "chrome120").strip()
+        return session.get(url, timeout=timeout, impersonate=imp)
+    return session.get(url, timeout=timeout)
+
 
 TASKS = [
     {
@@ -233,7 +259,7 @@ def parse_listing_card(card, *, city: str, listing_type: str, freshness_days: in
 
 
 def fetch_page(
-    session: requests.Session,
+    session: Any,
     base_url: str,
     page: int,
     *,
@@ -241,17 +267,23 @@ def fetch_page(
     listing_type: str,
     task_name: str,
     freshness_days: int = 60,
+    use_curl_cffi: bool = False,
 ) -> List[Listing]:
+    url = base_url.format(page=page)
     try:
-        resp = session.get(base_url.format(page=page), timeout=15)
+        resp = _halooglasi_get(session, url, use_curl_cffi=use_curl_cffi)
         resp.raise_for_status()
     except requests.HTTPError as exc:
         code = exc.response.status_code if exc.response is not None else "?"
-        url = exc.response.url if exc.response is not None else base_url.format(page=page)
-        print(f"[warn halooglasi] HTTP {code} task={task_name} page={page} url={url}")
+        fail_url = exc.response.url if exc.response is not None else url
+        print(f"[warn halooglasi] HTTP {code} task={task_name} page={page} url={fail_url}")
         return []
     except requests.RequestException as exc:
         print(f"[warn halooglasi] request failed task={task_name} page={page}: {exc}")
+        return []
+    except OSError as exc:
+        # curl / TLS issues from curl_cffi
+        print(f"[warn halooglasi] transport error task={task_name} page={page}: {exc}")
         return []
     soup = BeautifulSoup(resp.text, "html.parser")
     cards = soup.select("article[data-product-id], .product-list article, .product-item")
@@ -272,7 +304,11 @@ def fetch_page(
 
 
 def scrape_all(max_pages: int = 3, min_delay: float = 1.0, freshness_days: int = 60) -> List[Listing]:
-    session = new_session()
+    session, use_curl_cffi = _halooglasi_transport()
+    print(
+        f"[info halooglasi] transport={'curl_cffi (browser TLS)' if use_curl_cffi else 'requests (may 403 behind Cloudflare)'}",
+        flush=True,
+    )
     limiter = RateLimiter(min_delay_seconds=min_delay)
 
     all_items: List[Listing] = []
@@ -287,11 +323,13 @@ def scrape_all(max_pages: int = 3, min_delay: float = 1.0, freshness_days: int =
                 listing_type=task["listing_type"],
                 task_name=task["name"],
                 freshness_days=freshness_days,
+                use_curl_cffi=use_curl_cffi,
             )
             if not items:
                 break
             all_items.extend(items)
             time.sleep(min_delay)
+    print(f"[info halooglasi] scraped {len(all_items)} listing rows", flush=True)
     return all_items
 
 

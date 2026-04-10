@@ -109,10 +109,18 @@ def clear_listings(conn) -> None:
 def scrape_all(freshness_days: int = 60, max_pages: int = 3) -> List[Listing]:
     items: List[Listing] = []
     items += nekretnine.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
+    n_before_halo = len(items)
     try:
         items += halooglasi.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
     except Exception as exc:
         print(f"[warn import] halooglasi scrape aborted: {exc}", flush=True)
+    n_halo = len(items) - n_before_halo
+    if n_halo == 0:
+        print(
+            "[warn import] halooglasi contributed 0 listings — if this persists, check CI logs for "
+            "HTTP 403 / Cloudflare; curl-cffi impersonation should be used when requirements.txt is installed.",
+            flush=True,
+        )
     items += fourzida.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
     items += cityexpert.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
     return items
