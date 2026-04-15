@@ -8,6 +8,7 @@ from __future__ import annotations
 import os
 import re
 import time
+import urllib.error
 from datetime import datetime, timedelta
 from typing import Any, List, Optional, Tuple
 
@@ -29,6 +30,25 @@ from python.scrapers.base import (
 
 DOMAIN = "https://www.halooglasi.com"
 
+# Browser-like defaults beyond TLS impersonation (helps some WAF / origin checks).
+_HALOOGLASI_EXTRA_HEADERS = {
+    "Accept": (
+        "text/html,application/xhtml+xml,application/xml;q=0.9,"
+        "image/avif,image/webp,*/*;q=0.8"
+    ),
+    "Accept-Language": "sr-RS,sr;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Referer": f"{DOMAIN}/",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-User": "?1",
+}
+
+
+def _apply_halooglasi_headers(session: Any) -> None:
+    session.headers.update(_HALOOGLASI_EXTRA_HEADERS)
+
 
 def _halooglasi_transport() -> Tuple[Any, bool]:
     """
@@ -46,12 +66,58 @@ def _halooglasi_transport() -> Tuple[Any, bool]:
         return new_session(), False
 
 
-def _halooglasi_get(session: Any, url: str, *, use_curl_cffi: bool):
+def _halooglasi_get_single(session: Any, url: str, *, use_curl_cffi: bool) -> Any:
     timeout = 15
     if use_curl_cffi:
         imp = (os.getenv("HALOOGLASI_CF_IMPERSONATE", "chrome120") or "chrome120").strip()
         return session.get(url, timeout=timeout, impersonate=imp)
     return session.get(url, timeout=timeout)
+
+
+def _halooglasi_get(session: Any, url: str, *, use_curl_cffi: bool) -> Any:
+    """
+    GET with bounded retries on 403/429 only (Cloudflare / rate limits from datacenter IPs).
+    HALOOGLASI_HTTP_RETRIES (default 3), HALOOGLASI_RETRY_BACKOFF_SEC (default 1.0).
+    """
+    raw = os.getenv("HALOOGLASI_HTTP_RETRIES", "3") or "3"
+    try:
+        max_attempts = int(raw)
+    except ValueError:
+        max_attempts = 3
+    max_attempts = max(1, min(max_attempts, 5))
+    try:
+        base_sleep = float(os.getenv("HALOOGLASI_RETRY_BACKOFF_SEC", "1.0") or "1.0")
+    except ValueError:
+        base_sleep = 1.0
+
+    last: Any = None
+    for attempt in range(max_attempts):
+        last = _halooglasi_get_single(session, url, use_curl_cffi=use_curl_cffi)
+        code = getattr(last, "status_code", None)
+        if code not in (403, 429):
+            return last
+        if attempt < max_attempts - 1:
+            time.sleep(base_sleep * (attempt + 1))
+    return last
+
+
+def _halooglasi_warmup(session: Any, *, use_curl_cffi: bool) -> None:
+    """Optional first hit to the homepage so listing requests look like in-site navigation."""
+    if os.getenv("HALOOGLASI_SKIP_WARMUP", "").strip().lower() in ("1", "true", "yes"):
+        return
+    home = f"{DOMAIN}/"
+    try:
+        resp = _halooglasi_get(session, home, use_curl_cffi=use_curl_cffi)
+        resp.raise_for_status()
+    except (requests.HTTPError, urllib.error.HTTPError, requests.RequestException, OSError):
+        # Warm-up is best-effort; listing fetches still run.
+        pass
+    try:
+        delay = float(os.getenv("HALOOGLASI_WARMUP_DELAY_SEC", "0.35") or "0.35")
+    except ValueError:
+        delay = 0.35
+    if delay > 0:
+        time.sleep(delay)
 
 
 TASKS = [
@@ -278,11 +344,15 @@ def fetch_page(
         fail_url = exc.response.url if exc.response is not None else url
         print(f"[warn halooglasi] HTTP {code} task={task_name} page={page} url={fail_url}")
         return []
+    except urllib.error.HTTPError as exc:
+        # curl_cffi can surface urllib HTTP errors; they subclass OSError, so handle before OSError.
+        print(f"[warn halooglasi] HTTP {exc.code} task={task_name} page={page} url={url}")
+        return []
     except requests.RequestException as exc:
         print(f"[warn halooglasi] request failed task={task_name} page={page}: {exc}")
         return []
     except OSError as exc:
-        # curl / TLS issues from curl_cffi
+        # curl / TLS issues from curl_cffi (non-HTTP OSError subclasses)
         print(f"[warn halooglasi] transport error task={task_name} page={page}: {exc}")
         return []
     soup = BeautifulSoup(resp.text, "html.parser")
@@ -305,10 +375,12 @@ def fetch_page(
 
 def scrape_all(max_pages: int = 3, min_delay: float = 1.0, freshness_days: int = 60) -> List[Listing]:
     session, use_curl_cffi = _halooglasi_transport()
+    _apply_halooglasi_headers(session)
     print(
         f"[info halooglasi] transport={'curl_cffi (browser TLS)' if use_curl_cffi else 'requests (may 403 behind Cloudflare)'}",
         flush=True,
     )
+    _halooglasi_warmup(session, use_curl_cffi=use_curl_cffi)
     limiter = RateLimiter(min_delay_seconds=min_delay)
 
     all_items: List[Listing] = []

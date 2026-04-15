@@ -117,8 +117,10 @@ def scrape_all(freshness_days: int = 60, max_pages: int = 3) -> List[Listing]:
     n_halo = len(items) - n_before_halo
     if n_halo == 0:
         print(
-            "[warn import] halooglasi contributed 0 listings — if this persists, check CI logs for "
-            "HTTP 403 / Cloudflare; curl-cffi impersonation should be used when requirements.txt is installed.",
+            "[warn import] halooglasi contributed 0 listings — if logs show HTTP 403 from Cloudflare, "
+            "TLS impersonation alone may be insufficient from datacenter IPs (e.g. GitHub Actions). "
+            "Try HALOOGLASI_CF_IMPERSONATE=chrome131 (or another supported profile), or run ingest from a "
+            "non-blocked network / proxy; ensure curl-cffi is installed (see python/requirements.txt).",
             flush=True,
         )
     items += fourzida.scrape_all(max_pages=max_pages, freshness_days=freshness_days)
