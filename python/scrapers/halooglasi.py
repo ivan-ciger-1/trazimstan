@@ -30,24 +30,40 @@ from python.scrapers.base import (
 
 DOMAIN = "https://www.halooglasi.com"
 
-# Browser-like defaults beyond TLS impersonation (helps some WAF / origin checks).
-_HALOOGLASI_EXTRA_HEADERS = {
-    "Accept": (
-        "text/html,application/xhtml+xml,application/xml;q=0.9,"
-        "image/avif,image/webp,*/*;q=0.8"
-    ),
+# With curl_cffi impersonation, do not set Sec-* / UA — mismatched Client Hints vs TLS
+# fingerprint triggers Cloudflare blocks (common on GitHub Actions IPs).
+_HALOOGLASI_HEADERS_CFFI = {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "sr-RS,sr;q=0.9,en-US;q=0.8,en;q=0.7",
+}
+
+# Plain requests fallback: add Referer and a typical browser bundle.
+_HALOOGLASI_HEADERS_REQUESTS = {
+    **_HALOOGLASI_HEADERS_CFFI,
     "Referer": f"{DOMAIN}/",
     "Upgrade-Insecure-Requests": "1",
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "same-origin",
-    "Sec-Fetch-User": "?1",
 }
 
 
-def _apply_halooglasi_headers(session: Any) -> None:
-    session.headers.update(_HALOOGLASI_EXTRA_HEADERS)
+def _apply_halooglasi_headers_requests(session: Any) -> None:
+    session.headers.update(_HALOOGLASI_HEADERS_REQUESTS)
+
+
+def _apply_halooglasi_headers_cffi(session: Any) -> None:
+    session.headers.update(_HALOOGLASI_HEADERS_CFFI)
+
+
+def _cffi_impersonation_candidates() -> List[str]:
+    """
+    Order matters: try newer Chrome first. Override with comma-separated
+    HALOOGLASI_CF_IMPERSONATE (e.g. chrome131,chrome124,safari17_0).
+    """
+    raw = (os.getenv("HALOOGLASI_CF_IMPERSONATE") or "").strip()
+    if raw:
+        parts = [x.strip() for x in raw.split(",") if x.strip()]
+        if parts:
+            return parts
+    return ["chrome131", "chrome124", "chrome120", "edge101", "safari17_0"]
 
 
 def _halooglasi_transport() -> Tuple[Any, bool]:
@@ -66,15 +82,28 @@ def _halooglasi_transport() -> Tuple[Any, bool]:
         return new_session(), False
 
 
-def _halooglasi_get_single(session: Any, url: str, *, use_curl_cffi: bool) -> Any:
-    timeout = 15
+def _halooglasi_get_single(
+    session: Any,
+    url: str,
+    *,
+    use_curl_cffi: bool,
+    impersonate: Optional[str] = None,
+) -> Any:
+    timeout = 25
+    ref = {"Referer": f"{DOMAIN}/"}
     if use_curl_cffi:
-        imp = (os.getenv("HALOOGLASI_CF_IMPERSONATE", "chrome120") or "chrome120").strip()
-        return session.get(url, timeout=timeout, impersonate=imp)
-    return session.get(url, timeout=timeout)
+        imp = (impersonate or _cffi_impersonation_candidates()[0]).strip()
+        return session.get(url, timeout=timeout, impersonate=imp, headers=ref)
+    return session.get(url, timeout=timeout, headers=ref)
 
 
-def _halooglasi_get(session: Any, url: str, *, use_curl_cffi: bool) -> Any:
+def _halooglasi_get(
+    session: Any,
+    url: str,
+    *,
+    use_curl_cffi: bool,
+    impersonate: Optional[str] = None,
+) -> Any:
     """
     GET with bounded retries on 403/429 only (Cloudflare / rate limits from datacenter IPs).
     HALOOGLASI_HTTP_RETRIES (default 3), HALOOGLASI_RETRY_BACKOFF_SEC (default 1.0).
@@ -92,7 +121,9 @@ def _halooglasi_get(session: Any, url: str, *, use_curl_cffi: bool) -> Any:
 
     last: Any = None
     for attempt in range(max_attempts):
-        last = _halooglasi_get_single(session, url, use_curl_cffi=use_curl_cffi)
+        last = _halooglasi_get_single(
+            session, url, use_curl_cffi=use_curl_cffi, impersonate=impersonate
+        )
         code = getattr(last, "status_code", None)
         if code not in (403, 429):
             return last
@@ -101,13 +132,18 @@ def _halooglasi_get(session: Any, url: str, *, use_curl_cffi: bool) -> Any:
     return last
 
 
-def _halooglasi_warmup(session: Any, *, use_curl_cffi: bool) -> None:
+def _halooglasi_warmup(
+    session: Any,
+    *,
+    use_curl_cffi: bool,
+    impersonate: Optional[str] = None,
+) -> None:
     """Optional first hit to the homepage so listing requests look like in-site navigation."""
     if os.getenv("HALOOGLASI_SKIP_WARMUP", "").strip().lower() in ("1", "true", "yes"):
         return
     home = f"{DOMAIN}/"
     try:
-        resp = _halooglasi_get(session, home, use_curl_cffi=use_curl_cffi)
+        resp = _halooglasi_get(session, home, use_curl_cffi=use_curl_cffi, impersonate=impersonate)
         resp.raise_for_status()
     except (requests.HTTPError, urllib.error.HTTPError, requests.RequestException, OSError):
         # Warm-up is best-effort; listing fetches still run.
@@ -123,7 +159,7 @@ def _halooglasi_warmup(session: Any, *, use_curl_cffi: bool) -> None:
 TASKS = [
     {
         "name": "belgrade_apartment",
-        "base_url": "https://www.halooglasi.com/nekretnine/prodaja-stanova?grad_id_l-lokacija_id_l-mikrolokacija_id_l=52170%2C52176%2C52190%2C52191%2C52192%2C537331%2C52195&cena_d_to=500000&kvadratura_d_from=80&kvadratura_d_to=150&kvadratura_d_unit=1&broj_soba_order_i_from=7&page={page}",
+        "base_url": "https://www.halooglasi.com/nekretnine/prodaja-stanova?grad_id_l-lokacija_id_l-mikrolokacija_id_l=52176%2C52170%2C52190%2C52191%2C52192%2C52195%2C537331&cena_d_to=500000&kvadratura_d_from=80&kvadratura_d_to=150&kvadratura_d_unit=1&broj_soba_order_i_from=7&page={page}",
         "city": "belgrade",
         "listing_type": "apartment",
     },
@@ -140,6 +176,73 @@ TASKS = [
         "listing_type": "land",
     },
 ]
+
+
+def _html_looks_like_results(html: str) -> bool:
+    """Heuristic: real listing HTML vs Cloudflare interstitial / block page."""
+    if not html or len(html) < 500:
+        return False
+    low = html.lower()
+    if "just a moment" in low or "attention required" in low:
+        return False
+    if "cf-browser-verification" in low and len(html) < 8000:
+        return False
+    if "data-product-id" in html or "product-item" in low or "product-title" in low:
+        return True
+    return len(html) >= 12000
+
+
+def _probe_cffi_session() -> Tuple[Any, str]:
+    """
+    Datacenter IPs often need the right browser profile; try several fresh sessions
+    against the first Belgrade listing URL until HTML looks like real results.
+    """
+    from curl_cffi import requests as cf_requests  # type: ignore[import-untyped]
+
+    candidates = _cffi_impersonation_candidates()
+    probe_url = f"{DOMAIN}/"
+    for t in tasks_for_import(TASKS):
+        if t.get("city") == "belgrade":
+            probe_url = t["base_url"].format(page=1)
+            break
+
+    last_sess: Any = None
+    picked = candidates[0]
+    for imp in candidates:
+        s = cf_requests.Session()
+        _apply_halooglasi_headers_cffi(s)
+        try:
+            r = s.get(
+                probe_url,
+                timeout=28,
+                impersonate=imp,
+                headers={"Referer": f"{DOMAIN}/"},
+            )
+        except Exception as exc:
+            print(f"[debug halooglasi] probe impersonate={imp} error: {exc}", flush=True)
+            continue
+        last_sess = s
+        code = getattr(r, "status_code", None)
+        body = r.text or ""
+        print(
+            f"[debug halooglasi] probe impersonate={imp} status={code} bytes={len(body)}",
+            flush=True,
+        )
+        if code == 200 and _html_looks_like_results(body):
+            print(f"[info halooglasi] using impersonate={imp} (probe OK)", flush=True)
+            return s, imp
+        picked = imp
+
+    if last_sess is not None:
+        print(
+            f"[warn halooglasi] probe did not confirm listing HTML; continuing with impersonate={picked}",
+            flush=True,
+        )
+        return last_sess, picked
+
+    s = cf_requests.Session()
+    _apply_halooglasi_headers_cffi(s)
+    return s, candidates[0]
 
 
 def normalize_url(url: str) -> str:
@@ -334,10 +437,11 @@ def fetch_page(
     task_name: str,
     freshness_days: int = 60,
     use_curl_cffi: bool = False,
+    impersonate: Optional[str] = None,
 ) -> List[Listing]:
     url = base_url.format(page=page)
     try:
-        resp = _halooglasi_get(session, url, use_curl_cffi=use_curl_cffi)
+        resp = _halooglasi_get(session, url, use_curl_cffi=use_curl_cffi, impersonate=impersonate)
         resp.raise_for_status()
     except requests.HTTPError as exc:
         code = exc.response.status_code if exc.response is not None else "?"
@@ -352,7 +456,11 @@ def fetch_page(
         print(f"[warn halooglasi] request failed task={task_name} page={page}: {exc}")
         return []
     except OSError as exc:
-        # curl / TLS issues from curl_cffi (non-HTTP OSError subclasses)
+        # curl_cffi sometimes surfaces 403 as OSError("HTTP Error 403: ..."), not HTTPError.
+        es = str(exc).lower()
+        if "403" in es or "401" in es or "forbidden" in es:
+            print(f"[warn halooglasi] HTTP blocked task={task_name} page={page} url={url} ({exc})")
+            return []
         print(f"[warn halooglasi] transport error task={task_name} page={page}: {exc}")
         return []
     soup = BeautifulSoup(resp.text, "html.parser")
@@ -375,12 +483,16 @@ def fetch_page(
 
 def scrape_all(max_pages: int = 3, min_delay: float = 1.0, freshness_days: int = 60) -> List[Listing]:
     session, use_curl_cffi = _halooglasi_transport()
-    _apply_halooglasi_headers(session)
+    cf_impersonate: Optional[str] = None
+    if use_curl_cffi:
+        session, cf_impersonate = _probe_cffi_session()
+    else:
+        _apply_halooglasi_headers_requests(session)
     print(
         f"[info halooglasi] transport={'curl_cffi (browser TLS)' if use_curl_cffi else 'requests (may 403 behind Cloudflare)'}",
         flush=True,
     )
-    _halooglasi_warmup(session, use_curl_cffi=use_curl_cffi)
+    _halooglasi_warmup(session, use_curl_cffi=use_curl_cffi, impersonate=cf_impersonate)
     limiter = RateLimiter(min_delay_seconds=min_delay)
 
     all_items: List[Listing] = []
@@ -396,6 +508,7 @@ def scrape_all(max_pages: int = 3, min_delay: float = 1.0, freshness_days: int =
                 task_name=task["name"],
                 freshness_days=freshness_days,
                 use_curl_cffi=use_curl_cffi,
+                impersonate=cf_impersonate,
             )
             if not items:
                 break
